@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+            <select name="websites2" id="selTextEffectComboBoxlistOtherText" style="width:160px;">
+            </select>	
+    ]]>
+    </content>
+	
+</page>
+  

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <div id="dvIdConfiguratorPanel">
+           <!------------------------	Customize Color------------------->
+           <div id="dvIdColorConfiguratorBoxBg" class="colorPrimaryBox">
+              <div class="colorPrimaryLabel">
+                 SELECT YOUR PRIMARY COLOR
+                 <div class="howToButton"></div>
+              </div>
+              <div Class="colorSectionScroller">
+                 <div id="primaryColorPanel" class="colorPrimaryListBox">
+                 </div>
+                 <div class="colorCustomTileBox ">
+                    <div class="colorCustomBox">
+                       <div class="colorCustomLabel">
+                          Custom color
+                       </div>
+                       <div class="colorCustomListBox" id="dvPrimaryColorCustomListBox">
+                       </div>
+                       <div><span href="" alt="" class="colorAddButton">Add <img class="spacer" src="images/colorBlueArrow.png" alt="" /> </span></div>
+                    </div>
+                 </div>
+              </div>
+              <div class="clear"></div>
+           </div>
+           <div id="dvIdColorConfiguratorBoxBg" class="colorSecondaryBox">
+              <div class="colorSecondaryLabel">
+                 SELECT YOUR SECONDARY COLOR
+              </div>
+              <div Class="colorSectionScroller">
+                 <div id="secondaryColorPanel"></div>
+                 <div class="colorCustomBox">
+                    <div class="colorCustomLabel">
+                       Custom color
+                    </div>
+                    <div class="colorCustomListBox" id="dvSecondaryColorCustomListBox">
+                    </div>
+                    <div><span href="" alt="" class="colorAddButton">Add <img class="spacer" src="images/colorBlueArrow.png" alt="" /> </span></div>
+                 </div>
+              </div>
+              <div class="clear"></div>
+           </div>
+           <div id="dvIdColorConfiguratorBoxBg" class="colorAccentBox">
+              <div class="colorAccentLabel">
+                 SELECT YOUR ACCENT COLOR
+              </div>
+              <div Class="colorSectionScroller">
+                 <div id="dvIdTertiaryColorPanel"></div>
+                 <div class="colorCustomBox">
+                    <div class="colorCustomLabel">
+                       Custom color
+                    </div>
+                    <div class="colorCustomListBox" id="dvTertiaryColorCustomListBox">
+                    </div>
+                    <div><span alt="" class="colorAddButton">Add <img class="spacer" src="images/colorBlueArrow.png" alt="" /> </span></div>
+                 </div>
+              </div>
+              <div class="clear"></div>
+           </div>
+           <div style="margin-left:2px;margin-bottom:8px;">
+              <div class="colorLink" style="cursor:pointer; display:None;" id="spColorLink">Can I design jersey & pants to be in different colors?</div>
+           </div>
+           <div style="display:none" class="customizeSelectionBtnBox" >
+              <div style="display:none" class="continueBtn" id="dvColorContinueBtn"></div>
+           </div>
+        </div>
+
+    ]]>
+    </content>
+</page>
+  

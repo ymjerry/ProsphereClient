@@ -1,0 +1,43 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/base/jquery.ui.all.css">
+        <script type="text/javascript" src="js/library/jquery-1.9.0.js"></script>
+	<script src="js/library/jqueryui/jquery.ui.core.js"></script>
+	<script src="js/library/jqueryui/jquery.ui.widget.js"></script>
+	<script src="js/library/jqueryui/jquery.ui.mouse.js"></script>
+	<script src="js/library/jqueryui/jquery.ui.button.js"></script>
+	<script src="js/library/jqueryui/jquery.ui.draggable.js"></script>
+	<script src="js/library/jqueryui/jquery.ui.position.js"></script>
+	<script src="js/library/jqueryui/jquery.ui.resizable.js"></script>
+	<script src="js/library/jqueryui/jquery.ui.dialog.js"></script>
+        <script language="javascript"  type="text/javascript" src="js/core/dialogbox.js"></script>
+        <script>
+            $(function() {
+                $( "#msg" ).click(function() {                
+                  dialogbox =  new dialogbox();
+                  dialogbox.showMessage('dialog-message',true,200,600,false);
+                });
+            });
+        </script>
+    </head>
+    <body>
+        <div>TODO write content </div>
+        
+        <div id="dialog-message">
+	<p>Sed vel diam id libero <a href="http://example.com">rutrum convallis</a>.
+            Donec aliquet leo vel magna. Phasellus rhoncus faucibus ante.
+            Etiam bibendum, enim faucibus aliquet           
+        </p>
+        </div> 
+        
+        <button id="msg"> Click here to show message</button>
+    </body>
+ 
+</html>

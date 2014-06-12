@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[          
+        <div class="footballPupupBox" id="dvFootballSleeveOptionPopup" style="display:none">
+           <div class="footballPupupBoxLabel">
+              <div class="footballPupupcloseIcon" alt="close" title="close"></div>
+              Choose the Sleeve For You
+           </div>
+           <div class="footballPupupBoxImagePart">
+              <div class="footballTshirtPreBox">
+                 <div class="footballTshirtPreWrapper">
+                    <div class="footballTshirtPre"> </div>
+                    <div class="footballTshirtPreLabel">FS - Fitted Sleeve </div>
+                 </div>
+                 <div class="footballTshirtPreWrapper">
+                    <div class="footballTshirtPreSec"> </div>
+                    <div class="footballTshirtPreLabelSecond">WS - Wide Sleeve </div>
+                 </div>
+              </div>
+              <div class="footballTshirtDescription">
+                 <p style="font-size:95%">Here's how:</p>
+                 <p>1. Add player name, number and category (men / boys) into the team roster. </p>
+                 <p>2. Go to the Top Size dropdown menu. Click arrow for jersey sizes.</p>
+                 <p>3. Pick the sleeve / size for each player. (FS- for Fitted Sleeve,  </p>
+                 <p>&nbsp;&nbsp;&nbsp;&nbsp;WS- for Wide Sleeve) </p>
+              </div>
+              <div class="footballokButton" alt="close" title="close"></div>
+           </div>
+        </div>
+
+
+    ]]>
+    </content>
+	
+</page>
+  

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <section class="birdEyeBox" id="secBirdEyeBoxModelPreview" >
+            <ul id="ulBirdEyeView" class="jcarousel jcarousel-skin-tango"></ul>
+        </section>
+    ]]>
+    </content>
+</page>
+  

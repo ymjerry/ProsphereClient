@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Teamwork Athletic Apparel | Design Your Own Uniform </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/main.css" />
+        <link rel="stylesheet" href="css/style.css" type="text/css" />
+        <!--jQuery library -->
+        <script type="text/javascript" src="js/library/jquery-1.9.0.js"></script>
+        <!-- jCarousel library -->
+        <script type="text/javascript" src="js/library/jquery.jcarousel.min.js"></script>
+        <!-- jCarousel skin stylesheet  -->
+        <!-- [if IE]>
+        <script>
+        document.createElement("section");
+        </script>
+        <![endif]-->
+        <!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script> <![endif]-->
+        <script language="javascript" type = "text/javascript"  src="js/core/configuration.js"></script>
+        <script language="javascript" type = "text/javascript"  src="js/core/utility.js"></script>
+        <script language="javascript" type = "text/javascript"  src="js/core/communicationhelper.js"></script>
+        <script language="javascript" type = "text/javascript"  src="js/core/dataloader.js"></script>
+        <script language="javascript" type = "text/javascript"  src="js/core/loaderui.js"></script>
+        <script language="javascript" type = "text/javascript"  src="js/core/log.js"></script>
+
+        <script language="javascript"  type="text/javascript" src="js/core/validator.js"></script>
+        <script language="javascript" type = "text/javascript"  src="js/uibl/sports.js"></script>
+        <script language="javascript" type = "text/javascript"  src="js/uibl/uniformdata.js"></script>
+        <script language="javascript" type = "text/javascript"  src="js/uibl/global.js"></script>
+        <script language="javascript" type = "text/javascript"  src="js/uibl/app.js"></script>
+        <script language="javascript" type = "text/javascript"  >
+            jQuery(document).ready(function() {
+                var objApp = new App();
+                objApp.init();       
+            });                    
+        </script>
+
+
+
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <!-------------header------------->
+        <header id="header">
+            <section>
+
+                <section class="logoArea">
+                    <img src="images/logo.gif"/>
+                </section>
+
+                <nav class="linkArea">
+                    <ul>
+                        <li>
+                            <a href="#" > Dealer Login</a>
+                        </li>
+                        <li>
+                            <a href="#" > Contact</a>
+                        </li>
+                        <li>
+                            <a href="#" > Help</a>
+                        </li>
+                        <li>
+                            <a href="#" > Dealer Locator</a>
+                        </li>
+                        <li class="end">
+                            <a href="" onclick="javascript:window.open('http://server.iad.liveperson.net/hc/32520865/?cmd=file&file=visitorWantsToChat&site=32520865&imageUrl=http://server.iad.liveperson.net/hcp/Gallery/ChatButton-Gallery/English/Consulting/3a&referrer='+escape(document.location),'chat32520865','width=475,height=400,resizable=yes');return false;">Live Chat</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="searchBar"></div>
+
+            </section>			
+        </header>
+        <!-----------------End Header----------->
+        <section id="colorConfigurator" class="content" url="uicomponents/colorConfigurator/main.xml"></section>
+        <!--   <section id="colorConfigurator" class="content" url="uicomponents/graphicsConfigurator/main.xml"></section>
+           <section id="colorConfigurator" class="content" url="uicomponents/fabricConfigurator/main.xml"></section>-->
+        <!-------------------container-------------->
+        <section id="contentArea" style="overflow: hidden" >
+            <aside id="listOfSports" class="content" url="uicomponents/sportsList/main.xml"></aside>
+            <div id="separatorImg"></div>
+            <div class="backdropImgContainer">
+                <section id="backdropImg" class="backdropImg"></section>
+                <section id="backdropImgFistLayer" class="backdropImgLayer" >
+                    <div class="genderSelection" id="sportGenderContainer" ></div>
+                </section>
+                <section id="backdropImgSecondLayer" class="backdropImgLayer" ></section>
+            </div>
+
+        </section>
+
+        <div class="clear"></div>
+        <!-------------------End container-------------->
+
+        <section id="homeFooter">
+            <aside class="savedUniforms">
+                <div id="savedUniformsHeading">
+                    MY PREVIOUS DESIGNS
+                </div>
+
+                <section class="retrievalBlock">
+                    <div class="block margintop3" >
+                        ProSphere Uniform Retrieval Code:
+                    </div>
+                    <div class="block">
+                        <input type="text" name="txtRetrievalCode" id="txtRetrievalCode" class="inputFieldSmall">
+                    </div>
+                    <div class="btnRetrieveUniform" name="btnRetrieveUniform" id="btnRetrieveUniform" ></div>
+                    <div class="block verticalBar"></div>
+                </section>
+
+                <div id="savedUniformDG">
+
+                    <table cellpadding="2" cellspacing="0" border="0">
+                        <thead>
+                            <tr>
+                                <th >Your Saved Designs</th>
+                                <th>Sport</th>
+                                <th>Items</th>
+                                <th>Retrieval Code </th>
+                                <th>Date</th>
+
+                            </tr>
+                        <thead>
+
+                        <tbody>
+                            <tr class="odd oddRow">
+                                <td>abcdef</td>
+                                <td>abcdef</td>
+                                <td>vabcdef</td>
+                                <td>abcdef</td>
+                                <td>abcdef</td>
+                            </tr>
+                            <tr class="even evenRow">
+                                <td>abcdef</td>
+                                <td>abcdef</td>
+                                <td>vabcdef</td>
+                                <td>abcdef</td>
+                                <td>abcdef</td>
+                            </tr>
+                        <tbody>
+                    </table>
+
+                </div>
+            </aside>
+
+            <aside class="landingPagePromo">
+                <img id="advLandingPagePromoImg" src="images/home_fanorama_banner.png" alt="advLandingPagePromoImg" />
+            </aside>
+        </section>
+
+        <footer class="account_footer accountFooter">
+            <a href="#" type="" >About Us</a>
+            |
+            <a href="#" type="">Terms & Conditions</a>
+            |
+            <a href="#" type="">Privacy Statement</a>
+            |
+            <a href="#" type="">Site Map</a>
+            |
+            <a class="linffks" href="#">Feedback</a>
+            ©2007-2012 Teamwork. All Rights Reserved. Patent Pending
+
+        </footer>
+        <script type="text/javascript" src="js/common.js"></script>
+    </body>
+</html>

@@ -1,0 +1,891 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+       <link rel="stylesheet" href="css/jquery-ui.css" />
+       <link rel="stylesheet" href="css/style.css">
+       <script src="js/library/jquery-1.10.2.min.js"></script>
+        <script src="js/library/jquery-ui-min.js"></script>
+        <script language="javascript"  type="text/javascript" src="js/core/dialogbox.js"></script>
+        <script>
+            $(function() {
+                $("#msg").click(function() {
+                    DialogBox = new DialogBox('loader-message');
+                    var args = '{'
+                            + '"isModel" : true,'
+                            + '"boxHeight"  : 300,'
+                            + '"boxWidth" : 400,'
+                            + '"resizableBox" : false,'
+                            + '"hideCrossIcon" : true,'
+                            + '"dialogTitle" : "Dialog Title"'
+
+                            + '}';
+
+                    DialogBox.showMessage(args);
+                });
+               
+                $("#loader").click(function() {
+                    var args = '{'
+                            + '"isModel" : true,'
+                            + '"boxHeight"  : 300,'
+                            + '"boxWidth" : 400,'
+                            + '"resizableBox" : false,'
+                            + '"hideCrossIcon" : true,'
+                            + '"dialogTitle" : "Dialog Title"'
+                            + '}';
+                    DialogBox = new DialogBox('loader-message');
+                    //$('#loadimage').show();
+                    DialogBox.getConfirmationBox(args);
+                });
+            });
+        </script>
+        <style>
+          
+          .sarab table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 2px solid black;
+}
+
+.sarab thead, tbody,  tr,  td,  th { display: block; }
+
+.sarab tr:after {
+    content: ' ';
+    display: block;
+    visibility: hidden;
+    clear: both;
+}
+
+.sarab thead th { 
+    height: 30px;
+    line-height: 30px;
+    /*text-align: left;*/
+}
+
+.sarab tbody {
+    height: 100px;
+    overflow-y: auto;
+}
+
+.sarab thead {
+    /* fallback */
+    width: 97%;
+    /* minus scroll bar width */
+    width: calc(100% - 17px);
+}
+
+.sarab tbody { border-top: 2px solid black; }
+
+.sarab tbody td, thead th {
+    width: 19.2%;
+    float: left;
+    border-right: 1px solid black;
+}
+
+.sarab tbody td:last-child, thead th:last-child {
+    border-right: none;
+}
+
+/*----------combo box--------*/
+
+.wrapper{
+    border: 1px dashed red;
+    height: 150px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 150px;
+}
+.wrapper .selection{
+   width:150px;
+   border:1px solid #ccc
+}
+
+
+.wrapper .selection{
+   width:150px;
+   border:1px solid #ccc
+}
+
+  .selectTextBoxWrapper{    
+    height: 50px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    width: 150px;
+}
+
+  .selectTextBoxWrapper .selection2{
+   width:150px;   
+ }
+
+ 
+ .sarab {
+
+ background-color:red;
+
+ }
+
+  .sarab:hover {
+
+ background-color:green;
+
+ }
+
+ 
+/*----------combo box--------*/
+
+
+        </style>
+        
+        <script>                
+
+                                $(document).on("click", ".selectTextBox", function(){
+                                $(this).parent().find(".selectTextBoxWrapper").toggle();                             
+                                });
+                                
+                                $(document).on("change", ".selection2", function(){
+                                                $(this).parent().parent().parent().find(".selectTextBox").val($(this).find(":selected").text());
+                                                alert($(this).parent().parent().parent().find(".selectTextBox").val());
+                                                $(this).parent().toggle();
+                                });
+</script>
+
+
+
+        
+    </head>
+    <body>
+        <div>TODO write content </div>
+
+        <div id="dialog-message">
+            <p>Sed vel diam id libero <a href="http://example.com">rutrum convallis</a>.
+                Donec aliquet leo vel magna. Phasellus rhoncus faucibus ante.
+                Etiam bibendum, enim faucibus aliquet 
+
+            </p>
+
+        </div> 
+
+        <button id="msg"> Click here to show message</button>
+
+        <div id="loader-message">          
+            <div class="alertPopupMessageBox">
+            <table border="1">
+            <tr>
+                <td style="width:30%;"><div class="alertIcon"></div></td>
+                <td><div class="dvAlertPopupMessage">Please enter a valid Uniform Retrieval Code Please enter a valid Uniform Retrieval CodePlease enter a valid Uniform Retrieval CodePlease enter a valid Uniform Retrieval Code</div></td>
+            </tr>
+           </table> 
+           </div> 
+       
+    </div> 
+
+    <button id="loader"> Click here to show loader</button>
+    
+    
+    
+    
+    <div class="sarab">         
+               <table>
+<thead>
+<tr>
+    <th>Head 1</th>
+    <th>Head 2</th>
+    <th>Head 3</th>
+    <th>Head 4</th>
+    <th>Head 5</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+    <td>Content 1</td>
+    <td>Content 2</td>
+    <td>Content 3</td>
+    <td>Content 4</td>
+    <td>Content 5</td>
+</tr>
+<tr>
+    <td>Content 1</td>
+    <td>Content 2</td>
+    <td>Content 3</td>
+    <td>Content 4</td>
+    <td>Content 5</td>
+</tr>
+<tr>
+    <td>Content 1</td>
+    <td>Content 2</td>
+    <td>Content 3</td>
+    <td>Content 4</td>
+    <td>Content 5</td>
+</tr>
+<tr>
+    <td>Content 1</td>
+    <td>Content 2</td>
+    <td>Content 3</td>
+    <td>Content 4</td>
+    <td>Content 5</td>
+</tr>
+<tr>
+    <td>Content 1</td>
+    <td>Content 2</td>
+    <td>Content 3</td>
+    <td>Content 4</td>
+    <td>Content 5</td>
+</tr>
+<tr>
+    <td>Content 1</td>
+    <td>Content 2</td>
+    <td>Content 3</td>
+    <td>Content 4</td>
+    <td>Content 5</td>
+</tr>
+</tbody>
+</table>
+        
+    
+    </div>
+    
+    
+    <div class="wrapper">
+<select size="15" class="selection">sarra
+    <option>Item 1</option>
+    <option>Item 2</option>
+    <option>Item 3</option>
+</select>
+</div>
+    
+    
+    <select size="15" class="selection">
+    <option>Item 1</option>
+    <option>Item 2</option>
+    <option>Item 3</option>
+</select>
+    
+     <div class="wrapper">     
+    <select >
+        <option value="">Select</option>
+        <option value="2">Men</option>
+    </select>    
+    </div>
+    
+    
+    
+    <div class="wrapper">   
+    <select title="Please select a Category." alt="Please select a Category." name="player[ageCategory][]" id="selPlayerAgeCategory_2" class="rosterCategoryDropDown playerAgeCategory active">
+        <option value="">Select</option>
+        <option value="2">Men</option>
+    </select>
+      </div>
+    
+    
+    
+    
+    
+    <div>
+                <input type="text" name="name" class= "selectTextBox" width="150px"/> 
+                <div class="selectTextBoxWrapper">
+                                <select size="5" id="selPlayerAgeCategory_2" class="selection2">
+                                                <option value="" class="sarab">Select</option>
+                                                <option value="2" class="sarab">Mend</option>
+                                                <option value="2" class="sarab">Mend</option>
+                                                <option value="2" class="sarab">Menc</option>
+                                                <option value="2" class="sarab">Mend</option>
+                                                <option value="2" >Menasd</option>
+                                                <option value="2">Menasdc</option>
+                                                <option value="2">Menasdc</option>
+                                                <option value="2">Menas</option>
+                                </select>
+                </div>
+</div>
+
+    
+    
+    
+    
+    <!-----ffffffffffffffffff----------------->
+    <?xml version="1.0" encoding="utf-8"?>
+<page>
+   
+    
+    
+    
+    
+    
+       <div class="proofDocumentBox" id="popop" style="display:none; background-image: url(images/proof_bgrnd.png);">
+            <div class="proofContentBox">
+            <section class="header">             
+                    
+                        <div class="headerBtnBox">
+                            <div class="backBtn" id="idBackBtn"></div>
+                            <div class="sizeProofBtn" id="flatCutScreen"></div>
+                            <div class="printBtn" id="idPrintBtn"  onclick="javascript:jQuery('#printProof').printThis({});"></div>
+                            <div id="modifyUniformFromProof" class="modifyUniformBtn"></div>
+                           
+                            
+                        </div>                   
+                    
+                
+            </section>
+            
+            <div id="printProof">
+            <!--<div class="headerBanner"></div>-->
+            <img src="images/prospherebanner.png" />
+            <div style="overflow-y: scroll; height:428px; width:679px;" >
+            
+            
+            <section class="secProof">
+                <!--<div class="proofLabel"> Proof </div>-->
+                <img src="images/proofSectionHeading.png" />
+                <div class="secBox">
+                    <div class="proofDescription">
+                    <p>Use the ProSphere online proof to instantly approve your order. Simply select "APPROVE NOW" and proceed to <br>check out. 
+                        We'll immediately start working on your order without delay.</p>
+                    </div>
+                   <div class="secBox" id="idsecBox">
+                     <div class="modelImgBox">
+                        <div class="proofModelLeftImg" id="frontModelPreviewForProof" ></div>
+                        <div class="proofModelRightImg" id="frontModelPreviewForProof1"></div>
+                    </div>
+                  </div>
+                    
+                    
+                </div>
+            </section>
+            <section class="secUniformDescription">
+            <br/>
+                <!--<div class="proofLabel"> uniform description </div>-->
+                <img src="images/uniformdescriptionlabel.png" />
+                <div class="uniformDescriptionSecBox">
+                <div class="descriptionBox">
+                    <div class="uniformDescriptionList">
+                    <div class="circlePrimary"> </div>
+                        <table cellpading="0" cellspacing="0" border="0">
+                            <tr>
+                                <td class="listLabel">Selected Cut(s):</td>
+                                <td class="listDescription">TOP-JERSEY W/NO FLY PANT<br>
+                                BOTTOM-MEN'S NO FLY PANT</td>
+                            </tr>
+                            <tr>
+                            <td class="listLabel">Design Name:</td>
+                            <td class="listDescription" id="selectedDesignName">Battletest</td>
+                            </tr>
+                            <tr>
+                            <td class="listLabel">Primary Color:</td>
+                            <td id="primaryColorForProof" class="listDescription">Yellow</td>
+                            </tr>
+                            <tr>
+                            <td class="listLabel">Secondary Color:</td>
+                            <td id="secondryColorForProof" class="listDescription">Scarlet</td>
+                            </tr>
+                            <tr>
+                            <td class="listLabel">Accent Color:</td>
+                            <td id="tirtiaryColorForProof" class="listDescription">Columbia Blue</td>
+                            </tr>
+                            <tr>
+                            <td class="listLabel">Color Identification:</td>
+                            <td class="listDescription">
+                                
+                                
+                                <table border="0"  style="background-color:" width="150" cellpadding="2" cellspacing="0">
+	<tr><td align="left"  style="position:absolute;"><div class="circlePrimary"></div></td><td align="left"><div id="primaryColorForProofIdentification">Red</div></td></tr>
+                                <tr><td align="left"><div class="circleSecondary"></div></td><td align="left"><div id="secondryColorForProofIdentification">White</div></td></tr>
+                                <tr><td align="left"><div class="circleTirtiary"></div></td><td align="left"><div id="tirtiaryColorForProofIdentification">Grey</div></td></tr>
+</table>
+
+
+                                
+                                
+                           </td>
+                            </tr>                           
+                        </table>
+                        <table class="listSelectedFabric">
+                            <tr>
+                                <td class="listLabel">Selected Fabric:</td>
+                                <td class="listDescriptionImg" id="selectedFabricForProof">
+                                    
+                                    <p class="listDescription" id="fabricDescriptionProof">PREMIUM Teardrop Mesh123</p></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                
+                </div>
+            </section>
+            <section class="teamRoster">
+                
+                <div class="proofLabel"> team Roster </div>
+                <!--<div class=""> <label>Name of This Order:</label> <label>123</label> </div>-->
+          
+                <div class="teamRosterTableBox">
+                    <div class="teamRosterTable" id="dvTeamRosterInfoOnProof">               
+                        <!--<table cellspacing="0" cellpadding="5" class="rosterTable">
+                            <tr class="rosterTableLabel"> <td colspan="7"> Name of this Order: 321 Safed </td></tr>
+                            <tr class="rosterTableHeader">                                
+                                <td  bgcolor="#323232" colspan="3" >PLAYER INFORMATION</td>
+                                <td colspan="2"  bgcolor="#323232">TOP</td>
+                                
+                                <td colspan="2"  bgcolor="#323232">BOTTOM</td>
+                            </tr>
+                            <tr class="rosterTableHeader">
+                                <td>Name</td>
+                                <td>#</td>
+                                <td>Category</td>
+                                <td>Qty</td>
+                                <td>Size</td>
+                                <td>Qty</td>
+                                <td>Size</td>
+                              
+                            </tr>
+                           
+                           
+                            
+                        </table>-->
+               
+            
+                    </div>
+                    
+                </div>
+            </section>
+            <section class="approvalOptions">
+                
+                   <div class="proofLabel"> Approval Options</div>
+     
+                <div class="approavalOptionDescriptionBox">
+                <div class="approvalOptionDesription">
+                    <p class="approvalOptionTxt">Ex parte Crow Dog is an 1883 decision by the Supreme Court of the United States</p>
+                    <p class="approvalOptionTxt"> Crow Dog (pictured) was a member of the Brulé band of the Lakota Sioux.</p>
+                    <p class="approvalOptionTxt"> The tribal council dealt with the incident according to Sioux tradition, and Crow Dog paid restitution to the dead man's family.</p>
+                    <p class="approvalOptionTxt">Ex parte Crow Dog is an 1883 decision by the Supreme Court of the United States that followed the death of one member of a Native American tribe at the hands of another on reservation land. Crow Dog (pictured) was a member of the Brulé band of the Lakota Sioux. On August 5, 1881, he shot and killed Spotted Tail, a Lakota chief; there are different accounts of the background to the killing. The tribal council dealt with the incident according to Sioux tradition, and Crow Dog paid restitution to the dead man's family.</p>
+                    <p class="approvalOptionTxt">However, the U.S. authorities then prosecuted Crow Dog for murder in a federal court. He was found guilty and sentenced to hang. The Supreme Court held that unless authorized by Congress, federal courts had no jurisdiction to try cases where the offense had already been tried by the tribal council, and so Crow Dog was released. </p>
+                    <p class="approvalOptionTxt">The case led to the Major Crimes Act in 1885, which placed some major crimes under federal jurisdiction if committed by an Indian against another Indian on a reservation or tribal land. This case was the beginning of the plenary power legal doctrine that has been used in Indian case law to limit tribal sovereignty. </p>
+                    <p class="approvalOptionTxt">Ex parte Crow Dog is an 1883 decision by the Supreme Court of the United States</p>
+                    <p class="approvalOptionTxt">Ex parte Crow Dog is an 1883 decision by the Supreme Court of the United States</p>
+                    <h3>ADDITIONAL DETAILS (up to 250 characters):</h3>
+                    <p class="approvalOptionTxt"> The tribal council dealt with the incident according to Sioux tradition, and Crow Dog paid restitution to the dead man's family.</p>
+                     <div class="textAreaBox">
+                        <textarea class="textAreaStyle" maxlength="250" value="" autofocus=true></textarea>
+                    </div>
+                    
+                    <div class="chooseAnOptionTxtBox"><div class="chooseAnOptionLabel"><h1>CHOOSE AN OPTION</h1></div><div class="chooseAnOptionGreyTxt">[What's this?]</div></div>
+                            <div class="chooseAnOptionBox">
+                                
+                                <div class="chooseOption"><label class="approveNow"><input type="radio" id="approvenow" name="size" value="5" checked="checked"/> APPROVE <b>NOW</b></label></div>
+                                <div class="chooseOption"><label class="approveNow"><input type="radio" id="approvelater" name="size" value="8"  /> APPROVE <b>LATER</b></label></div>
+                                
+                                <div id="dvViewShoppingCart">
+                                    <img class="viewShoppingCartBtn" src="images/viewCartAndCheckOut.png"/>
+                                </div>
+                                
+                                
+                                            <div class="pupUpContainer" id="showEmailProofProp">
+            
+                                                <div class="left"></div>
+                                                   <div class="right"></div>
+
+
+                                                   <div> <input type="checkbox" name="call" value="Bike" id="chkCallMe"> Call me</div>
+                                                   <div> <input type="text" name="FirstName" value="" class="pupUpInput" id="dvIdCallMe" disabled> </div>
+                                                   <div> <input type="checkbox" name="vehicle" value="Bike" id="chkMailMe"> Email me my proof: </div>
+                                                   <div> <input type="text" name="FirstName" value="" class="pupUpInput" id="dvIdEmailProof" disabled> </div>
+                                                   <div class="saveForNow" id="btnSaveForNow"></div> 
+
+                                            </div>
+                                 
+                            </div>
+                    </div>
+                </div>
+                
+                <!--------------   View cart banner ----->
+                
+                <!---------------------------------------->
+                
+            </section>
+            </div>
+            </div>
+            </div>
+       </div>
+			
+  
+	
+</page>
+  
+    
+    
+    
+    
+    
+    
+    <!doctype html>
+<html>
+<body>
+    
+  <table cellpadding="0" cellspacing="0" border="0" width="579" style="width:579px; padding:6px; background: #fff;font-family: Arial;font-size: 12px; text-align:justify;">
+        <tr>
+            <td><img src="http://twa-api.india.rsystems.com:8080/images/emailHeaderGraphic.gif" alt=""></td>
+        </tr>
+        <tr>
+            <td> <img src="http://twa-api.india.rsystems.com:8080/images/searchbar_bg.gif" alt="" style="width:578px;"></td>
+        </tr>
+         <tr>
+            <td>             
+            <p >Check out the great uniform customized at <a href="http://www.prospheresports.com/" > ProSphereSports.com.</a></p>
+            <p >To access this ProSphere Custom Sublimated Uniform visit <a href="http://www.prospheresports.com/" >www.ProSphereSports.com </a>and enter the Retrieval Code below.</p>
+            <p style="text-align: left;">
+            <b>From:</b><span><a>sarab.singh@gmail.com</a></span><br>
+            <b>Uniform Design Name: </b><span>12345</span><br>
+            <b>Retrieval Code: </b><span>RC38D05723D3</span><br>
+            </p>
+            <p>If you have any questions, or would like additional information on ProSphere products, please visit your local Teamwork Athletic dealer. To find a dealer, please logon to <a href="" >www.teamworkathletic.com</a> and click on "Dealer Locator". </p>               
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="font-size: 10px;">©2007-2013 Teamwork. All Rights Reserved. Patent Pending </td>
+        </tr>        
+    </table>
+
+==================================================
+
+<table cellpadding="0" cellspacing="0" border="0" width="579" style="width:579px; padding:6px; background: #fff;font-family: Arial;font-size: 12px; text-align:justify;">
+        <tr>
+            <td><img src="http://twa-api.india.rsystems.com:8080/images/emailHeaderGraphic.gif" alt=""></td>
+        </tr>
+        <tr>
+            <td> <img src="http://twa-api.india.rsystems.com:8080/images/searchbar_bg.gif" alt="" style="width:578px;"></td>
+        </tr>
+         <tr>
+            <td>             
+            <p >Thank you for designing a ProSphere Custom Sublimated Uniform. This email supplies the retrieval information you need for future orders. Please save this information for your records. </p>
+            <p style="text-align: left;">
+            
+            <b>Uniform Design Name: </b><span>12345</span><br>
+            <b>Retrieval Code: </b><span>RC38D05723D3</span><br>
+            </p>
+            <p>You can access your design online by <a href="">clicking</a> and enter the retrieval code in the ProSphere Uniform Retrieval Code field. Any change you make can be saved quickly and easily. </p>      
+
+<p>Then, take your retrieval code to your local Teamwork Athletic dealer. They will access your design and will work with you to complete your design - including adding custom colors and uploaded graphics. They will then place your team order right online. To find a dealer, please logon to <a href="https://www.teamworkathletic.com">www.teamworkathletic.com</a> and click on "Dealer Locator". Enter your email and we will send you a list of dealers in your area.  </p>  
+<p>Thank you again for designing a ProSphere Custom Uniform. </p>         
+            </td>
+        </tr>
+        <tr>
+            <td align="center" style="font-size: 10px;">©2007-2013 Teamwork. All Rights Reserved. Patent Pending </td>
+        </tr>        
+    </table>
+
+    
+    
+     <Div style="width:579px; padding:6px; background: #fff;font-family: Arial;font-size: 12px; text-align:justify;">
+        <img src="http://twa-api.india.rsystems.com:8080/images/emailHeaderGraphic.gif" alt="">
+        <img src="http://twa-api.india.rsystems.com:8080/images/searchbar_bg.gif" alt="" style="width:578px;">
+        
+        <Div style=" width:579px;">
+            
+            
+        </Div>
+        <div align="center" style="font-size: 10px;">©2007-2013 Teamwork. All Rights Reserved. Patent Pending </div>
+        
+    </Div>
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
+    
+    
+    
+    
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <div id="Configurator_panel">
+            <!-- ------------------Other Text--------------------------->
+
+            <div id="configuratorHeadingBg" >
+                <div class="anchorPointGraphicLabelBox" id="anchorPointScreenLabel">
+                    GRAPHICS
+
+                </div>
+
+            </div>
+
+            <div id="configuratorHeadingBg" >
+                <div class="back_button" id="anchorPointbackButton"></div>
+                <div class="anchorPointLabel" style="margin-left:135px; line-height:1.8;" id="anchorPointSubHeading">
+                    Place Your Graphic
+                </div>
+            </div>
+
+            <!-------------combo box-------------->
+
+            <!--<div class="width160">
+            <a href="" alt="">
+            <div class="comboBox">
+
+            <div class="comboBoxSelectedText"></div>
+
+            </div></a>
+
+            <div class="comboDropdownList">
+            <div class="comboDropdownListText"></div>
+            <div class="comboDropdownListText"></div>
+            <div class="comboDropdownListText"></div>
+
+            </div>
+
+            </div>-->
+
+            <!-------------End combo box-------------->
+
+            <div id="idAchorPointConfigureBox">
+
+                <section >
+                    <div class="fl">
+                        <div class="anchorPointDetailinglabel">
+                            <label class="anchorPointLabelText marginTop15" >Colors</label>
+                            <div class="anchorPointColorBox">
+                                <!--  Pravin BEGIN -->        
+
+                                <div id="dvIdShowColorAnchorPoint" class="fl">
+                                    <div class="colorPickerLabel">
+                                        Primary<sup></sup>
+                                    </div>
+                                    <div>
+                                        <a href="#" >
+                                            <div class="anchorPointSelectionListBox" id="dvIdFillColorAnchorPoint">
+                                                <div class="color_box_selected" id="dvIdSelectedFillColorAnchorPoint"></div>
+                                            </div></a>
+                                    </div>
+
+                                </div>
+                                <div id="dvIdColorBoxAnchorPoint" class="color_box">
+                                    <div class="popupColorPickerTitle">SELECT YOUR PRIMARY COLOR</div>
+                                    <div class="">
+                                    <ul id= "ulColorComboBoxlistAnchorPointFillColor"></ul>
+                                    <div >
+                                        <div class="divCustomColors"> CUSTOM COLORS <sup class="supWhatIsThis">(what's this?)</sup></div>
+                                        <div class="divUniformColors"> 
+                                            <div>UNIFORM COLORS</div>
+                                            <div >
+                                                <div class="uniformColorBoxPrimary"></div>
+                                                <div class="uniformColorName">Primary</div>
+                                                <div class="clear"> </div>
+
+                                                <div class="uniformColorBoxSecondary"></div>
+                                                <div class="uniformColorName">Secondary</div>
+                                                <div class="clear"> </div>
+                                                <div class="uniformColorBoxTertiary"></div>
+                                                <div class="uniformColorName">Tertiary</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="dvIdShowColorAnchorPointOutlineFirst" class="fl">
+                                    <div class="colorPickerLabel" >
+                                        Secondary <sup></sup> 
+                                    </div>
+                                    <div>
+                                        <a href="#" >
+                                            <div class="anchorPointSelectionListBox" id="dvIdAnchorPointOutlineFirst" >
+                                                <div class="color_box_selected" id="dvIdSelectedFillColorAnchorPointOutlineFirst"></div>
+                                            </div></a>
+                                    </div>
+
+                                </div>
+                                <div id="dvIdColorBoxAnchorPointOutlineFirst" class="color_box" style="margin-left:66px;">
+                                    <div class="popupColorPickerTitle">SELECT YOUR SECONDARY COLOR</div>
+                                    <ul id= "ulColorComboBoxlistAnchorPointOutlineFirst"></ul>
+                                    <div  >
+                                        <div class="divCustomColors"> CUSTOM COLORS <sup class="supWhatIsThis">(what's this?)</sup></div>
+                                        <div class="divUniformColors"> 
+                                            <div>UNIFORM COLORS</div>
+                                            <div >
+                                                <div class="uniformColorBoxPrimary"></div>
+                                                <div class="uniformColorName">Primary</div>
+                                                <div class="clear"> </div>
+
+                                                <div class="uniformColorBoxSecondary"></div>
+                                                <div class="uniformColorName">Secondary</div>
+                                                <div class="clear"> </div>
+                                                <div class="uniformColorBoxTertiary"></div>
+                                                <div class="uniformColorName">Tertiary</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="dvIdShowColorAnchorPointOutlineSecond" class="fl">
+                                    <div class="colorPickerLabel">
+                                        Accent<sup></sup>
+                                    </div>
+                                    <div>
+                                        <a href="#" >
+                                            <div class="anchorPointSelectionListBox" id="dvIdAnchorPointOutlineSecond">
+                                                <div class="color_box_selected" id="dvIdSelectedFillColorAnchorPointOutlineSecond"></div>
+                                            </div></a>
+                                    </div>
+
+                                </div>
+                                <div id="dvIdColorBoxAnchorPointOutlineSecond" class="color_box" style="margin-left:132px;">
+                                    <div class="popupColorPickerTitle">SELECT YOUR ACCENT COLOR</div>
+                                    <ul id= "ulColorComboBoxlistAnchorPointOutlineSecond"></ul>
+                                    <div  >
+                                        <div class="divCustomColors"> CUSTOM COLORS <sup class="supWhatIsThis">(what's this?)</sup></div>
+                                        <div class="divUniformColors"> 
+                                            <div>UNIFORM COLORS</div>
+                                            <div >
+                                                <div class="uniformColorBoxPrimary"></div>
+                                                <div class="uniformColorName">Primary</div>
+                                                <div class="clear"> </div>
+
+                                                <div class="uniformColorBoxSecondary"></div>
+                                                <div class="uniformColorName">Secondary</div>
+                                                <div class="clear"> </div>
+                                                <div class="uniformColorBoxTertiary"></div>
+                                                <div class="uniformColorName">Tertiary</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>       
+
+
+                                <!--  END-->  
+                            </div>
+                            <div class="clear"></div>
+
+                        </div>
+                        <label class="anchorPointLabelText " >Size</label>
+                        <div class="anchorPointColorBox">
+
+                            <div class="anchorPointSizeBox">
+                            <div  class="width60 fl">
+                             <div class="anchorBoxcomboSize" id="dvIdAnchorComboBox">
+                                          <!--<a href="" alt="" id="aShowFontType">-->
+                                    <div class="anchorPointSizeSelectionBox" id="anchorSizeBox">
+                                        <div class="anchorPointSelectedSize" id = "dvIdAnchorPointSelectedSize">
+                                            3"
+                                        </div>
+                                    </div>
+                                <!--</a>-->
+                                <br>
+
+                                <div id="dvIdAnchorSizeComboDropdown" class="anchorBoxcomboDropdownList">
+                                    <div class="anchorPointDropdownListText" id="dvIdAnchorPointDropdownListText"></div>
+                                </div>
+                          </div>
+
+</div>
+                                <div class="fl">
+
+                                <input type="checkbox" name="" value=""></div>
+                                <div class="anchorPointSizeDiscription">
+                                    Same dimensions on all size uniforms.
+                                </div>
+                                
+                                <div ></div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="anchorPointGraphicImg">
+            <div class="anchorPointdiSelectedImage">
+                <img src="" id="imgPreviewTextIdAnchorPoint" style="height:48px"/>
+                </div>
+                <div id="dvIdAnchorButtons">
+                    <a href=""  id="anchorPointFlip" class="flipButton"></a>
+                    <a  href="" id="anchorPointUndo" class="undoButton"></a>
+                    <a href=""  id="anchorPointRemove" class="removeButton"></a>
+                </div>
+            </div>
+            
+            <div class="clear"></div>
+
+            <div class="anchorPointSelectionLabel">SELECT ANCHOR POINT BELOW TO EDIT</div>
+            <div class="anchorApplyBox" id="dvAnchorApplyBox">
+            </div>
+
+            <div class="clear">
+
+            </div>
+        </div>
+    ]]>
+    </content>
+	
+</page>
+  
+    
+    
+    
+<div class="loaderImage">
+    
+    <img src="images/loadingAnnimation.gif" />
+
+</div>    
+    
+<div class="approvalPopUp">
+    <div class="close_zoom_anchor_screen" style=" width:25px;"> </div>
+    <br/>
+    <br/>
+    <div>View your ProSphere Uniform proof now and get your order started.</div>
+     <br/>
+    <p >
+        <div  class="approvelOptions">
+            
+            <img src="images/approveBullets.png" />  APPROVE <b>NOW    </b>
+       
+        </div>
+                
+        <div class="approvalDescription">
+            Select "APPROVE NOW" - Give ProSphere your approval to start manufacturing. No additional changes can be made. 
+            
+        </div>
+        
+        <div class="clear"></div>
+    </p>
+       
+    <p>
+        <div class="approvelOptions">
+            <img src="images/approveBullets.png" /> 
+        APPROVE LATER BY EMAIL 
+        </div>                
+        <div class="approvalDescription">
+            Select "APPROVE LATER BY EMAIL " - ProSphere will email your final proof within 24 - 48 hours. Manufacturing beigns once your final approval is emailed back to us. A valid email address is required to receive your proof.
+            
+        </div>                
+    </p>    
+    <div class="approveOk"></div>
+    
+    
+    
+    
+</div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+</body>
+
+</html>

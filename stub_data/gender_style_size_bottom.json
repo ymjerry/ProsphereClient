@@ -1,0 +1,193 @@
+{
+    "ResponseType": 1,
+    "ResponseData": [
+        {
+            "GenderTypeId": 2,
+            "FabricSizes": [
+                {
+                    "SizeId": 1,
+                    "Name": "Test Size",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "123-012",
+                    "AxaptaSizeId": 1,
+                    "PriceLists": [
+                        {
+                            "PriceListId": 1,
+                            "Name": "Test",
+                            "DbaseColumnName": "t",
+                            "FabricPrices": [
+                                {
+                                    "FabricPriceId": 2,
+                                    "Price": 213,
+                                    "CcPrice": 1,
+                                    "Msrp": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 2,
+                    "Name": "Test Size",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "123-012",
+                    "AxaptaSizeId": 1,
+                    "PriceLists": [
+                        {
+                            "PriceListId": 1,
+                            "Name": "Test",
+                            "DbaseColumnName": "t",
+                            "FabricPrices": [
+                                {
+                                    "FabricPriceId": 3,
+                                    "Price": 333,
+                                    "CcPrice": 1,
+                                    "Msrp": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 3,
+                    "Name": "Test Size",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "123-012",
+                    "AxaptaSizeId": 1,
+                    "PriceLists": [
+                        {
+                            "PriceListId": 1,
+                            "Name": "Test",
+                            "DbaseColumnName": "t",
+                            "FabricPrices": [
+                                {
+                                    "FabricPriceId": 4,
+                                    "Price": 33,
+                                    "CcPrice": 1,
+                                    "Msrp": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 4,
+                    "Name": "Test Size",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "123-012",
+                    "AxaptaSizeId": 1,
+                    "PriceLists": [
+                        {
+                            "PriceListId": 1,
+                            "Name": "Test",
+                            "DbaseColumnName": "t",
+                            "FabricPrices": [
+                                {
+                                    "FabricPriceId": 2,
+                                    "Price": 55,
+                                    "CcPrice": 1,
+                                    "Msrp": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+
+            ]
+        },
+        {
+            "GenderTypeId": 1,
+            "FabricSizes": [
+                {
+                    "SizeId": 5,
+                    "Name": "Test Size",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "fds-012",
+                    "AxaptaSizeId": 1,
+                    "PriceLists": [
+                        {
+                            "PriceListId": 1,
+                            "Name": "Test",
+                            "DbaseColumnName": "t",
+                            "FabricPrices": [
+                                {
+                                    "FabricPriceId": 2,
+                                    "Price": 3,
+                                    "CcPrice": 1,
+                                    "Msrp": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 6,
+                    "Name": "Test Size",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "123-012",
+                    "AxaptaSizeId": 1,
+                    "PriceLists": [
+                        {
+                            "PriceListId": 1,
+                            "Name": "Test",
+                            "DbaseColumnName": "t",
+                            "FabricPrices": [
+                                {
+                                    "FabricPriceId": 3,
+                                    "Price": 333,
+                                    "CcPrice": 1,
+                                    "Msrp": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 7,
+                    "Name": "Test Size",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "123-012",
+                    "AxaptaSizeId": 1,
+                    "PriceLists": [
+                        {
+                            "PriceListId": 1,
+                            "Name": "Test",
+                            "DbaseColumnName": "t",
+                            "FabricPrices": [
+                                {
+                                    "FabricPriceId": 4,
+                                    "Price": 33,
+                                    "CcPrice": 1,
+                                    "Msrp": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 8,
+                    "Name": "Test Size",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "123-012",
+                    "AxaptaSizeId": 1,
+                    "PriceLists": [
+                        {
+                            "PriceListId": 1,
+                            "Name": "Test",
+                            "DbaseColumnName": "t",
+                            "FabricPrices": [
+                                {
+                                    "FabricPriceId": 2,
+                                    "Price": 55,
+                                    "CcPrice": 1,
+                                    "Msrp": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+
+            ]
+        }
+    ]
+}

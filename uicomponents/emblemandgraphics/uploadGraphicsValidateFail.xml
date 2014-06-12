@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <content>
+    <![CDATA[
+        <div class="imageCriteriaMain">
+           <div class="imageCriteriaContainer">
+              <div class="imageCriteriaHeaderPart">
+                 <div class="deleteBtn" id="dvIdValidateFailCloseBtn"> <a href="#"><img src="images/cross.png" alt="" /></a></div>
+                 <div class="logo"> <img src="images/imageCriteria_logo.png"></div>
+                 <div class="graphiclinkArea">
+                    <ul>
+                       <li ><a id="aHelpGuidefailure" style="cursor:pointer;" >Help Guidelines</a></li>
+                    </ul>
+                 </div>
+              </div>
+              <div class="imageCriteriaUploadedImageBox">
+                 <div class="UploadedImageBox">
+                    <div class="UploadedImageBoxLabel">Your Uploaded Image</div>
+                    <div class="UploadedImageView"> <img id="idValidateUploadImg" alt="" src="" style="max-width:100%;max-height:100%;" /></div>
+                    <!--<div class="UploadedImageRemove"> <input id="idRemoveBackgroundValidateFailPopup" type="checkbox"  Remove Background Color</div>-->
+                 </div>
+                
+                
+                
+                 <div class="UploadedImageContentBox" >
+                 <div id="dvIdErrMsg">
+                 <div class="UploadedImageBoxLabel">Upload Results</div>
+                    <div class="oppsmessage">Oops! Your image has fallen short on the upload requirements!</div>
+                    <div class="oppsmessage" id="dvListErrorMessage"><ul>
+                    <li>Your image resolution is not at 150dpi</li>
+                    <li>Your image size is not at 700px</li>
+                    <li>Your image is not transparent</li>
+                    </ul></div>
+                    <div class="UploadedContentCheck"> <input type="checkbox" value="Bike" name="vehicle" id="idCheckTaaFix"><span id="spIdCorrectionFee" style="margin-left:20px; margin-top:-20px;  display:block;">Proceed with this Uploaded Image and use ProSphere's in house design service to fix your artwork for a $25 fee.</span></div>
+  <div class="UploadedContentCheck">
+                       <!--<div class="fixAndUploadeBtn"><input id="idFixAndUploadLaterBtn" type="button" style="padding: 2px 8px; display: inline;margin: -5px 0px;" value="I'll Fix &amp; Upload Later"></div>-->
+                 </div>
+                    </div>
+                  
+                    
+                    
+                    </div>
+                    
+                      <div id="dvIdImageFailScreenHelpGuide" style="display:none;">
+                 <div class="UploadedImageBoxLabel">Upload Guidelines</div>
+                    <div class="Guidesmessage" id="dvListErrorMessage"><ul>
+                    <li>Image resolution minimum: 150dpi</li>
+                    <li>Image size: 700px by 700px</li>
+                    <li>Image background transparent</li>
+                    </ul></div>
+                    <div style="font-weight:bold;">Accepted File Formats</div>
+                    <div>TIF, TIFF, PNG, AI, PSD, JPG, BMP and PDF</div>
+                    </div>
+                    
+                    
+                    
+                 <div class="upLoadedImageContentBox">
+                    <!--<div class="Content"> Artwork Looks Grainy or Distorted When Resized<br/><br/>
+                       Some types of "bitmap" files (such as .jpg or .gif files) look okay on the screen at small sizes, but their quality degrades at a larger size
+                    </div>
+                    -->
+                    
+                 </div>
+              </div>
+              <div class="imageCriteriaFooterPart"> 
+              <div class="footerBtnBox">
+              <div style="height: 25px;" class="fr"> 
+                       <input type="button" value="Next Step" id="idBtnNextStep" style="padding:2px 8px 2px 8px;">
+                    </div>
+                    <div class="uploadedAnotherBtn"><input type="button" id="idUploadAnotherBtnFailure" value="Upload Another Image" style="padding:2px 8px 2px 8px; font-weight:bold;"></div>
+                    <!--<div class="doneBtn"><input type="button" value="Done" id="idBtnUploadDone" style="padding:2px 8px 2px 8px;"></div>-->
+                    <div class="graphicBackBtn"><input type="button" value="Back" id="idBtnBackFailure" style="padding:2px 8px 2px 8px;"></div>
+                 </div>
+              </div>
+           </div>
+        </div>
+
+
+    ]]>
+  </content>
+</page>
+
+
+
+
+

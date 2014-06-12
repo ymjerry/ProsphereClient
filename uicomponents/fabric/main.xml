@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <div id="dvIdConfiguratorPanel">
+           <!----------------------- Fabric------------------------------->
+           <div class="fabricConfigurator">
+              <div id="dvIdConfiguratorHeadingBg">
+                 <div id="heade0rId" class="emblemAndGraphicLabelBox"> FABRICS </div>
+              </div>
+              <div class="fabricConfiguratorHeader ">
+                 <div class="howToButton"></div>
+                 <div class="fl width270">
+                    Your uniforms are available in a choice of fabrics.
+                    Upcharges do apply based on your fabric selection.
+                    <div class="f1 width390">
+                       <div class="horDevider">
+                       </div>
+                    </div>
+                    Select your fabric below by clicking on a fabric swatch.
+                 </div>
+              </div>
+              <div class="clear"></div>
+              <div  class="heightScroller" id="dvIdFabricsList">
+              </div>
+              <div style="display:none" class="fabricEnlargeview" id="dvfabricEnlargeview">
+                 <div class="fabricEnlargeviewTitle">
+                    <div class="fl" style="cursor:default; white-space:nowrap; width:190px; text-overflow:ellipsis; overflow:hidden;" Id="dvIdFabricImageLabel">
+                       ULTRA STEEL STRETCH
+                    </div>
+                    <div class="fr">
+                       <a style="cursor:pointer" class="fabricEnlargeviewClose" id="dvfabricEnlargeviewClose" alt="">X</a>
+                    </div>
+                 </div>
+                 <div class="view" id="dvIdViewFabImg">
+                 </div>
+              </div>
+              <div class="fabricRequiredSection">
+                 *Required Section
+              </div>
+           </div>
+           <!----------------------- End Fabric------------------------------->
+        </div>
+        <!--------------------------------------------------------------------------------------------
+           End Left section
+           ------------------------------------------------------------------------------------------->
+
+			
+    ]]>
+    </content>
+</page>
+  

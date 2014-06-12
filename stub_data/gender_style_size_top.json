@@ -1,0 +1,1105 @@
+{
+    "ResponseType": 1,
+    "ResponseData": [
+        {
+            "GenderTypeId": 2,
+            "FabricSizes": [
+                {
+                    "SizeId": 1,
+                    "Name": "2XL (42-44)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "2XL-Male",
+                    "AxaptaSizeId": 7,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12654,
+                            "Price": 39.95000076293945,
+                            "CcPrice": 41.150001525878906,
+                            "Msrp": 79.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 3,
+                    "Name": "4XL (46-48)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12655,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 5,
+                    "Name": "M (36-38)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "M",
+                    "AxaptaSizeId": 4,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12656,
+                            "Price": 43.95000076293945,
+                            "CcPrice": 45.27000045776367,
+                            "Msrp": 87.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 19,
+                    "Name": "M (36-38)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "M",
+                    "AxaptaSizeId": 4,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12650,
+                            "Price": 37.95000076293945,
+                            "CcPrice": 39.09000015258789,
+                            "Msrp": 75.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 21,
+                    "Name": "XL (40-42)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "XL",
+                    "AxaptaSizeId": 6,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12653,
+                            "Price": 37.95000076293945,
+                            "CcPrice": 39.09000015258789,
+                            "Msrp": 75.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 57,
+                    "Name": "2XL (42-44)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "2XL",
+                    "AxaptaSizeId": 7,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12695,
+                            "Price": 37.95000076293945,
+                            "CcPrice": 39.09000015258789,
+                            "Msrp": 75.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 60,
+                    "Name": "L (38-40)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "L",
+                    "AxaptaSizeId": 5,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18051,
+                            "Price": 43.95000076293945,
+                            "CcPrice": 45.27000045776367,
+                            "Msrp": 87.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 66,
+                    "Name": "4XL (42-45)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18052,
+                            "Price": 45.95000076293945,
+                            "CcPrice": 47.33000183105469,
+                            "Msrp": 91.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 70,
+                    "Name": "XL (33-36)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "XL",
+                    "AxaptaSizeId": 6,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18053,
+                            "Price": 47.95000076293945,
+                            "CcPrice": 49.38999938964844,
+                            "Msrp": 95.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 86,
+                    "Name": "3XL (44-46)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "3XL",
+                    "AxaptaSizeId": 8,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18081,
+                            "Price": 47.95000076293945,
+                            "CcPrice": 49.38999938964844,
+                            "Msrp": 95.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 87,
+                    "Name": "4XL (46-48)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18077,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 88,
+                    "Name": "L (38-40)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "L",
+                    "AxaptaSizeId": 5,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18076,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 89,
+                    "Name": "M (36-38)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "M",
+                    "AxaptaSizeId": 4,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18075,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 90,
+                    "Name": "S (34-36)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "S",
+                    "AxaptaSizeId": 3,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18078,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 726,
+                    "Name": "3XL (44-46)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "3XL",
+                    "AxaptaSizeId": 8,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 13276,
+                            "Price": 32.95000076293945,
+                            "CcPrice": 33.939998626708984,
+                            "Msrp": 65.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 727,
+                    "Name": "4XL (46-48)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 13275,
+                            "Price": 32.95000076293945,
+                            "CcPrice": 33.939998626708984,
+                            "Msrp": 65.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 734,
+                    "Name": "4XL (46-48)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 13274,
+                            "Price": 32.95000076293945,
+                            "CcPrice": 33.939998626708984,
+                            "Msrp": 65.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 735,
+                    "Name": "L (38-40)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "L",
+                    "AxaptaSizeId": 5,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 13273,
+                            "Price": 32.95000076293945,
+                            "CcPrice": 33.939998626708984,
+                            "Msrp": 65.9000015258789
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "GenderTypeId": 1,
+            "FabricSizes": [
+                {
+                    "SizeId": 1,
+                    "Name": "2XL (42-44)",
+                    "GenderTypeId": 1,
+                    "SizeNumber": "2XL-boy",
+                    "AxaptaSizeId": 7,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12654,
+                            "Price": 39.95000076293945,
+                            "CcPrice": 41.150001525878906,
+                            "Msrp": 79.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 3,
+                    "Name": "4XL (46-48)",
+                    "GenderTypeId": 1,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12655,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 5,
+                    "Name": "M (36-38)",
+                    "GenderTypeId": 1,
+                    "SizeNumber": "M",
+                    "AxaptaSizeId": 4,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12656,
+                            "Price": 43.95000076293945,
+                            "CcPrice": 45.27000045776367,
+                            "Msrp": 87.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 19,
+                    "Name": "M (36-38)",
+                    "GenderTypeId": 1,
+                    "SizeNumber": "M",
+                    "AxaptaSizeId": 4,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12650,
+                            "Price": 37.95000076293945,
+                            "CcPrice": 39.09000015258789,
+                            "Msrp": 75.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 21,
+                    "Name": "XL (40-42)",
+                    "GenderTypeId": 1,
+                    "SizeNumber": "XL",
+                    "AxaptaSizeId": 6,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12653,
+                            "Price": 37.95000076293945,
+                            "CcPrice": 39.09000015258789,
+                            "Msrp": 75.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 57,
+                    "Name": "2XL (42-44)",
+                    "GenderTypeId": 1,
+                    "SizeNumber": "2XL",
+                    "AxaptaSizeId": 7,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12695,
+                            "Price": 37.95000076293945,
+                            "CcPrice": 39.09000015258789,
+                            "Msrp": 75.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 60,
+                    "Name": "L (38-40)",
+                    "GenderTypeId": 1,
+                    "SizeNumber": "L",
+                    "AxaptaSizeId": 5,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18051,
+                            "Price": 43.95000076293945,
+                            "CcPrice": 45.27000045776367,
+                            "Msrp": 87.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 66,
+                    "Name": "4XL (42-45)",
+                    "GenderTypeId": 1,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18052,
+                            "Price": 45.95000076293945,
+                            "CcPrice": 47.33000183105469,
+                            "Msrp": 91.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 70,
+                    "Name": "XL (33-36)",
+                    "GenderTypeId": 1,
+                    "SizeNumber": "XL",
+                    "AxaptaSizeId": 6,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18053,
+                            "Price": 47.95000076293945,
+                            "CcPrice": 49.38999938964844,
+                            "Msrp": 95.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 86,
+                    "Name": "3XL (44-46)",
+                    "GenderTypeId": 1,
+                    "SizeNumber": "3XL",
+                    "AxaptaSizeId": 8,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18081,
+                            "Price": 47.95000076293945,
+                            "CcPrice": 49.38999938964844,
+                            "Msrp": 95.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 87,
+                    "Name": "4XL (46-48)",
+                    "GenderTypeId": 1,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18077,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 88,
+                    "Name": "L (38-40)",
+                    "GenderTypeId": 1,
+                    "SizeNumber": "L",
+                    "AxaptaSizeId": 5,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18076,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 89,
+                    "Name": "M (36-38)",
+                    "GenderTypeId": 1,
+                    "SizeNumber": "M",
+                    "AxaptaSizeId": 4,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18075,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 90,
+                    "Name": "S (34-36)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "S",
+                    "AxaptaSizeId": 3,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18078,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 726,
+                    "Name": "3XL (44-46)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "3XL",
+                    "AxaptaSizeId": 8,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 13276,
+                            "Price": 32.95000076293945,
+                            "CcPrice": 33.939998626708984,
+                            "Msrp": 65.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 727,
+                    "Name": "4XL (46-48)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 13275,
+                            "Price": 32.95000076293945,
+                            "CcPrice": 33.939998626708984,
+                            "Msrp": 65.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 734,
+                    "Name": "4XL (46-48)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 13274,
+                            "Price": 32.95000076293945,
+                            "CcPrice": 33.939998626708984,
+                            "Msrp": 65.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 735,
+                    "Name": "L (38-40)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "L",
+                    "AxaptaSizeId": 5,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 13273,
+                            "Price": 32.95000076293945,
+                            "CcPrice": 33.939998626708984,
+                            "Msrp": 65.9000015258789
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "GenderTypeId": 3,
+            "FabricSizes": [
+                {
+                    "SizeId": 1,
+                    "Name": "2XL (42-44)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "2XL-Girl",
+                    "AxaptaSizeId": 7,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12654,
+                            "Price": 39.95000076293945,
+                            "CcPrice": 41.150001525878906,
+                            "Msrp": 79.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 3,
+                    "Name": "4XL (46-48)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12655,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 5,
+                    "Name": "M (36-38)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "M",
+                    "AxaptaSizeId": 4,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12656,
+                            "Price": 43.95000076293945,
+                            "CcPrice": 45.27000045776367,
+                            "Msrp": 87.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 19,
+                    "Name": "M (36-38)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "M",
+                    "AxaptaSizeId": 4,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12650,
+                            "Price": 37.95000076293945,
+                            "CcPrice": 39.09000015258789,
+                            "Msrp": 75.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 21,
+                    "Name": "XL (40-42)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "XL",
+                    "AxaptaSizeId": 6,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12653,
+                            "Price": 37.95000076293945,
+                            "CcPrice": 39.09000015258789,
+                            "Msrp": 75.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 57,
+                    "Name": "2XL (42-44)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "2XL",
+                    "AxaptaSizeId": 7,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12695,
+                            "Price": 37.95000076293945,
+                            "CcPrice": 39.09000015258789,
+                            "Msrp": 75.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 60,
+                    "Name": "L (38-40)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "L",
+                    "AxaptaSizeId": 5,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18051,
+                            "Price": 43.95000076293945,
+                            "CcPrice": 45.27000045776367,
+                            "Msrp": 87.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 66,
+                    "Name": "4XL (42-45)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18052,
+                            "Price": 45.95000076293945,
+                            "CcPrice": 47.33000183105469,
+                            "Msrp": 91.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 70,
+                    "Name": "XL (33-36)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "XL",
+                    "AxaptaSizeId": 6,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18053,
+                            "Price": 47.95000076293945,
+                            "CcPrice": 49.38999938964844,
+                            "Msrp": 95.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 86,
+                    "Name": "3XL (44-46)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "3XL",
+                    "AxaptaSizeId": 8,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18081,
+                            "Price": 47.95000076293945,
+                            "CcPrice": 49.38999938964844,
+                            "Msrp": 95.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 87,
+                    "Name": "4XL (46-48)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18077,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 88,
+                    "Name": "L (38-40)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "L",
+                    "AxaptaSizeId": 5,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18076,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 89,
+                    "Name": "M (36-38)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "M",
+                    "AxaptaSizeId": 4,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18075,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 90,
+                    "Name": "S (34-36)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "S",
+                    "AxaptaSizeId": 3,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18078,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 726,
+                    "Name": "3XL (44-46)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "3XL",
+                    "AxaptaSizeId": 8,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 13276,
+                            "Price": 32.95000076293945,
+                            "CcPrice": 33.939998626708984,
+                            "Msrp": 65.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 727,
+                    "Name": "4XL (46-48)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 13275,
+                            "Price": 32.95000076293945,
+                            "CcPrice": 33.939998626708984,
+                            "Msrp": 65.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 734,
+                    "Name": "4XL (46-48)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 13274,
+                            "Price": 32.95000076293945,
+                            "CcPrice": 33.939998626708984,
+                            "Msrp": 65.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 735,
+                    "Name": "L (38-40)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "L",
+                    "AxaptaSizeId": 5,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 13273,
+                            "Price": 32.95000076293945,
+                            "CcPrice": 33.939998626708984,
+                            "Msrp": 65.9000015258789
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "GenderTypeId": 4,
+            "FabricSizes": [
+                {
+                    "SizeId": 1,
+                    "Name": "2XL (42-44)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "2XL-Woman",
+                    "AxaptaSizeId": 7,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12654,
+                            "Price": 39.95000076293945,
+                            "CcPrice": 41.150001525878906,
+                            "Msrp": 79.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 3,
+                    "Name": "4XL (46-48)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12655,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 5,
+                    "Name": "M (36-38)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "M",
+                    "AxaptaSizeId": 4,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12656,
+                            "Price": 43.95000076293945,
+                            "CcPrice": 45.27000045776367,
+                            "Msrp": 87.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 19,
+                    "Name": "M (36-38)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "M",
+                    "AxaptaSizeId": 4,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12650,
+                            "Price": 37.95000076293945,
+                            "CcPrice": 39.09000015258789,
+                            "Msrp": 75.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 21,
+                    "Name": "XL (40-42)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "XL",
+                    "AxaptaSizeId": 6,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12653,
+                            "Price": 37.95000076293945,
+                            "CcPrice": 39.09000015258789,
+                            "Msrp": 75.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 57,
+                    "Name": "2XL (42-44)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "2XL",
+                    "AxaptaSizeId": 7,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 12695,
+                            "Price": 37.95000076293945,
+                            "CcPrice": 39.09000015258789,
+                            "Msrp": 75.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 60,
+                    "Name": "L (38-40)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "L",
+                    "AxaptaSizeId": 5,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18051,
+                            "Price": 43.95000076293945,
+                            "CcPrice": 45.27000045776367,
+                            "Msrp": 87.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 66,
+                    "Name": "4XL (42-45)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18052,
+                            "Price": 45.95000076293945,
+                            "CcPrice": 47.33000183105469,
+                            "Msrp": 91.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 70,
+                    "Name": "XL (33-36)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "XL",
+                    "AxaptaSizeId": 6,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18053,
+                            "Price": 47.95000076293945,
+                            "CcPrice": 49.38999938964844,
+                            "Msrp": 95.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 86,
+                    "Name": "3XL (44-46)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "3XL",
+                    "AxaptaSizeId": 8,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18081,
+                            "Price": 47.95000076293945,
+                            "CcPrice": 49.38999938964844,
+                            "Msrp": 95.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 87,
+                    "Name": "4XL (46-48)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18077,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 88,
+                    "Name": "L (38-40)",
+                    "GenderTypeId": 2,
+                    "SizeNumber": "L",
+                    "AxaptaSizeId": 5,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18076,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 89,
+                    "Name": "M (36-38)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "M",
+                    "AxaptaSizeId": 4,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18075,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 90,
+                    "Name": "S (34-36)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "S",
+                    "AxaptaSizeId": 3,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 18078,
+                            "Price": 41.95000076293945,
+                            "CcPrice": 43.209999084472656,
+                            "Msrp": 83.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 726,
+                    "Name": "3XL (44-46)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "3XL",
+                    "AxaptaSizeId": 8,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 13276,
+                            "Price": 32.95000076293945,
+                            "CcPrice": 33.939998626708984,
+                            "Msrp": 65.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 727,
+                    "Name": "4XL (46-48)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 13275,
+                            "Price": 32.95000076293945,
+                            "CcPrice": 33.939998626708984,
+                            "Msrp": 65.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 734,
+                    "Name": "4XL (46-48)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "4XL",
+                    "AxaptaSizeId": 9,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 13274,
+                            "Price": 32.95000076293945,
+                            "CcPrice": 33.939998626708984,
+                            "Msrp": 65.9000015258789
+                        }
+                    ]
+                },
+                {
+                    "SizeId": 735,
+                    "Name": "L (38-40)",
+                    "GenderTypeId": 4,
+                    "SizeNumber": "L",
+                    "AxaptaSizeId": 5,
+                    "FabricPrices": [
+                        {
+                            "FabricPriceId": 13273,
+                            "Price": 32.95000076293945,
+                            "CcPrice": 33.939998626708984,
+                            "Msrp": 65.9000015258789
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

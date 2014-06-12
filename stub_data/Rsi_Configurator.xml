@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<uniformConfig>
+    <user>
+        <email>jitendra.upadhyay@rsystems.com</email>
+    </user>
+    <orderName>order name</orderName>
+    <retrieveCode />
+    <styleNumber>00024r0</styleNumber>
+    <sport>Football</sport>
+    <designNumber>riddelljersey01</designNumber>
+    <Colors>
+        <PrimaryColorId>9</PrimaryColorId>
+        <SecondaryColorId>16</SecondaryColorId>
+        <TertiaryColorId>16</TertiaryColorId>
+    </Colors>
+    <fabricId>13</fabricId>
+    <fabricDisplayName>BASE Poly-Tuff Mesh w/Poly Lycra Pnt</fabricDisplayName>
+    <matchButtonColorID>9</matchButtonColorID>
+    <matchThreadColorID>9</matchThreadColorID>
+    <matchZipperColorID>9</matchZipperColorID>
+    <gender>Male</gender>
+    <previewUrls>
+        <previewUrl1>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;set=AP1angle[0],APX[1940],APY[8600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1940],APY[9600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1500],APY[8400],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[player name],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_thumbnail.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</previewUrl2>
+        <previewUrl2>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;set=AP1angle[0],APX[1940],APY[8600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1940],APY[9600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1500],APY[8400],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[player name],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_thumbnail.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</previewUrl3>
+        <previewUrl3>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;set=AP1angle[0],APX[1940],APY[8600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1940],APY[9600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1500],APY[8400],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[player name],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_thumbnail.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</previewUrl4>
+    </previewUrls>
+    <uniformConfigVersion />
+    <callType />
+    <topSelected>true</topSelected>
+    <bottomSelected>true</bottomSelected>
+    <playerNumber>23</playerNumber>
+    <playerName>player name</playerName>
+    <teamName>team name</teamName>
+    <player>
+        <seq>1</seq>
+        <name>player name1</name>
+        <number>01</number>
+        <ageCategory>Men</ageCategory>
+        <advUniformType />
+        <top>
+            <size>2XL</size>
+            <quantity>1</quantity>
+            <price>51.95000076293945</price>
+            <skuId>riddelljersey01-00024r0-2XL</skuId>
+            <thumbnailUrl />
+            <productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;set=AP1angle[0],APX[1940],APY[8600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1940],APY[9600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1500],APY[8400],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[player name],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+        </top>
+        <bottom>
+            <size>2XL</size>
+            <quantity>1</quantity>
+            <price>47.95000076293945</price>
+            <skuId>riddelljersey01-00024r0-2XL</skuId>
+            <thumbnailUrl />
+            <productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;set=AP1angle[0],APX[1940],APY[8600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1940],APY[9600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1500],APY[8400],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[player name],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+        </bottom>
+        <playerEmailField />
+    </player>
+    <player>
+        <seq>2</seq>
+        <name>player name2</name>
+        <number>02</number>
+        <ageCategory>Men</ageCategory>
+        <advUniformType />
+        <top>
+            <size>2XL</size>
+            <quantity>1</quantity>
+            <price>51.95000076293945</price>
+            <skuId>riddelljersey01-00024r0-2XL</skuId>
+            <thumbnailUrl />
+            <productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;set=AP1angle[0],APX[1940],APY[8600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1940],APY[9600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1500],APY[8400],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[player name],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+        </top>
+        <bottom>
+            <size>2XL</size>
+            <quantity>1</quantity>
+            <price>47.95000076293945</price>
+            <skuId>riddelljersey01-00024r0-2XL</skuId>
+            <thumbnailUrl />
+            <productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;set=AP1angle[0],APX[1940],APY[8600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1940],APY[9600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1500],APY[8400],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[rsystems/MachineStd],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[player name],FontColorOne[%230A0A0A],FontColorTwo[None],FontColorThree[None]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+        </bottom>
+        <playerEmailField />
+    </player>
+    <proofDataNode />
+</uniformConfig>
+				

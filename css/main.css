@@ -1,0 +1,111 @@
+.jcarousel-clip {
+
+    /*border: 1px solid #dedede;*/
+    width: auto;
+    height: 175px;
+    overflow: hidden;
+    /*padding: 5px 20px;*/
+    background-color: #bfbfbf;
+    /* CSS3 round border and shadow */
+
+}
+.jcarousel-prev-horizontal, .jcarousel-next-horizontal {
+
+    cursor: pointer;
+    height: 175px;
+    position: absolute;
+    top: 0;
+    width: 18px;
+    z-index: 1;
+
+}
+
+.button:active {
+    top: 1px;
+    margin-bottom: 1px;
+    border-bottom-width: 1px;
+    background-color: #F9F9F9;
+    background-image: -moz-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.2));
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0,0,0,0.2)), color-stop(100%, rgba(255,255,255,0.2)));
+    background-image: -webkit-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.2));
+    background-image: -o-linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.2));
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(255,255,255,0.2));
+}
+
+.button.yellow {
+    color: #FFF;
+    text-shadow: 0 -1px rgba(0,0,0,0.15);
+}
+
+.button.yellow {
+    background-color: #FFB515
+}
+
+.button.yellow:hover, .button.yellow:active {
+    background-color: #FFC74F
+}
+
+.styleThumbnailBox {
+    width: 336px;
+    height:168px;	
+}
+
+.styleThumbnailBox ul {
+    list-style-type: none;
+
+    margin:19px 0 0 -38px;
+}
+
+.styleThumbnailBox ul li {
+    display: inline-block;
+    padding:7px  7px ;
+
+}
+
+.styleThumbnailBox ul li.active{
+    display: inline-block;
+    background-color: #ffcc66;
+}
+
+
+
+.designThumbnailBox {
+    width: 336px;
+    height:188px;	
+    /*background-color: red;
+    border:1px solid red;*/
+}
+
+.designThumbnailBox ul {
+    list-style-type: none;
+
+    margin:19px 0 0 -38px;
+}
+
+.designThumbnailBox ul li {
+    display: inline-block;
+    padding:7px  7px ;
+
+}
+
+
+.designThumbnailBox ul li.active{
+    display: inline-block;
+    background-color: #ffcc66;
+}
+.styleAndDesignThumbnail{
+    background-color:#dfddff;
+    border-radius:4px;
+    border: 2px solid #fff;
+    height:63px;
+    width:63px;
+    box-shadow: 0px 2px 4px #555555;
+    cursor:pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -ms-user-select: none;
+    position:relative;
+    behavior: url(pie/PIE.htc);
+}
+/*----------------*/

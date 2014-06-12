@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Iframe </title>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+    <!--[if IE]>
+               <link rel="stylesheet" href="css/fontie8.css" type="text/css" />
+           <![endif]-->
+
+    <!--[if !IE]> -->
+    <link rel="stylesheet" href="css/font.css" type="text/css" />
+    <!-- <![endif]-->
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+
+    
+    <!-- [if IE]>
+            <script>
+            document.createElement("section");
+            </script>
+            <![endif]-->
+    <!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script> <![endif]-->
+
+
+    <!--<script src="http://code.jquery.com/jquery-1.9.1.js"></script>-->
+
+    <script type="text/javascript" src="js/library/jquery-1.9.0.js"></script>
+    <script type="text/javascript" src="js/library/jquery-1.10.3.ui.js"></script>
+
+    <script type="text/javascript" src="js/core/configuration.js"></script>
+    <script type="text/javascript" src="js/core/webservices.js"></script>
+    <script type="text/javascript" src="js/core/utility.js"></script>
+    <script type="text/javascript" src="js/core/communicationhelper.js"></script>
+    <script type="text/javascript" src="js/uibl/session.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+</head>
+<body>
+    <div>
+        <header id="header">
+            <section>
+
+                <section class="logoArea">
+
+                    <a href="http://www.teamworkathletic.com">
+                        <img title="Go to Teamwork Athletic Apparel home" class="fl" src="images/logo.gif" alt="" /></a>
+                    <div style="width: 234px; height: 50px; float: left;">
+
+                        <!-- <div class="welcomeSection">Welcome, <span><b>TAA - Information Service</b></span></div>
+                            <nav class="linkArea" style="margin-right: 28px;">
+                                     <ul style="margin-top: 0;">
+                            <li  >
+                                <a href=""> Your Account</a>
+                            </li>
+                            <li  >
+                                <a href=""> Logout</a>
+                            </li>
+                            <li class="endLinkArea" >
+                                <a href=""> Admin</a>
+                            </li>
+                                                  
+                        </ul>
+                    </nav>-->
+
+
+                    </div>
+
+
+                </section>
+
+                <nav class="linkArea">
+                    <ul>
+
+                        <li class="versionCtrl" id="versionNumber">
+                            <label style="color: #FF0000">Version No:</label><span id="verNum" style="color: #FF0000">1.1.2.1</span>
+                        </li>
+
+
+                        <li>
+                            <a href="#" id="dealerLoginLink">Dealer Login</a>
+                            <section id="secloginArea" class="dealerLogin">
+                                <div>
+                                    <div class="closeButton" id="dvDealerLoginCloseButton"></div>
+                                    <div class="clear"></div>
+                                    <iframe scrolling="no" frameborder="0" name="loginFrame" id="loginFrame" class="loginFrame" src="https://www.teamworkathletic.com/taa/inc/login_form_win.jsp"></iframe>
+                                </div>
+                            </section>
+                        </li>
+                        <li>
+                            <a href="http://www.teamworkathletic.com/taa/contact/contact.jsp" alt="Contact" title="Contact">Contact</a>
+                        </li>
+                        <li>
+                            <a href="http://www.teamworkathletic.com/taa/help/" alt="Help" title="Help">Help</a>
+                        </li>
+                        <li>
+                            <a href="http://www.teamworkathletic.com/taa/contact/contact.jsp" alt="Dealer Locator" title="Dealer Locator">Dealer Locator</a>
+                        </li>
+                        <li class="endLinkArea">
+                            <a href="" onclick="javascript:window.open('http://server.iad.liveperson.net/hc/32520865/?cmd=file&file=visitorWantsToChat&site=32520865&imageUrl=http://server.iad.liveperson.net/hcp/Gallery/ChatButton-Gallery/English/Consulting/3a&referrer=' + escape(document.location), 'chat32520865', 'width=475,height=400,resizable=yes');
+                                        return false;">Live Chat</a>
+                        </li>
+
+
+                    </ul>
+                </nav>
+                <!-- <div class="freeShippingBanner" >banner</div>-->
+                <div class="searchBar">
+                    <!--  <div class="cart fr"><img src="images/cart.png" height="15" width="15" style="margin-right:4px;" />Cart(<span>0</span>)</div> -->
+                </div>
+
+            </section>
+        </header>
+
+        <div style="height: 651px;">
+
+            <iframe id="iframeConfigurator" style="display: none" title="" height="651" width="960" frameborder="0" scrolling="no" src="#"></iframe>
+
+
+        </div>
+        <footer class="footer">
+            <a href="http://www.teamworkathletic.com/taa/aboutus/" title="About Us">About Us</a>
+            |
+                <a href="http://www.teamworkathletic.com/taa/terms-conditions/" title="Terms & Conditions">Terms & Conditions</a>
+            |
+                <a href="http://www.teamworkathletic.com/taa/privacy/" title="Privacy Statement">Privacy Statement</a>
+            |
+                <a href="http://www.teamworkathletic.com/taa/sitemap/" title="Site Map">Site Map</a>
+            |
+                <a class="linffks" href="" id="feedbackLink">Feedback</a>
+            ©2007-2013 Teamwork. All Rights Reserved. Patent Pending
+                <div class="feedbackBox" id="dvFeedBackBox">
+                    <div class="feedbackBoxHeader">
+                        <div class="feedbackBoxTitle">Feedback</div>
+                        <div class="closeButton" id="feedbackCloseButton"></div>
+
+                        <div class="clear"></div>
+                    </div>
+                    <div class="feedbackBoxInside">
+                        <iframe scrolling="no" frameborder="0" name="feedbackFrame" id="feedbackFrame" class="feedbackFrame" src="https://www.teamworkathletic.com/taa/support/feedback.jsp?protocol=http"></iframe>
+                    </div>
+                </div>
+        </footer>
+    </div>
+
+
+
+    <input type="hidden" value="" name="hdRestartLocation" id="hdRestartLocation">
+    <script type="text/javascript" language="javascript">
+
+        jQuery(document).ready(function () {
+            if (CONFIG.get('VERSION') == true) {
+                $('#versionNumber').show();
+                $('#verNum').html("<strong>&nbsp;" + CONFIG.get('VERSION_NUMBER') + "</strong>");
+            } else {
+                $('#versionNumber').hide();
+            }
+
+            var sessionVariable = Utility.getParameterByName('sessionVariable');
+            var isProofAvail = Utility.getParameterByName('isProofAvail');
+            var params = '?r=' + Math.random();
+
+            if (sessionVariable) {
+                params += '&sessionVariable=' + sessionVariable;
+            }
+            if (isProofAvail) {
+                params += '&isProofAvail=' + isProofAvail;
+            }
+            $("#iframeConfigurator").attr('src', getBaseUrl() + 'landingpage.html' + params);
+
+            setTimeout(function () {
+                $("#iframeConfigurator").show();
+            }, 300);
+        });
+
+    </script>
+
+<noscript>
+    <div style="position: fixed; top: 0px; left: 0px; z-index: 3000; 
+                height: 100%; width: 100%; background-color: #FFFFFF">
+        <p style="margin-left: 10px">JavaScript is not enabled.</p>
+    </div>
+</noscript>
+</body>
+</html>

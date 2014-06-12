@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+            <aside id="dvIdListOfSports"><nav id="navSportsList"></nav></aside>
+            <div id="dvSeparatorImg"></div>
+            <div class="backdropImgContainer">
+                <!-- background image -->
+                <a class="buttonNormalBanner" id ="aConfirmationProPopup">
+          No Thanks. I'll Try This New Experience Later
+        </a>
+                <div id="secBackdropImg" class="backdropImg">
+                  <div class="homePageDealerLogoRight" >
+                    <img src=""  />
+                  </div>
+                </div>
+                
+                <!-- Down image -->
+                <section id="secBackdropImgFistLayer" class="backdropImgLayer"  >
+                  <div id="dvBackDropFirstLayerLogoImage" class="homePageDealerLogoRight">
+                    <img src="" />
+                  </div>
+                  <div class="genderSelection" id="sportGenderContainer" >   
+                    <div class="genderHeading" id="dvSportGenderDisplayName"> </div>
+                    <div class="genderList" id="dvSportGenderList"></div>
+                    <div class="gender_box_caption" id="dvSportGenderCaption" style="display:none;"> </div>
+                  </div>
+                </section>
+                <!-- Coming image -->
+                <section id="secBackdropImgSecondLayer" class="backdropImgLayer" >
+                <div class="homePageDealerLogoLeft">
+                  <img src="" id="imgBackDropSecondLayerLogo" />
+                
+                </div></section>
+                <div id="dvClickSportToBegin" style="height:0px;width:330px;position:absolute;bottom:0;z-index:100">
+                <div id="dvInnerClickSportToBegin" style="color:#fff;float:right;z-index:990;font-size:11px;">CLICK ON A SPORT TO BEGIN.</div>
+            </div>            
+    ]]>
+    </content>
+	
+</page>
+  

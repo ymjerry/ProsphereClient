@@ -1,0 +1,19 @@
+{
+    "ResponseType": 1,
+    "ResponseData": {
+        "UserType": "Dealer",
+        "DealerId": "123123",
+        "DealerEmail": "ravi.sharma@rsystems.com",
+        "DealerLogoPath": "../../images/ravi.png",
+        "RetrievalCode": "",
+        "SupportedSports": {
+            "SportsId": "ALL"
+        },
+        "AllowCustomization ": "yes",
+        "WebOrderNumber": "123123123",
+        "AccountNumber": "1985",
+        "SessionVariable": "123",
+        "RedirectURL": "www.google.com",
+        "RedirectURLCancel": "yes"
+    }
+}

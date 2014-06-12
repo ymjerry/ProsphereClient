@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <div class="flatCutContainer" id="dvIdPopupFlatCut" style="display:block; z-index:503; background-color:#fff;margin-top:-45px;height:567px;overflow-y: auto;overflow-x: hidden">
+           <div class="flatCutBtnBox">
+              <div class="left">
+                 <div class="backBtn" id="dvFlatCutBackButton"></div>
+                 <div class="printBtn" id="dvPrintFlatCutBtn" printElementId="printFlatCutInnerBox"></div>
+                 <div class=""></div>
+              </div>
+              <div class="right">
+                 <div class="modifyUniformFlatCut"></div>
+              </div>
+           </div>
+            <div id="dvIdPrintSizeProof">
+            <div id="dvIdPrintFlatCut">
+                <div class="flatCutSizeBox sizeSection" id="dvIdListOfSizes">
+                    <table cellspacing="0" cellpadding="0" border="0" width="100%;">
+                        <tr style="display:none;" id="trIdAdultTop">
+                            <td style="font-weight: bold;width:100px; font-size:12px;">Adult Top</td>
+                            <td style="padding-top:2px;width:"%"><ul id="ulAdultTop" class="sizeProofContainer"></ul></td>
+                        </tr>
+                        <tr style="display:none;" id="trIdAdultBottom">
+                            <td style="font-weight: bold; font-size:12px;width: 100px;">Adult Bottom</td>
+                            <td style="padding-top:2px;width:"%"><ul id="ulAdultBottom" class="sizeProofContainer"></ul></td>
+                        </tr>
+                        <tr style="display:none;" id="trIdYouthTop">
+                            <td style="font-weight: bold;font-size:12px;width: 100px;">Youth Top</td>
+                            <td style="padding-top:2px;width:"%"><ul id="ulYouthTop" class="sizeProofContainer"></ul></td>
+                        </tr>
+                        <tr style="display:none;" id="trIdYouthBottom">
+                            <td style="font-weight: bold;font-size:12px;width: 100px;">Youth Bottom</td>
+                            <td style="padding-top:2px;width:"%"><ul id="ulYouthBottom" class="sizeProofContainer"></ul></td>
+                        </tr>
+
+                    </table>
+                </div>
+                <div class="clear"></div>
+                <div>
+                    <div id="printFlatCutInnerBox" class="flatCut">
+                        <div>
+                            <div id="dvIdImagFaltcut">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flatCutUniformBox" >
+                        <div class="flatCutUniLabel"> UNIFORM EMBELLISHMENTS </div>
+                        <div class="flatCutUniLabelTabel" id="dvflatCutUniLabelTabel">
+                            <table class="tableWidth" cellspacing="0" border="0" >
+                                <tr class="thRow">
+                                    <th width="42"  height="30px" class="thBorder">Type</th>
+                                    <th width="45" class="thBorder">Location</th>
+                                    <th width="45" class="thBorder">Size</th>
+                                    <th width="90" class="thBorder">Font</th>
+                                    <th width="90" class="thBorder">Text</th>
+                                    <th width="60" class="thBorder">Color 1</th>
+                                    <th width="60" class="thBorder">Color 2</th>
+                                    <th width="60" class="thBorder">Color 3</th></tr>
+                            </table>
+                            <div>
+                                <div id="dvIdScrollBar" ></div>
+                                <div id="dvIdEmblishment"></div>
+                            </div>
+                        </div>
+                        <div class="flatCutUniformContent"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+
+    ]]>
+    </content>
+</page>
+  

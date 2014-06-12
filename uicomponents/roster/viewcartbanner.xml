@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <div class="goteamPupupContainer"  id="dvIdViewCartBanner" style="display:block;" background-color:#ccc">
+            <div class="goteamLabel"> Go Team !</div>
+            <div class="goteamContent">
+            Thank you for using the ProSphere Custom Uniform Configurator. Your uniform has now been added to your cart. Please proceed to checkout or “Create an Away Uniform” in contrasting colors.
+            Our speed depends on the speed with which the proofs are approved. If you just approved your design online, or are waiting for the email proof, ProSphere 7 or 14 day manufacturing will start when we receive your approval. 
+            If you have any questions about your order, please contact ProSphere Customer Service at (800) 509-0194.
+            <div class="goteamButtons">
+               <div class="createUniform" id="backToConfigurator"></div>
+               <div class="goShopingCart" id="dvIdGoShoppingCartRedirect"></div>
+        </div>
+    ]]>
+    </content>
+	
+</page>
+  

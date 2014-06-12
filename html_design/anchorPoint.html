@@ -1,0 +1,274 @@
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+	<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link type="text/css" href="../css/style.css" rel="stylesheet">
+		<!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script> <![endif]-->
+
+		<!--
+		jQuery library
+		-->
+		<script type="text/javascript" src="lib/jquery-1.9.1.min.js"></script>
+
+		<script>
+			$(document).ready(function() {
+				$('#color_box').hide();
+				$("#showcolor").click(function() {
+					$("#color_box").show();
+
+				});
+
+				$(".close_div").click(function() {
+					$("#color_box").fadeOut("slow");
+
+				});
+
+			});
+		</script>
+
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<!-------------header------------->
+		<header id="header">
+			<div class="logoArea">
+				<img src="img/logo.gif"/>
+			</div>
+			<nav class="linkArea">
+
+				<ul>
+					<li>
+						<a href="#" alt=""> Dealer Login</a>
+					</li>
+					<li>
+						<a href="#" alt=""> Contact</a>
+					</li>
+					<li>
+						<a href="#" alt=""> Help</a>
+					</li>
+
+					<li>
+						<a href="#" alt=""> Dealer Locator</a>
+					</li>
+					<li class="endLinkArea">
+                            <a href="" onclick="javascript:window.open('http://server.iad.liveperson.net/hc/32520865/?cmd=file&file=visitorWantsToChat&site=32520865&imageUrl=http://server.iad.liveperson.net/hcp/Gallery/ChatButton-Gallery/English/Consulting/3a&referrer=' + escape(document.location), 'chat32520865', 'width=475,height=400,resizable=yes');
+                                    return false;">Live Chat</a>
+                        </li>
+				</ul>
+				<div class="searchBar"></div>
+			</nav>
+
+		</header>
+
+		<!-----------------End Header----------->
+
+		<!-------------------container-------------->
+
+		<div id="container">
+
+			<section id="left_box">
+
+				<div class="leftSideTabBox leftSideDefineImg leftSideTabTxt">
+					DEFINE
+				</div>
+				<div class="leftSideTabBox leftSideDefineImg leftSideTabTxt">
+					CUSTOMIZE
+				</div>
+
+				<Div class="controlBar">
+					<ul>
+						<li>
+							*COLORS
+						</li>
+						<li>
+							*FABRICS
+						</li>
+						<li>
+							EMBLEMS & GRAPHICS
+						</li>
+						<li style="border-right: none;">
+							NUMBER & TEXT
+						</li>
+					</ul>
+
+				</Div>
+				<div id="Configurator_panel">
+					<!-- ------------------Other Text--------------------------->
+
+					<div id="configuratorHeadingBg" >
+						<div class="anchorPointGraphicLabelBox">
+							GRAPHICS
+
+						</div>
+
+					</div>
+
+					<div id="configuratorHeadingBg" >
+						<div class="back_button" id="anchorPointbackButton"></div>
+						<div class="anchorPointLabel">
+							Place Your Graphic
+						</div>
+					</div>
+
+					<!-------------combo box-------------->
+
+					<!--<div class="width160">
+					<a href="" alt="">
+					<div class="comboBox">
+
+					<div class="comboBoxSelectedText"></div>
+
+					</div></a>
+
+					<div class="comboDropdownList">
+					<div class="comboDropdownListText"></div>
+					<div class="comboDropdownListText"></div>
+					<div class="comboDropdownListText"></div>
+
+					</div>
+
+					</div>-->
+
+					<!-------------End combo box-------------->
+
+					<div id="anchorPointBox">
+
+						<section >
+                                                    <div class="fl">
+							<div class="anchorPointDetailinglabel">
+								<label class="anchorPointLabelText marginTop15" >Colors</label>
+								<div class="anchorPointColorBox">
+									<div id="dvIdShowcolorPlayerName " class="fl">
+                                                                            <div class="colorPickerLabel"> Primary <sup></sup> </div>
+                                                                            <div>
+										<a href="#" >
+										<div class="anchorPointSelectionListBox">
+											<div class="anchorPointSelectedColor"></div>
+										</div></a>
+                                                                                </div>
+									</div>
+
+									<div id="dvIdShowcolorPlayerName " class="fl">
+                                                                            <div class="colorPickerLabel"> Secondary <sup></sup></div>
+                                                                            <div>
+										<a href="#" >
+										<div class="anchorPointSelectionListBox">
+											<div class="anchorPointSelectedColor"></div>
+										</div></a>
+                                                                                </div>
+									</div>
+
+									<div id="dvIdShowcolorPlayerName " class="fl">
+                                                                            <div class="colorPickerLabel"> Accent <sup></sup> </div>
+                                                                            <div>
+										<a href="#" >
+										<div class="anchorPointSelectionListBox">
+											<div class="anchorPointSelectedColor"></div>
+										</div></a>
+                                                                                </div>
+									</div>
+								</div>
+								<div class="clear"></div>
+
+								</div>
+									<label class="anchorPointLabelText " >Size</label>
+									<div class="anchorPointColorBox">
+                                                                            
+                                                                            <div class="anchorPointSizeBox">
+                                                                            
+                                                                                    <a href="" alt="" id="aShowFontType">
+                                                                                        <div class="anchorPointSizeSelectionBox">
+                                                                                            <div class="anchorPointSelectedSize">
+                                                                                                3"
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </a>
+
+                                                                                    <div id="dvIdComboDropdown" class="comboDropdownList">
+                                                                                            <div class="anchorPointDropdownListText"></div>
+                                                                                            <div class="anchorPointDropdownListText"></div>
+                                                                                            <div class="anchorPointDropdownListText"></div>
+                                                                                    </div>
+
+                                                                                
+                                                                            <div class="fl"><input type="checkbox" name="" value=""></div>
+                                                                            <div class="anchorPointSizeDiscription">
+                                                                                            Same dimensions on all size uniforms.
+											
+										</div>
+                                                                            <div ></div>
+                                                                            
+                                                                            
+                                                                            </div>
+						
+									</div>
+								</div>
+							</div>
+
+							<div class="anchorPointGraphicImg">
+								<img src=""></img>
+							</div>
+							<div class="clear"></div>
+                                                        
+                                                        <div class="anchorPointSelectionLabel">SELECT ANCHOR POINT BELOW TO EDIT</div>
+                                                        <div class="anchorApplyBox">
+
+                                                            <div class="anchorPoint"></div>
+
+                                                            </div>
+
+						</section>
+                                            
+                                            
+                                            
+
+						
+
+						
+						
+
+						<div class="clear">
+
+						</div>
+					</div>
+					<!-- ------------------End Other Text--------------------------->
+				</div>
+
+			</section>
+
+			<!--------------------------------------------------------------------------------------------
+			End Left section
+			------------------------------------------------------------------------------------------->
+
+			
+			<!-------------------------------------------------------------------------------------------
+			End center section
+			------------------------------------------------------------------------------------------->
+
+			
+
+
+			<!-------------------------------------------------------------------------------------------
+			End right section
+			------------------------------------------------------------------------------------------->
+
+		</div>
+
+
+	</body>
+</html>

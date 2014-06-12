@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<content>
+   <![CDATA[
+      <div class="prospherePlusPopup" id ="dvprospherePlusPopup">
+            <div style=' margin:5px 0;'>
+                <img src="images/ProSphere_Plus_logo.png" class="logo"/>
+                <span class="heading">
+                    Information Request
+                </span>
+                <a class="closeProspherePlus" id="dvcloseImg">
+                  <!--<img src="images/psPlusClose.png"  />-->
+                </a>
+
+            </div>
+            <div id="dvContainer" class="container">
+      
+            
+             <h3>Benefits of Using ProSphere Plus:</h3>
+            
+               <div id="dvBenifits"> 
+                </div>
+       
+            
+               
+                  <div class="fr fontSize12"><a  id="dvliveChatProspherePlus" class="popuplink"  >Live Chat</a>&nbsp;&nbsp;<span id="spLiveChatNumber"></span></div><div class="fl"><h3>For more information:</h3></div> 
+                <div style="clear:both;" class="height"> </div>
+                 <div class="form" id="dvPropPlusform">
+                     <p> <span class="errorMessage" id="spNameError"></span>
+                    <p><label id="lblName">Name:</label>
+                        <input type="text" maxlength="50" id="txtNameProPlus" ></p>
+                    
+                    <p> <span class="errorMessage" id="spEmailInfoError"></span>
+                        <label id="lblEmailInfo">Email Address:</label>                    
+                        <input type="text" id="txtEmailProPlus"maxlength="100" ></p>
+						<p><span class="errorMessage" id="spContactInfoError"></span>
+                        <label id="lblContactInfo">Phone Number:</label>                   
+                        <input type="text" id="txtContactProPlus" maxlength="15" style="width:120px; margin-right:185px;"></p>
+						<p><span class="errorMessage" id="spAccountInfoError"></span>
+                        <label id="lblAccountInfo">Account Number:</label>                   
+                        <input type="text" id="txtAccountProPlus" maxlength="10" style="width:53px;margin-right:252px;"></p>
+                    <p> <span class="errorMessage" id="spMsgError"></span>
+                    <p> <label id="lblMsgInfo">Message:</label>
+                   
+                    <textarea id="txtMSGProPlus" maxlength="255" onchange="Utility.handleLengthLimit(CONFIG.get('PRO_PLUS_MESSAGE_LIMIT_COUNT'), this);GlobalInstance.dualLaunchInstance.updateMaximumLimitMessage(CONFIG.get('PRO_PLUS_MESSAGE_LIMIT_COUNT'),this);" onkeyup="Utility.handleLengthLimit(CONFIG.get('PRO_PLUS_MESSAGE_LIMIT_COUNT'), this);GlobalInstance.dualLaunchInstance.updateMaximumLimitMessage(CONFIG.get('PRO_PLUS_MESSAGE_LIMIT_COUNT'),this);" placeholder="Tell us more details of what you'd like your design to look like.">
+                         
+</textarea>                  
+</p>
+<div style="clear:both;"> </div>
+
+                        <div id="dvMsgRemainingCount" class="fl" style="margin: 0 0 8px 0;font-size: 13px;margin-left: 140px;"></div>
+
+                    <p>
+                        <a class="sendMessageButton" id="aSendMsgProPlus">Send Request</a>
+                    </p>
+                    <div style="clear:both;"> </div>
+
+                   <div style=" text-align: right; margin-top: 6px;  ">
+                        <div class="displayInline"  >
+                            <a href="" class="popuplink" id="aPinterestTextLink" target="_blank">View some of our ProSphere Plus custom designs</a>
+                        </div>
+                        <div class="displayInline" style="vertical-align: middle;">
+                            <a href="" id='aPinterest' class="pin" target="_blank"></a>
+                        </div>
+                    </div>
+                   <div class="messageConformation" id="dvMsgConfirmationProPlusPopup">
+                       
+                    </div>
+
+
+
+                </div>
+
+            </div>
+        </div>
+   
+       ]]>
+</content>

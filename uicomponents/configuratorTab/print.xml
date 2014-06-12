@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <div class="printDocumentBox" id="dvIdPrintpopup" style="display:none; z-index:501; background-image: url(images/proof_bgrnd.png);">
+           <div class="printContentBox" >
+              <div class="close" id="dvIdPrintClose"></div>
+              <section class="header">
+                 <div class="headerBtnBox">
+                    <div id="dvSendToPrinterTop" printElementId="printInnerContentBox" alt="Print Image" title="Print Image" class="sendToPrinter"></div>
+                 </div>
+              </section>
+              <div class="headerBanner"></div>
+              <div style="overflow-y:scroll; overflow-x:hidden; height:450px; ">
+                 <div id="printInnerContentBox">
+                    <!--<div class="proofLabel"> Print </div>-->
+                    <img src="images/printSectionHeading.png" alt="" />
+                    <section class="secProof">
+                       <div class="secBox" id="idsecBoxPrint">
+                          <div class="modelImgBox" id="idModelImgBox">
+                             <div class="proofModelLeftImg" id="dvIdFrontModelPreviewForPrint">  </div>
+                             <div class="proofModelRightImg"> </div>
+                          </div>
+                          <div class="modelImgBox">
+                             <div class="proofModelLeftImg"> </div>
+                             <div class="proofModelRightImg">  </div>
+                          </div>
+                       </div>
+                    </section>
+                    <div id="PrintBanner"></div>
+                    <section class="secUniformDescription">
+                       <!--<div class="proofLabel"> uniform description </div>-->
+                       <img src="images/udSectionHeading.png" alt="" />
+                       <div class="uniformDescriptionSecBox">
+                          <div class="descriptionBox1">
+                             <div class="uniformDescriptionList">
+                                <div class="DescriptionListLeft">
+                                   <div class="container">
+                                      <table width="620" border="0" cellspacing="0" cellpadding="0" >
+                                         <tr>
+                                            <td class="listLabel listLabelwidth" align="right"> Selected Cut(s):</td>
+                                            <td width="%" class="listDescription" id="tdSelectedCutForPrint" >TOP-JERSEY W/NO FLY PANT
+                                               BOTTOM-MEN'S NO FLY PANT 
+                                            </td>
+                                            <td width="160" rowspan="5" class="listLabel" style="float:none;">Selected Fabric:</td>
+                                            <td width="250" rowspan="5" >
+                                               <div class="" style="text-align:center;" id="dvIdSelectedFabricForPrint">
+                                                  <div class="selectedSampleFabricshow" > abc</div>
+                                               </div>
+                                               <div class="premiumLabel" id="fabricDescriptionPrint"> 
+                                                  ULTRA Steel Stretch
+                                               </div>
+                                            </td>
+                                         </tr>
+                                         <tr>
+                                            <td class="listLabel" align="right"> Design Name:</td>
+                                            <td  class="listDescription" id="selectedDesignNameForPrint"> Battletest</td>
+                                            
+                                         </tr>
+                                         <tr>
+                                            <td  class="listLabel" align="right"> Primary Color:</td>
+                                            <td  class="listDescription" id="primaryColorForPrint"></td>
+                                            
+                                         </tr>
+                                         <tr>
+                                            <td  class="listLabel" align="right"> Secondary Color:</td>
+                                            <td  class="listDescription" id="secondaryColorForPrint"> </td>
+                                            
+                                         </tr>
+                                         <tr>
+                                            <td  class="listLabel" align="right"> Accent Color: </td>
+                                            <td  class="listDescription" id="tirtiaryColorForPrint"> </td>
+                                            
+                                            
+                                         </tr>
+                                         <tr>
+                                      <td class="listLabel" style="width:122px;" align="right">Color Identification:</td>
+                                      <td id="tdIdTirtiaryColorForPrint" class="listDescription">
+                                         <table border="0" style="background-color:" width="180" cellpadding="0" cellspacing="0">
+                                            <tbody><tr>
+                                               <td width="20" align="left">
+                                                  <div class="circlePrimary"></div>
+                                               </td>
+                                               <td align="left">
+                                                  <div id="dvIdPrimaryColorForPrintIdentification"></div>
+                                               </td>
+                                            </tr>
+                                            <tr>
+                                               <td align="left">
+                                                  <div class="circleSecondary"></div>
+                                               </td>
+                                               <td align="left">
+                                                  <div id="dvIdSecondryColorForPrintIdentification"></div>
+                                               </td>
+                                            </tr>
+                                            <tr>
+                                               <td align="left">
+                                                  <div class="circleTirtiary"></div>
+                                               </td>
+                                               <td align="left">
+                                                  <div id="dvIdTirtiaryColorForPrintIdentification"></div>
+                                               </td>
+                                            </tr>
+                                         </tbody></table>
+                                      </td>
+                                      <td> </td>
+                                      <td> </td>
+                                   </tr>
+                                      </table>
+                                      <!--
+                                         <div class="textColor">Selected Cut(s):</div> 
+                                           <div class="Result"> TOP-JERSEY W/NO FLY PANT <br/>
+                                         BOTTOM-MEN'S NO FLY PANT</div> 
+
+                                         </div> 
+
+
+                                         <div class="container">
+
+                                         <div class="textColor">Design Name:</div> 
+                                           <div class="Result" id="selectedDesignNameForPrint"> Battletest</div> 
+
+                                         </div>       
+
+
+                                         <div class="container">
+
+                                         <div class="textColor">Primary Color:</div> 
+                                           <div class="Result" id="primaryColorForPrint"> Yellow</div> 
+
+                                         </div> 
+
+
+                                         <div class="container">
+
+                                         <div class="textColor"> Secondary Color: </div> 
+                                           <div class="Result" id="secondaryColorForPrint"> Scarlet</div> 
+
+                                         </div> 
+
+                                         <div class="container">
+
+                                         <div class="textColor"> Accent Color:  </div> 
+                                           <div class="Result" id="tirtiaryColorForPrint"> Columbia Blue</div> 
+
+                                         </div> 
+
+                                         -->
+                                      <div class="container">
+                                      </div>
+                                   </div>
+                                   <!-- <div class="listSelectedFabricPrint">
+                                      <div class="listLabelPrint" >Selected Fabric:</div>
+                                      <div class="" id="dvIdSelectedFabricForPrint"> 
+                                               <div class="selectedSampleFabricshow"> abc</div>
+                                           </div>
+                                               <div class="premiumLabel" id="fabricDescriptionPrint"> 
+                                           ULTRA Steel Stretch
+                                           </div>
+                                           -->
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                    </section>
+                    <br />
+                    <section class="teamRoster">
+                       <!--<div class="proofLabel"> UNIFORM EMBLISHMENTS </div>-->
+                       <img src="images/uniformembSectionHeading.png" alt="" />
+                       <div class="teamRosterTableBox">
+                          <div   class="teamRosterTable" id="dvPrintUniformEmbleshilemt" style="margin: 0 10px; ">
+                            <table class="tableWidth" cellspacing="0" border="0" width="100%">
+                                <tr class="thRow">
+                                  <th width="%" class="thBorder">Type</th>
+                                   <th width="100" class="thBorder">Location</th>
+                                   <th width="70" class="thBorder">Size</th>
+                                   <th width="70" class="thBorder">Font</th>
+                                   <th width="70" class="thBorder">Text</th>
+                                   <th width="70" class="thBorder">Color 1</th>
+                                   <th width="70" class="thBorder">Color 2</th>
+                                   <th width="70" class="thBorder">Color 3</th>
+                            </table>
+                            <div id="dvIdPrintEmblishMentInfo">
+                            </div>
+                          </div>
+                          <div class="colorIdentificationBox"></div>
+                       </div>
+                    </section>
+                    <br />
+                    <section class="teamRoster">
+                       <!--<div class="proofLabel"> COLOR IDENTIFICATION </div>-->
+                       <img src="images/ciSectionHeading.png" alt="" />
+                       <div class="teamRostercolorIdentificationBox">
+                          <div class="colorIdentificationBox" id="dvIdPrintColorsIdenfication">
+                             <div class="colorIdentification">
+                             </div>
+                          </div>
+                          <div style="clear:both;"></div>
+                       </div>
+                    </section>
+                    <br />
+                    <section class="teamRoster">
+                       <!--<div class="proofLabel"> team Roster </div>-->
+                       <img src="images/trSectionHeading.png" alt="" />
+                       <div class="teamRosterTableBox">
+                          <div class="teamRosterTable" id="dvTeamRosterInfoOnPrint">
+                             <table cellspacing="0" cellpadding="5" class="rosterTable" border="0">
+                                <tr class="rosterTableLabel">
+                                   <td colspan="7"> Name of this Order: 321 Safed </td>
+                                </tr>
+                                <tr class="rosterTableHeader">
+                                   <td  bgcolor="#323232" colspan="3"  class="teamroster" >PLAYER sarab INFORMATION</td>
+                                   <td colspan="2"  bgcolor="#323232" class="teamroster">TOP</td>
+                                   <td colspan="2"  bgcolor="#323232" class="teamroster">BOTTOM</td>
+                                </tr>
+                                <tr class="rosterTableHeader">
+                                   <td>Name</td>
+                                   <td>#</td>
+                                   <td>Category</td>
+                                   <td>Qty</td>
+                                   <td>Size</td>
+                                   <td>Qty</td>
+                                   <td>Size</td>
+                                </tr>
+                                <tr class="rosterTableWhiteRow">
+                                   <td height="30">a</td>
+                                   <td>b</td>
+                                   <td>c</td>
+                                   <td>d</td>
+                                   <td>e</td>
+                                   <td>f</td>
+                                   <td>g</td>
+                                </tr>
+                                <tr class="rosterTableGreyRow">
+                                   <td height="30">a</td>
+                                   <td>b</td>
+                                   <td>c</td>
+                                   <td>d</td>
+                                   <td>e</td>
+                                   <td>f</td>
+                                   <td>g</td>
+                                </tr>
+                                <tr class="rosterTableWhiteRow">
+                                   <td height="30">a</td>
+                                   <td>b</td>
+                                   <td>c</td>
+                                   <td>d</td>
+                                   <td>e</td>
+                                   <td>f</td>
+                                   <td>g</td>
+                                </tr>
+                                <tr class="rosterTableGreyRow">
+                                   <td height="30">a</td>
+                                   <td>b</td>
+                                   <td>c</td>
+                                   <td>d</td>
+                                   <td>e</td>
+                                   <td>f</td>
+                                   <td>g</td>
+                                </tr>
+                                <tr class="rosterTableWhiteRow">
+                                   <td height="30">a</td>
+                                   <td>b</td>
+                                   <td>c</td>
+                                   <td>d</td>
+                                   <td>e</td>
+                                   <td>f</td>
+                                   <td>g</td>
+                                </tr>
+                                <tr class="rosterTableGreyRow">
+                                   <td height="30">a</td>
+                                   <td>b</td>
+                                   <td>c</td>
+                                   <td>d</td>
+                                   <td>e</td>
+                                   <td>f</td>
+                                   <td>g</td>
+                                </tr>
+                                <tr class="rosterTableGreyRowPrint">
+                                   <td height="25"></td>
+                                   <td></td>
+                                   <td>Subtotals</td>
+                                   <td></td>
+                                   <td>0</td>
+                                   <td></td>
+                                   <td>0</td>
+                                </tr>
+                             </table>
+                          </div>
+                       </div>
+                       <div class="printCopyright">&copy; Teamwork All Rights Received.</div>
+                    </section>
+                    <section class="header">
+                       <div class="headerBtnBox">
+                          <div id="dvSendToPrinterBottom" printElementId="printInnerContentBox" alt="Print Image" title="Print Image" class="sendToPrinter"></div>
+                          <br/>
+                       </div>
+                    </section>
+                 </div>
+              </div>
+           </div>
+        </div>
+
+
+    ]]>
+    </content>
+</page>
+  

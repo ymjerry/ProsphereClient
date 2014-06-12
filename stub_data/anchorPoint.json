@@ -1,0 +1,331 @@
+{
+    "ResponseType": 1,
+    "ResponseData": [
+        {
+            "GenderId": 2,
+            "GenderName": "Male",
+            "Sizes": [
+                {
+                    "SizeId": 1027,
+                    "Name": "S (34-36)",
+                    "SizeNumber": "S",
+                    "AnchorPoints": [
+                        {
+                            "AnchorPointId": 740880,
+                            "StyleDesignId": 740880,
+                            "SizeId": 1027,
+                            "DisplayOrder": 19,
+                            "Name": "TopFront",
+                            "Hidden": false,
+                            "ContentId": 1,
+                            "PreviewImageId": 1030,
+                            "PreviewImageName": "front",
+                            "X": 2260,
+                            "Y": 1000,
+                            "Width": 1000,
+                            "Height": 1000,
+                            "Rotation": 270,
+                            "AnchorOriginId": 1,
+                            "Mask": "",
+                            "RelationshipId": 1,
+                            "RelationSpace": "9999",
+                            "RelativeAnchor": "9999",
+                            "MirrorCapability": true,
+                            "DisableScaling": true,
+                            "AnchorDiagramX": 0,
+                            "AnchorDiagramY": 0,
+                            "ZoomAnchorDiagramX": 100,
+                            "ZoomAnchorDiagramY": 200,
+                            "AllowText": false,
+                            "AllowGraphics": true,
+                            "AllowUploadedGraphics": true,
+                            "AllowEmblems": false,
+                            "AllowPlayerName": true,
+                            "AllowPlayerNumber": true,
+                            "OriginName": "North-Center",
+                            "ContentName": "None",
+                            "AnchorDiagram": "/ASSETS/tiles/anchorUI/baseball/00001/anchor_00001.png",
+                            "ZoomAnchorDiagram": "/ASSETS/tiles/anchorUI/baseball/00001/anchor_00001_topfront.png",
+                            "GraphicSizes": [
+                                {
+                                    "Name": "1 inch",
+                                    "id": 10001,
+                                    "width": "200",
+                                    "Height": "200"
+                                },
+                                {
+                                    "Name": "2 inch",
+                                    "id": 10002,
+                                    "width": "300",
+                                    "Height": "300"
+                                }
+                            ],
+                            "EmblemsSizes": [
+                                {
+                                    "Name": "1 inch",
+                                    "id": 10001,
+                                    "width": "200",
+                                    "Height": "200"
+                                },
+                                {
+                                    "Name": "2 inch",
+                                    "id": 10002,
+                                    "width": "300",
+                                    "Height": "300"
+                                }
+                            ],
+                            "UploadedGraphicsSizes": [
+                                {
+                                    "Name": "1 inch",
+                                    "id": 10001,
+                                    "width": "200",
+                                    "Height": "200"
+                                },
+                                {
+                                    "Name": "2 inch",
+                                    "id": 10002,
+                                    "width": "300",
+                                    "Height": "300"
+                                }
+                            ],
+                            "PlayerNameSizes": [
+                                {
+                                    "Name": "3 inch",
+                                    "id": 10004,
+                                    "width": "900",
+                                    "Height": "200",
+                                    "TextBoxWidth": "900",
+                                    "TextBoxHeight": "200",
+                                    "FontSize": "210",
+                                    "StrokeWidth01": "8",
+                                    "StrokeWidth02": "18",
+                                    "CharacterLimit": "None"
+                                },
+                                {
+                                    "Name": "4 inch",
+                                    "id": 10005,
+                                    "width": "900",
+                                    "Height": "200",
+                                    "TextBoxWidth": "900",
+                                    "TextBoxHeight": "200",
+                                    "FontSize": "210",
+                                    "StrokeWidth01": "8",
+                                    "StrokeWidth02": "18",
+                                    "CharacterLimit": "None"
+                                }
+                            ],
+                            "PlayerNumberSizes": [
+                                {
+                                    "Name": "5 inch",
+                                    "id": 10006,
+                                    "width": "900",
+                                    "Height": "200",
+                                    "TextBoxWidth": "900",
+                                    "TextBoxHeight": "200",
+                                    "FontSize": "210",
+                                    "StrokeWidth01": "8",
+                                    "StrokeWidth02": "18",
+                                    "CharacterLimit": "None"
+                                },
+                                {
+                                    "Name": "6 inch",
+                                    "id": 10007,
+                                    "width": "900",
+                                    "Height": "200",
+                                    "TextBoxWidth": "900",
+                                    "TextBoxHeight": "200",
+                                    "FontSize": "210",
+                                    "StrokeWidth01": "8",
+                                    "StrokeWidth02": "18",
+                                    "CharacterLimit": "None"
+                                }
+                            ],
+                            "TextSizes": [
+                                {
+                                    "Name": "5 inch",
+                                    "id": 10006,
+                                    "width": "900",
+                                    "Height": "200",
+                                    "TextBoxWidth": "900",
+                                    "TextBoxHeight": "200",
+                                    "FontSize": "210",
+                                    "StrokeWidth01": "8",
+                                    "StrokeWidth02": "18",
+                                    "CharacterLimit": "None"
+                                },
+                                {
+                                    "Name": "6 inch",
+                                    "id": 10007,
+                                    "width": "900",
+                                    "Height": "200",
+                                    "TextBoxWidth": "900",
+                                    "TextBoxHeight": "200",
+                                    "FontSize": "210",
+                                    "StrokeWidth01": "8",
+                                    "StrokeWidth02": "18",
+                                    "CharacterLimit": "None"
+                                }
+                            ]
+                        },
+                        {
+                            "AnchorPointId": 740616,
+                            "StyleDesignId": 740616,
+                            "SizeId": 1027,
+                            "DisplayOrder": 9,
+                            "Name": "BottomFront",
+                            "Hidden": false,
+                            "ContentId": 1,
+                            "PreviewImageId": 1029,
+                            "PreviewImageName": "front",
+                            "X": 29,
+                            "Y": 11,
+                            "Width": 12,
+                            "Height": 4,
+                            "Rotation": 270,
+                            "AnchorOriginId": 1,
+                            "Mask": "mask_00001_s_left",
+                            "RelationshipId": 1,
+                            "RelationSpace": "9999",
+                            "MirrorCapability": false,
+                            "DisableScaling": true,
+                            "AnchorDiagramX": 100,
+                            "AnchorDiagramY": 100,
+                            "ZoomAnchorDiagramX": 100,
+                            "ZoomAnchorDiagramY": 150,
+                            "AllowText": true,
+                            "AllowGraphics": true,
+                            "AllowUploadedGraphics": true,
+                            "AllowEmblems": true,
+                            "AllowPlayerName": true,
+                            "AllowPlayerNumber": true,
+                            "OriginName": "North-Center",
+                            "ContentName": "None",
+                            "AnchorDiagram": "/ASSETS/tiles/anchorUI/baseball/00001/anchor_00001.png",
+                            "ZoomAnchorDiagram": "/ASSETS/tiles/anchorUI/baseball/00001/anchor_00001_topfront.png",
+                            "GraphicSizes": [
+                                {
+                                    "Name": "1 inch",
+                                    "id": 10001,
+                                    "width": "200",
+                                    "Height": "200"
+                                },
+                                {
+                                    "Name": "2 inch",
+                                    "id": 10002,
+                                    "width": "300",
+                                    "Height": "300"
+                                }
+                            ],
+                            "EmblemsSizes": [
+                                {
+                                    "Name": "1 inch",
+                                    "id": 10001,
+                                    "width": "200",
+                                    "Height": "200"
+                                },
+                                {
+                                    "Name": "2 inch",
+                                    "id": 10002,
+                                    "width": "300",
+                                    "Height": "300"
+                                }
+                            ],
+                            "UploadedGraphicsSizes": [
+                                {
+                                    "Name": "1 inch",
+                                    "id": 10001,
+                                    "width": "200",
+                                    "Height": "200"
+                                },
+                                {
+                                    "Name": "2 inch",
+                                    "id": 10002,
+                                    "width": "300",
+                                    "Height": "300"
+                                }
+                            ],
+                            "PlayerNameSizes": [
+                                {
+                                    "Name": "3 inch",
+                                    "id": 10004,
+                                    "width": "900",
+                                    "Height": "200",
+                                    "TextBoxWidth": "900",
+                                    "TextBoxHeight": "200",
+                                    "FontSize": "210",
+                                    "StrokeWidth01": "8",
+                                    "StrokeWidth02": "18",
+                                    "CharacterLimit": "None"
+                                },
+                                {
+                                    "Name": "4 inch",
+                                    "id": 10005,
+                                    "width": "900",
+                                    "Height": "200",
+                                    "TextBoxWidth": "900",
+                                    "TextBoxHeight": "200",
+                                    "FontSize": "210",
+                                    "StrokeWidth01": "8",
+                                    "StrokeWidth02": "18",
+                                    "CharacterLimit": "None"
+                                }
+                            ],
+                            "PlayerNumberSizes": [
+                                {
+                                    "Name": "5 inch",
+                                    "id": 10006,
+                                    "width": "900",
+                                    "Height": "200",
+                                    "TextBoxWidth": "900",
+                                    "TextBoxHeight": "200",
+                                    "FontSize": "210",
+                                    "StrokeWidth01": "8",
+                                    "StrokeWidth02": "18",
+                                    "CharacterLimit": "None"
+                                },
+                                {
+                                    "Name": "6 inch",
+                                    "id": 10007,
+                                    "width": "900",
+                                    "Height": "200",
+                                    "TextBoxWidth": "900",
+                                    "TextBoxHeight": "200",
+                                    "FontSize": "210",
+                                    "StrokeWidth01": "8",
+                                    "StrokeWidth02": "18",
+                                    "CharacterLimit": "None"
+                                }
+                            ],
+                            "TextSizes": [
+                                {
+                                    "Name": "5 inch",
+                                    "id": 10006,
+                                    "width": "900",
+                                    "Height": "200",
+                                    "TextBoxWidth": "900",
+                                    "TextBoxHeight": "200",
+                                    "FontSize": "210",
+                                    "StrokeWidth01": "8",
+                                    "StrokeWidth02": "18",
+                                    "CharacterLimit": "None"
+                                },
+                                {
+                                    "Name": "6 inch",
+                                    "id": 10007,
+                                    "width": "900",
+                                    "Height": "200",
+                                    "TextBoxWidth": "900",
+                                    "TextBoxHeight": "200",
+                                    "FontSize": "210",
+                                    "StrokeWidth01": "8",
+                                    "StrokeWidth02": "18",
+                                    "CharacterLimit": "None"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

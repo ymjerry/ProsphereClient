@@ -1,0 +1,912 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+	<ResponseType>1</ResponseType>
+	<ResponseData>
+		<UniformId>27</UniformId>
+		<RetrievalCode>RC10EBF802C3</RetrievalCode>
+		<OrderName>order name</OrderName>
+		<SaveDate>2013-10-29T16:55:44.403</SaveDate>
+		<CategoryId>2</CategoryId>
+		<TopAvailable>true</TopAvailable>
+		<BottomAvailable>false</BottomAvailable>
+		<PantAvailable>false</PantAvailable>
+		<UserId>0</UserId>
+		<UniformConfiguration>
+			<uniformConfig>
+				<User>
+					<email>myemail@test.com</email>
+					<fromEmail>myemail@test.com</fromEmail>
+					<sendToEmail>tomail@test.com</sendToEmail>
+				</User>
+				<OrderName>order name</OrderName>
+				<RetrieveCode>RCEE3B6B94DB</RetrieveCode>
+				<CallType />
+				<TopSelected />
+				<BottomSelected />
+				<SessionVariable />
+				<WebOrderNumber />
+				<AccountNumber />
+				<StyleNumber>00004</StyleNumber>
+				<DesignNumber>bullpen</DesignNumber>
+				<Color>
+					<uniformPrimaryColor>
+						<ColorId>9</ColorId>
+						<Name>Maroon</Name>
+						<Red>102</Red>
+						<Green>0</Green>
+						<Blue>51</Blue>
+						<RgbHexadecimal>#660033</RgbHexadecimal>
+						<Cyan>29</Cyan>
+						<Magenta>100</Magenta>
+						<Yellow>44</Yellow>
+						<Black>79</Black>
+						<CmykHexadecimal>#642C4F</CmykHexadecimal>
+						<Pantone />
+						<MatchingThreadColorId>9</MatchingThreadColorId>
+						<MatchingButtonColorId>9</MatchingButtonColorId>
+						<MatchingZipperColorId>9</MatchingZipperColorId>
+						<CmykCmyk>true</CmykCmyk>
+						<CmykCmykFluor>false</CmykCmykFluor>
+						<CustomerId>0</CustomerId>
+						<DisplayOrder>8</DisplayOrder>
+					</uniformPrimaryColor>
+					<uniformSecondaryColor>
+						<ColorId>16</ColorId>
+						<Name>Columbia Blue</Name>
+						<Red>165</Red>
+						<Green>190</Green>
+						<Blue>230</Blue>
+						<RgbHexadecimal>#A5BEE6</RgbHexadecimal>
+						<Cyan>45</Cyan>
+						<Magenta>20</Magenta>
+						<Yellow>15</Yellow>
+						<Black>0</Black>
+						<CmykHexadecimal>#140F00</CmykHexadecimal>
+						<Pantone />
+						<MatchingThreadColorId>16</MatchingThreadColorId>
+						<MatchingButtonColorId>16</MatchingButtonColorId>
+						<MatchingZipperColorId>16</MatchingZipperColorId>
+						<CmykCmyk>true</CmykCmyk>
+						<CmykCmykFluor>false</CmykCmykFluor>
+						<CustomerId>0</CustomerId>
+						<DisplayOrder>20</DisplayOrder>
+					</uniformSecondaryColor>
+					<uniformTertiaryColor>
+						<ColorId>16</ColorId>
+						<Name>Columbia Blue</Name>
+						<Red>165</Red>
+						<Green>190</Green>
+						<Blue>230</Blue>
+						<RgbHexadecimal>#A5BEE6</RgbHexadecimal>
+						<Cyan>45</Cyan>
+						<Magenta>20</Magenta>
+						<Yellow>15</Yellow>
+						<Black>0</Black>
+						<CmykHexadecimal>#140F00</CmykHexadecimal>
+						<Pantone />
+						<MatchingThreadColorId>16</MatchingThreadColorId>
+						<MatchingButtonColorId>16</MatchingButtonColorId>
+						<MatchingZipperColorId>16</MatchingZipperColorId>
+						<CmykCmyk>true</CmykCmyk>
+						<CmykCmykFluor>false</CmykCmykFluor>
+						<CustomerId>0</CustomerId>
+						<DisplayOrder>20</DisplayOrder>
+					</uniformTertiaryColor>
+				</Color>
+				<FabricId>3</FabricId>
+				<FabricDisplayName>PREMIUM Cool Mesh Polyester</FabricDisplayName>
+				<Gender>Male</Gender>
+				<PreviewFrontUrl />
+				<PreviewLeftUrl />
+				<PreviewBackUrl />
+				<PreviewRightUrl />
+				<uniformConfigVersion />
+				<PlayerNumber>
+					<font>
+						<fileloc>rsystems/RevueStdTEST</fileloc>
+						<displayname>Collegiate</displayname>
+					</font>
+					<fontColor>
+						<ColorId>4</ColorId>
+						<Name>Black</Name>
+						<Red>10</Red>
+						<Green>10</Green>
+						<Blue>10</Blue>
+						<RgbHexadecimal>#0A0A0A</RgbHexadecimal>
+						<Cyan>70</Cyan>
+						<Magenta>55</Magenta>
+						<Yellow>55</Yellow>
+						<Black>100</Black>
+						<CmykHexadecimal>#373764</CmykHexadecimal>
+						<Pantone />
+						<MatchingThreadColorId>4</MatchingThreadColorId>
+						<MatchingButtonColorId>4</MatchingButtonColorId>
+						<MatchingZipperColorId>4</MatchingZipperColorId>
+						<CmykCmyk>true</CmykCmyk>
+						<CmykCmykFluor>false</CmykCmykFluor>
+						<CustomerId>0</CustomerId>
+						<DisplayOrder>1</DisplayOrder>
+					</fontColor>
+				</PlayerNumber>
+				<PlayerName>
+					<font>
+						<fileloc>rsystems/RevueStdTEST</fileloc>
+						<displayname>Collegiate</displayname>
+					</font>
+					<fontColor>
+						<ColorId>4</ColorId>
+						<Name>Black</Name>
+						<Red>10</Red>
+						<Green>10</Green>
+						<Blue>10</Blue>
+						<RgbHexadecimal>#0A0A0A</RgbHexadecimal>
+						<Cyan>70</Cyan>
+						<Magenta>55</Magenta>
+						<Yellow>55</Yellow>
+						<Black>100</Black>
+						<CmykHexadecimal>#373764</CmykHexadecimal>
+						<Pantone />
+						<MatchingThreadColorId>4</MatchingThreadColorId>
+						<MatchingButtonColorId>4</MatchingButtonColorId>
+						<MatchingZipperColorId>4</MatchingZipperColorId>
+						<CmykCmyk>true</CmykCmyk>
+						<CmykCmykFluor>false</CmykCmykFluor>
+						<CustomerId>0</CustomerId>
+						<DisplayOrder>1</DisplayOrder>
+					</fontColor>
+				</PlayerName>
+				<TeamName>
+					<fontColor>
+						<ColorId>4</ColorId>
+						<Name>Black</Name>
+						<Red>10</Red>
+						<Green>10</Green>
+						<Blue>10</Blue>
+						<RgbHexadecimal>#0A0A0A</RgbHexadecimal>
+						<Cyan>70</Cyan>
+						<Magenta>55</Magenta>
+						<Yellow>55</Yellow>
+						<Black>100</Black>
+						<CmykHexadecimal>#373764</CmykHexadecimal>
+						<Pantone />
+						<MatchingThreadColorId>4</MatchingThreadColorId>
+						<MatchingButtonColorId>4</MatchingButtonColorId>
+						<MatchingZipperColorId>4</MatchingZipperColorId>
+						<CmykCmyk>true</CmykCmyk>
+						<CmykCmykFluor>false</CmykCmykFluor>
+						<CustomerId>0</CustomerId>
+						<DisplayOrder>1</DisplayOrder>
+					</fontColor>
+					<font>
+						<fileloc>rsystems/RevueStdTEST</fileloc>
+						<displayname>Collegiate</displayname>
+					</font>
+					<text>team name</text>
+				</TeamName>
+				<OtherText>
+					<font>
+						<fileloc>rsystems/RevueStdTEST</fileloc>
+						<displayname>Collegiate</displayname>
+					</font>
+					<fontColor>
+						<ColorId>4</ColorId>
+						<Name>Black</Name>
+						<Red>10</Red>
+						<Green>10</Green>
+						<Blue>10</Blue>
+						<RgbHexadecimal>#0A0A0A</RgbHexadecimal>
+						<Cyan>70</Cyan>
+						<Magenta>55</Magenta>
+						<Yellow>55</Yellow>
+						<Black>100</Black>
+						<CmykHexadecimal>#373764</CmykHexadecimal>
+						<Pantone />
+						<MatchingThreadColorId>4</MatchingThreadColorId>
+						<MatchingButtonColorId>4</MatchingButtonColorId>
+						<MatchingZipperColorId>4</MatchingZipperColorId>
+						<CmykCmyk>true</CmykCmyk>
+						<CmykCmykFluor>false</CmykCmykFluor>
+						<CustomerId>0</CustomerId>
+						<DisplayOrder>1</DisplayOrder>
+					</fontColor>
+				</OtherText>
+				<Graphic />
+				<Locations />
+				<RosterItems>
+					<seq>1</seq>
+					<name>Player name1</name>
+					<number>01</number>
+					<ageCategory>Man</ageCategory>
+					<advUniformType />
+					<top>
+						<size>2XL-Male</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-Male</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</top>
+					<bottom>
+						<size>2XL-Male</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-Male</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</bottom>
+					<playerEmailField>test@test.com</playerEmailField>
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterItems>
+				<RosterItems>
+					<seq>2</seq>
+					<name>player name2</name>
+					<number>02</number>
+					<ageCategory>Man</ageCategory>
+					<advUniformType />
+					<top>
+						<size>2XL-Male</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-Male</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</top>
+					<bottom>
+						<size>2XL-Male</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-Male</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</bottom>
+					<playerEmailField>test@test.com</playerEmailField>
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterItems>
+				<RosterItems>
+					<seq>3</seq>
+					<name>player name3</name>
+					<number>0</number>
+					<ageCategory>Man</ageCategory>
+					<advUniformType />
+					<top>
+						<size>2XL-Male</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-Male</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</top>
+					<bottom>
+						<size>2XL-Male</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-Male</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</bottom>
+					<playerEmailField />
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterItems>
+				<RosterItems>
+					<seq>4</seq>
+					<name>player name4</name>
+					<number>0</number>
+					<ageCategory>Boys</ageCategory>
+					<advUniformType />
+					<top>
+						<size>2XL-boy</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-boy</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</top>
+					<bottom>
+						<size>2XL-boy</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-boy</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</bottom>
+					<playerEmailField />
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterItems>
+				<RosterItems>
+					<seq>5</seq>
+					<name>player name 5</name>
+					<number>0</number>
+					<ageCategory>Boys</ageCategory>
+					<advUniformType />
+					<top>
+						<size>2XL-boy</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-boy</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</top>
+					<bottom>
+						<size>2XL-boy</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-boy</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</bottom>
+					<playerEmailField />
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterItems>
+				<RosterItems>
+					<seq>6</seq>
+					<name>player name 6</name>
+					<number>0</number>
+					<ageCategory>Boys</ageCategory>
+					<advUniformType />
+					<top>
+						<size>2XL-boy</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-boy</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</top>
+					<bottom>
+						<size>2XL-boy</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-boy</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</bottom>
+					<playerEmailField />
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterItems>
+				<RosterItems>
+					<seq>7</seq>
+					<name />
+					<number />
+					<ageCategory />
+					<advUniformType />
+					<top />
+					<bottom />
+					<playerEmailField />
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterItems>
+				<RosterItems>
+					<seq>8</seq>
+					<name />
+					<number />
+					<ageCategory />
+					<advUniformType />
+					<top />
+					<bottom />
+					<playerEmailField />
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterItems>
+				<RosterItems>
+					<seq>9</seq>
+					<name />
+					<number />
+					<ageCategory />
+					<advUniformType />
+					<top />
+					<bottom />
+					<playerEmailField />
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterItems>
+				<RosterItems>
+					<seq>10</seq>
+					<name />
+					<number />
+					<ageCategory />
+					<advUniformType />
+					<top />
+					<bottom />
+					<playerEmailField />
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterItems>
+				<RosterItems>
+					<seq>11</seq>
+					<name />
+					<number />
+					<ageCategory />
+					<advUniformType />
+					<top />
+					<bottom />
+					<playerEmailField />
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterItems>
+			</uniformConfig>
+		</UniformConfiguration>
+		<LocalConfiguration>
+			<uniformConfig>
+				<User>
+					<email>myemail@test.com</email>
+					<fromEmail>myemail@test.com</fromEmail>
+					<sendToEmail>tomail@test.com</sendToEmail>
+				</User>
+				<Category>
+					<Id>2</Id>
+					<Name>Baseball</Name>
+				</Category>
+				<Gender>
+					<Id>2</Id>
+					<Name>Male</Name>
+				</Gender>
+				<Style>
+					<StyleId>1005</StyleId>
+					<StyleNumber>00004</StyleNumber>
+					<StyleTypeId>2</StyleTypeId>
+					<MatchingBottomStyleId>1001</MatchingBottomStyleId>
+					<CopyOfStyleId>1001</CopyOfStyleId>
+					<AxaptaStyle>S0004</AxaptaStyle>
+					<Sizes>
+						<SizeId>22</SizeId>
+						<Name>2XL (50-52)</Name>
+						<SizeNumber>2XL</SizeNumber>
+						<AxaptaSizeId>7</AxaptaSizeId>
+						<ActualSize>0</ActualSize>
+					</Sizes>
+					<Sizes>
+						<SizeId>23</SizeId>
+						<Name>3XL (54-56)</Name>
+						<SizeNumber>3XL</SizeNumber>
+						<AxaptaSizeId>8</AxaptaSizeId>
+						<ActualSize>0</ActualSize>
+					</Sizes>
+					<Sizes>
+						<SizeId>24</SizeId>
+						<Name>4XL (58-60)</Name>
+						<SizeNumber>4XL</SizeNumber>
+						<AxaptaSizeId>9</AxaptaSizeId>
+						<ActualSize>0</ActualSize>
+					</Sizes>
+					<Sizes>
+						<SizeId>25</SizeId>
+						<Name>L (42-44)</Name>
+						<SizeNumber>L</SizeNumber>
+						<AxaptaSizeId>5</AxaptaSizeId>
+						<ActualSize>0</ActualSize>
+					</Sizes>
+					<Sizes>
+						<SizeId>26</SizeId>
+						<Name>M (38-40)</Name>
+						<SizeNumber>M</SizeNumber>
+						<AxaptaSizeId>4</AxaptaSizeId>
+						<ActualSize>0</ActualSize>
+					</Sizes>
+					<Sizes>
+						<SizeId>27</SizeId>
+						<Name>S (34-36)</Name>
+						<SizeNumber>S</SizeNumber>
+						<AxaptaSizeId>3</AxaptaSizeId>
+						<ActualSize>0</ActualSize>
+					</Sizes>
+					<Sizes>
+						<SizeId>28</SizeId>
+						<Name>XL (46-48)</Name>
+						<SizeNumber>XL</SizeNumber>
+						<AxaptaSizeId>6</AxaptaSizeId>
+						<ActualSize>0</ActualSize>
+					</Sizes>
+				</Style>
+				<Design>
+					<DesignId>513</DesignId>
+					<CategoryId>2</CategoryId>
+					<GenderTypeId>2</GenderTypeId>
+					<StyleId>1009</StyleId>
+					<Name>Bullpen</Name>
+					<DesignNumber>bullpen</DesignNumber>
+					<PricingId>0</PricingId>
+					<ColorLayer01>Primary Color</ColorLayer01>
+					<ColorLayer01Allowed>true</ColorLayer01Allowed>
+					<ColorLayer02>Secondary Color</ColorLayer02>
+					<ColorLayer02Allowed>true</ColorLayer02Allowed>
+					<ColorLayer03>Accent Color</ColorLayer03>
+					<ColorLayer03Allowed>true</ColorLayer03Allowed>
+					<GradientLayer01Allowed>false</GradientLayer01Allowed>
+					<GradientLayer02Allowed>false</GradientLayer02Allowed>
+					<GradientLayer03Allowed>true</GradientLayer03Allowed>
+					<PreviewDpi>0</PreviewDpi>
+					<PrintDpi>0</PrintDpi>
+					<PreviewSizeId>0</PreviewSizeId>
+					<PreviewDecalSizeId>53</PreviewDecalSizeId>
+				</Design>
+				<Color>
+					<uniformPrimaryColor>
+						<ColorId>9</ColorId>
+						<Name>Maroon</Name>
+						<Red>102</Red>
+						<Green>0</Green>
+						<Blue>51</Blue>
+						<RgbHexadecimal>#660033</RgbHexadecimal>
+						<Cyan>29</Cyan>
+						<Magenta>100</Magenta>
+						<Yellow>44</Yellow>
+						<Black>79</Black>
+						<CmykHexadecimal>#642C4F</CmykHexadecimal>
+						<Pantone />
+						<MatchingThreadColorId>9</MatchingThreadColorId>
+						<MatchingButtonColorId>9</MatchingButtonColorId>
+						<MatchingZipperColorId>9</MatchingZipperColorId>
+						<CmykCmyk>true</CmykCmyk>
+						<CmykCmykFluor>false</CmykCmykFluor>
+						<CustomerId>0</CustomerId>
+						<DisplayOrder>8</DisplayOrder>
+					</uniformPrimaryColor>
+					<uniformSecondaryColor>
+						<ColorId>16</ColorId>
+						<Name>Columbia Blue</Name>
+						<Red>165</Red>
+						<Green>190</Green>
+						<Blue>230</Blue>
+						<RgbHexadecimal>#A5BEE6</RgbHexadecimal>
+						<Cyan>45</Cyan>
+						<Magenta>20</Magenta>
+						<Yellow>15</Yellow>
+						<Black>0</Black>
+						<CmykHexadecimal>#140F00</CmykHexadecimal>
+						<Pantone />
+						<MatchingThreadColorId>16</MatchingThreadColorId>
+						<MatchingButtonColorId>16</MatchingButtonColorId>
+						<MatchingZipperColorId>16</MatchingZipperColorId>
+						<CmykCmyk>true</CmykCmyk>
+						<CmykCmykFluor>false</CmykCmykFluor>
+						<CustomerId>0</CustomerId>
+						<DisplayOrder>20</DisplayOrder>
+					</uniformSecondaryColor>
+					<uniformTertiaryColor>
+						<ColorId>16</ColorId>
+						<Name>Columbia Blue</Name>
+						<Red>165</Red>
+						<Green>190</Green>
+						<Blue>230</Blue>
+						<RgbHexadecimal>#A5BEE6</RgbHexadecimal>
+						<Cyan>45</Cyan>
+						<Magenta>20</Magenta>
+						<Yellow>15</Yellow>
+						<Black>0</Black>
+						<CmykHexadecimal>#140F00</CmykHexadecimal>
+						<Pantone />
+						<MatchingThreadColorId>16</MatchingThreadColorId>
+						<MatchingButtonColorId>16</MatchingButtonColorId>
+						<MatchingZipperColorId>16</MatchingZipperColorId>
+						<CmykCmyk>true</CmykCmyk>
+						<CmykCmykFluor>false</CmykCmykFluor>
+						<CustomerId>0</CustomerId>
+						<DisplayOrder>20</DisplayOrder>
+					</uniformTertiaryColor>
+				</Color>
+				<Fabric>
+					<FabricId>3</FabricId>
+					<Name>PREMIUM Cool Mesh Polyester</Name>
+					<ItemId>P8774-5</ItemId>
+					<Description>Combine moisture wicking microfibers with a soft p</Description>
+					<FabricPriceId>0</FabricPriceId>
+					<SizeId>0</SizeId>
+					<PriceListId>0</PriceListId>
+					<StyleFabricId>0</StyleFabricId>
+					<CategoryId>2</CategoryId>
+					<GenderTypeId>2</GenderTypeId>
+					<StyleId>1005</StyleId>
+					<AxaptaColorId>0</AxaptaColorId>
+				</Fabric>
+				<OtherText>
+					<font>
+						<fileloc>rsystems/RevueStdTEST</fileloc>
+						<displayname>Collegiate</displayname>
+					</font>
+					<fontColor>
+						<ColorId>4</ColorId>
+						<Name>Black</Name>
+						<Red>10</Red>
+						<Green>10</Green>
+						<Blue>10</Blue>
+						<RgbHexadecimal>#0A0A0A</RgbHexadecimal>
+						<Cyan>70</Cyan>
+						<Magenta>55</Magenta>
+						<Yellow>55</Yellow>
+						<Black>100</Black>
+						<CmykHexadecimal>#373764</CmykHexadecimal>
+						<Pantone />
+						<MatchingThreadColorId>4</MatchingThreadColorId>
+						<MatchingButtonColorId>4</MatchingButtonColorId>
+						<MatchingZipperColorId>4</MatchingZipperColorId>
+						<CmykCmyk>true</CmykCmyk>
+						<CmykCmykFluor>false</CmykCmykFluor>
+						<CustomerId>0</CustomerId>
+						<DisplayOrder>1</DisplayOrder>
+					</fontColor>
+				</OtherText>
+				<PlayerNumber>
+					<font>
+						<fileloc>rsystems/RevueStdTEST</fileloc>
+						<displayname>Collegiate</displayname>
+					</font>
+					<fontColor>
+						<ColorId>4</ColorId>
+						<Name>Black</Name>
+						<Red>10</Red>
+						<Green>10</Green>
+						<Blue>10</Blue>
+						<RgbHexadecimal>#0A0A0A</RgbHexadecimal>
+						<Cyan>70</Cyan>
+						<Magenta>55</Magenta>
+						<Yellow>55</Yellow>
+						<Black>100</Black>
+						<CmykHexadecimal>#373764</CmykHexadecimal>
+						<Pantone />
+						<MatchingThreadColorId>4</MatchingThreadColorId>
+						<MatchingButtonColorId>4</MatchingButtonColorId>
+						<MatchingZipperColorId>4</MatchingZipperColorId>
+						<CmykCmyk>true</CmykCmyk>
+						<CmykCmykFluor>false</CmykCmykFluor>
+						<CustomerId>0</CustomerId>
+						<DisplayOrder>1</DisplayOrder>
+					</fontColor>
+				</PlayerNumber>
+				<PlayerName>
+					<font>
+						<fileloc>rsystems/RevueStdTEST</fileloc>
+						<displayname>Collegiate</displayname>
+					</font>
+					<fontColor>
+						<ColorId>4</ColorId>
+						<Name>Black</Name>
+						<Red>10</Red>
+						<Green>10</Green>
+						<Blue>10</Blue>
+						<RgbHexadecimal>#0A0A0A</RgbHexadecimal>
+						<Cyan>70</Cyan>
+						<Magenta>55</Magenta>
+						<Yellow>55</Yellow>
+						<Black>100</Black>
+						<CmykHexadecimal>#373764</CmykHexadecimal>
+						<Pantone />
+						<MatchingThreadColorId>4</MatchingThreadColorId>
+						<MatchingButtonColorId>4</MatchingButtonColorId>
+						<MatchingZipperColorId>4</MatchingZipperColorId>
+						<CmykCmyk>true</CmykCmyk>
+						<CmykCmykFluor>false</CmykCmykFluor>
+						<CustomerId>0</CustomerId>
+						<DisplayOrder>1</DisplayOrder>
+					</fontColor>
+				</PlayerName>
+				<TeamName>
+					<fontColor>
+						<ColorId>4</ColorId>
+						<Name>Black</Name>
+						<Red>10</Red>
+						<Green>10</Green>
+						<Blue>10</Blue>
+						<RgbHexadecimal>#0A0A0A</RgbHexadecimal>
+						<Cyan>70</Cyan>
+						<Magenta>55</Magenta>
+						<Yellow>55</Yellow>
+						<Black>100</Black>
+						<CmykHexadecimal>#373764</CmykHexadecimal>
+						<Pantone />
+						<MatchingThreadColorId>4</MatchingThreadColorId>
+						<MatchingButtonColorId>4</MatchingButtonColorId>
+						<MatchingZipperColorId>4</MatchingZipperColorId>
+						<CmykCmyk>true</CmykCmyk>
+						<CmykCmykFluor>false</CmykCmykFluor>
+						<CustomerId>0</CustomerId>
+						<DisplayOrder>1</DisplayOrder>
+					</fontColor>
+					<font>
+						<fileloc>rsystems/RevueStdTEST</fileloc>
+						<displayname>Collegiate</displayname>
+					</font>
+					<text>team name</text>
+				</TeamName>
+				<RosterPlayer>
+					<seq>1</seq>
+					<name>Player name1</name>
+					<number>01</number>
+					<ageCategory>Man</ageCategory>
+					<advUniformType />
+					<top>
+						<size>2XL-Male</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-Male</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</top>
+					<bottom>
+						<size>2XL-Male</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-Male</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</bottom>
+					<playerEmailField>test@test.com</playerEmailField>
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterPlayer>
+				<RosterPlayer>
+					<seq>2</seq>
+					<name>player name2</name>
+					<number>02</number>
+					<ageCategory>Man</ageCategory>
+					<advUniformType />
+					<top>
+						<size>2XL-Male</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-Male</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</top>
+					<bottom>
+						<size>2XL-Male</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-Male</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</bottom>
+					<playerEmailField>test@test.com</playerEmailField>
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterPlayer>
+				<RosterPlayer>
+					<seq>3</seq>
+					<name>player name3</name>
+					<number>0</number>
+					<ageCategory>Man</ageCategory>
+					<advUniformType />
+					<top>
+						<size>2XL-Male</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-Male</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</top>
+					<bottom>
+						<size>2XL-Male</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-Male</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</bottom>
+					<playerEmailField />
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterPlayer>
+				<RosterPlayer>
+					<seq>4</seq>
+					<name>player name4</name>
+					<number>0</number>
+					<ageCategory>Boys</ageCategory>
+					<advUniformType />
+					<top>
+						<size>2XL-boy</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-boy</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</top>
+					<bottom>
+						<size>2XL-boy</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-boy</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</bottom>
+					<playerEmailField />
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterPlayer>
+				<RosterPlayer>
+					<seq>5</seq>
+					<name>player name 5</name>
+					<number>0</number>
+					<ageCategory>Boys</ageCategory>
+					<advUniformType />
+					<top>
+						<size>2XL-boy</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-boy</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</top>
+					<bottom>
+						<size>2XL-boy</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-boy</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</bottom>
+					<playerEmailField />
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterPlayer>
+				<RosterPlayer>
+					<seq>6</seq>
+					<name>player name 6</name>
+					<number>0</number>
+					<ageCategory>Boys</ageCategory>
+					<advUniformType />
+					<top>
+						<size>2XL-boy</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-boy</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</top>
+					<bottom>
+						<size>2XL-boy</size>
+						<quantity>1</quantity>
+						<price>39.95000076293945</price>
+						<skuId>bullpen-00004-2XL-boy</skuId>
+						<thumbnailUrl />
+						<productionUrl />
+					</bottom>
+					<playerEmailField />
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterPlayer>
+				<RosterPlayer>
+					<seq>7</seq>
+					<name />
+					<number />
+					<ageCategory />
+					<advUniformType />
+					<top />
+					<bottom />
+					<playerEmailField />
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterPlayer>
+				<RosterPlayer>
+					<seq>8</seq>
+					<name />
+					<number />
+					<ageCategory />
+					<advUniformType />
+					<top />
+					<bottom />
+					<playerEmailField />
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterPlayer>
+				<RosterPlayer>
+					<seq>9</seq>
+					<name />
+					<number />
+					<ageCategory />
+					<advUniformType />
+					<top />
+					<bottom />
+					<playerEmailField />
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterPlayer>
+				<RosterPlayer>
+					<seq>10</seq>
+					<name />
+					<number />
+					<ageCategory />
+					<advUniformType />
+					<top />
+					<bottom />
+					<playerEmailField />
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterPlayer>
+				<RosterPlayer>
+					<seq>11</seq>
+					<name />
+					<number />
+					<ageCategory />
+					<advUniformType />
+					<top />
+					<bottom />
+					<playerEmailField />
+					<productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%23660033],colorThree[%23A5BEE6],colorTwo[%23A5BEE6]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+				</RosterPlayer>
+			</uniformConfig>
+		</LocalConfiguration>
+		<CategoryName>Baseball</CategoryName>
+	</ResponseData>
+	

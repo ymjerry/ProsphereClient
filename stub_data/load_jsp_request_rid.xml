@@ -1,0 +1,79 @@
+
+<uniformConfig>
+    <user type="dealer">
+        <id>43350779</id>
+    </user>
+    <retrieveCode/>
+    <callType>SAVE</callType>
+    <referralCode/>
+    <orderName>tt</orderName>
+    <orderState/>
+    <rosterTeamName/>
+    <thumbnailUrl/>
+    <style>00073r0</style>
+    <sport>Sideline</sport>
+    <designNumber>Thunderstorm</designNumber>
+    <colors>
+        <id>3</id>
+        <id>2</id>
+        <id>28</id>
+    </colors>
+    <fabricId>F120</fabricId>
+    <fabricDisplayName>BASE Quick Dri polyester</fabricDisplayName>
+    <matchButtonColorID>3</matchButtonColorID>
+    <matchThreadColorID>3</matchThreadColorID>
+    <matchZipperColorID>3</matchZipperColorID>
+    <topSelected>true</topSelected>
+    <bottomSelected>false</bottomSelected>
+    <gender>female</gender>
+    <playerNumber>6</playerNumber>
+    <playerName>pln</playerName>
+    <teamName>ta</teamName>
+    <uniformConfigVersion>2</uniformConfigVersion>
+    <location>
+        <displayName>Left Sleeve</displayName>
+        <type>graphic</type>
+        <graphicId>2234</graphicId>
+        <graphicName>Bear01</graphicName>
+        <graphicProductionURL>layer=0&amp;color=0,0,0,0,0k&amp;size=2084,1642&amp;layer=1&amp;size=2084,1642&amp;color=$graphiccolor1$&amp;mask=is(TeamworkAthletic/bear01_3clr_color_1?scl=1)&amp;layer=4&amp;size=2084,1642&amp;color=70,55,55,100k&amp;mask=is(TeamworkAthletic/bear01_3clr_hc_black?scl=1)&amp;layer=5&amp;size=2084,1642&amp;color=0,0,0,0k&amp;mask=is(TeamworkAthletic/bear01_3clr_hc_white?scl=1)&amp;layer=6&amp;size=2084,1642&amp;color=0,100,75,28k&amp;mask=is(TeamworkAthletic/bear01_3clr_color_2?scl=1)&amp;layer=7&amp;size=2084,1642&amp;color=70,55,55,100k&amp;mask=is(TeamworkAthletic/bear01_3clr_color_3?scl=1)</graphicProductionURL>
+        <graphicPreviewURL>layer=0&amp;color=0,0,0,0,0k&amp;size=2084,1642&amp;layer=1&amp;size=2084,1642&amp;color=$graphiccolor1$&amp;mask=is(TeamworkAthletic/bear01_3clr_color_1?scl=1)&amp;layer=4&amp;size=2084,1642&amp;color=70,55,55,100k&amp;mask=is(TeamworkAthletic/bear01_3clr_hc_black?scl=1)&amp;layer=5&amp;size=2084,1642&amp;color=0,0,0,0k&amp;mask=is(TeamworkAthletic/bear01_3clr_hc_white?scl=1)&amp;layer=6&amp;size=2084,1642&amp;color=0,100,75,28k&amp;mask=is(TeamworkAthletic/bear01_3clr_color_2?scl=1)&amp;layer=7&amp;size=2084,1642&amp;color=70,55,55,100k&amp;mask=is(TeamworkAthletic/bear01_3clr_color_3?scl=1)</graphicPreviewURL>
+        <emblemId/>
+        <emblemProductionURL/>
+        <emblemZoomPreviewURL/>
+        <emblemNoGraphic>false</emblemNoGraphic>
+        <emblemPreviewURL/>
+        <textProductionURL/>
+        <textPreviewURL/>
+        <size>6"</size>
+        <colors>
+            <id>55</id>
+            <id>4</id>
+            <id>66</id>
+        </colors>
+        <includeOutline>false</includeOutline>
+    </location>
+    <selectedAnchorsMetadata>
+        <graphicParent>
+            <graphic>
+                <anchorName>Left Sleeve</anchorName>
+                <type>graphic</type>
+                <typeDisplayName>Graphic</typeDisplayName>
+                <size>6"</size>
+                <graphicPreviewURL>layer=0&amp;color=0,0,0,0,0k&amp;size=2084,1642&amp;layer=1&amp;size=2084,1642&amp;color=$graphiccolor1$&amp;mask=is(TeamworkAthletic/bear01_3clr_color_1?scl=1)&amp;layer=4&amp;size=2084,1642&amp;color=70,55,55,100k&amp;mask=is(TeamworkAthletic/bear01_3clr_hc_black?scl=1)&amp;layer=5&amp;size=2084,1642&amp;color=0,0,0,0k&amp;mask=is(TeamworkAthletic/bear01_3clr_hc_white?scl=1)&amp;layer=6&amp;size=2084,1642&amp;color=0,100,75,28k&amp;mask=is(TeamworkAthletic/bear01_3clr_color_2?scl=1)&amp;layer=7&amp;size=2084,1642&amp;color=70,55,55,100k&amp;mask=is(TeamworkAthletic/bear01_3clr_color_3?scl=1)</graphicPreviewURL>
+                <graphicProductionURL>layer=0&amp;color=0,0,0,0,0k&amp;size=2084,1642&amp;layer=1&amp;size=2084,1642&amp;color=$graphiccolor1$&amp;mask=is(TeamworkAthletic/bear01_3clr_color_1?scl=1)&amp;layer=4&amp;size=2084,1642&amp;color=70,55,55,100k&amp;mask=is(TeamworkAthletic/bear01_3clr_hc_black?scl=1)&amp;layer=5&amp;size=2084,1642&amp;color=0,0,0,0k&amp;mask=is(TeamworkAthletic/bear01_3clr_hc_white?scl=1)&amp;layer=6&amp;size=2084,1642&amp;color=0,100,75,28k&amp;mask=is(TeamworkAthletic/bear01_3clr_color_2?scl=1)&amp;layer=7&amp;size=2084,1642&amp;color=70,55,55,100k&amp;mask=is(TeamworkAthletic/bear01_3clr_color_3?scl=1)</graphicProductionURL>
+                <color1>55</color1>
+                <color2/>
+                <color3/>
+            </graphic>
+        </graphicParent>
+    </selectedAnchorsMetadata>
+    <proofDataNode>
+        <previewImageURLLeft/>
+        <previewImageURLFront/>
+        <previewImageURLBack/>
+        <styleNameForProof/>
+        <fabricTileURLForProof/>
+        <proofApprovedOnline/>
+        <proofApproveLaterEmail/>
+    </proofDataNode>
+</uniformConfig>

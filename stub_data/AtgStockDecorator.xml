@@ -1,0 +1,54 @@
+?<?xml version="1.0" encoding="UTF-8"?>
+<AtgProduct xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <SessionVariable>Session1</SessionVariable>
+    <WebOrderNumber>w1</WebOrderNumber>
+    <AccountNumber>a1</AccountNumber>
+    <StyleNumber>1234P</StyleNumber>
+    <ColorNumber>1</ColorNumber>
+    <DecorationCost>44.45</DecorationCost>
+    <DecorationMethod>VersaCam</DecorationMethod>
+    <TeamName />
+    <LargeSizePrice>13.45</LargeSizePrice>
+    <RosterItems>
+        <AtgRosterItem>
+            <TAASKUId>1234P-1-L</TAASKUId>
+            <PlayerName />
+            <PlayerNumber />
+            <Quantity>1</Quantity>
+            <Size>L</Size>
+            <PreviewFrontUrl>http://teamwork.liquifire.com/teamwork?set=id[1234P],design[S1],rotation[0],preview[300],website[stockproduct],schema[],teamName[],playerName[],cityName[CITY],emblemids[{161}],primarycolorids[{1:987}],secondarycolorids[{1:988}],accentcolorids[{}],printareaids[{1:521}],usePreviewModel[1],schoolName[SCHOOL],uploadedGraphic[],initials[k],initialOne[k],playerNum[],sportName[],yearNum[],fontNames[{1:10}]%26call=url[file://Fanorama/internal/product_preview.chain]%26sink=format[png],nocache[true]</PreviewFrontUrl>
+            <PreviewLeftUrl>http://teamwork.liquifire.com/teamwork?set=id[1234P],design[S1],rotation[90],preview[300],website[stockproduct],schema[],teamName[],playerName[],cityName[CITY],emblemids[{161}],primarycolorids[{1:987}],secondarycolorids[{1:988}],accentcolorids[{}],printareaids[{1:521}],usePreviewModel[1],schoolName[SCHOOL],uploadedGraphic[],initials[k],initialOne[k],playerNum[],sportName[],yearNum[],fontNames[{1:10}]%26call=url[file://Fanorama/internal/product_preview.chain]%26sink=format[png],nocache[true]</PreviewLeftUrl>
+            <PreviewBackUrl>http://teamwork.liquifire.com/teamwork?set=id[1234P],design[S1],rotation[180],preview[300],website[stockproduct],schema[],teamName[],playerName[],cityName[CITY],emblemids[{161}],primarycolorids[{1:987}],secondarycolorids[{1:988}],accentcolorids[{}],printareaids[{1:521}],usePreviewModel[1],schoolName[SCHOOL],uploadedGraphic[],initials[k],initialOne[k],playerNum[],sportName[],yearNum[],fontNames[{1:10}]%26call=url[file://Fanorama/internal/product_preview.chain]%26sink=format[png],nocache[true]</PreviewBackUrl>
+            <PreviewRightUrl>http://teamwork.liquifire.com/teamwork?set=id[1234P],design[S1],rotation[45],preview[300],website[stockproduct],schema[],teamName[],playerName[],cityName[CITY],emblemids[{161}],primarycolorids[{1:987}],secondarycolorids[{1:988}],accentcolorids[{}],printareaids[{1:521}],usePreviewModel[1],schoolName[SCHOOL],uploadedGraphic[],initials[k],initialOne[k],playerNum[],sportName[],yearNum[],fontNames[{1:10}]%26call=url[file://Fanorama/internal/product_preview.chain]%26sink=format[png],nocache[true]</PreviewRightUrl>
+            <Emblems>
+                <AtgEmblem>
+                    <Id>161</Id>
+                    <Size>12x8</Size>
+                    <ComplexityRating>4</ComplexityRating>
+                    <Cost>31.00</Cost>
+                    <Location>Front Center Cheest</Location>
+                    <PrintAreaId>521</PrintAreaId>
+                    <PrimaryColorId>948</PrimaryColorId>
+                    <SecondaryColorId>949</SecondaryColorId>
+                    <TertiaryColorId>0</TertiaryColorId>
+                    <PreviewUrl>http://teamwork.liquifire.com/teamwork?set=id[1234P],design[S1],rotation[0],preview[LARGE],website[stockproduct],schema[],teamName[],playerName[],cityName[CITY],emblemids[{161}],primarycolorids[{1:987}],secondarycolorids[{1:988}],accentcolorids[{}],printareaids[{1:521}],usePreviewModel[1],schoolName[SCHOOL],uploadedGraphic[],initials[k],initialOne[k],playerNum[],sportName[],yearNum[],fontNames[{1:10}]%26call=url[file://Fanorama/internal/product_preview.chain]%26sink=format[png],nocache[true]</PreviewUrl>
+                    <EmblemUrl>http://teamwork.liquifire.com/teamwork?set=id[161],ids[color1|948;color2|949;color3|],teamName[],playerName[],playerNum[],preview[1800x1246]%26call=url[file:/Fanorama/internal/emblem_preview.chain]%26sink=format[png]%26372DEAA7</EmblemUrl>
+                    <ProductionUrl>http://teamwork.liquifire.com/teamwork?set=id[161],rotation[0],preview[1800x1246],schema[print],ids[color1|948;color2|949;color3|],teamName[],playerName[],cityName[CITY],schoolName[SCHOOL],uploadedGraphic[],initials[K],initialOne[K],playerNum[],sportName[],yearNum[]%26call=url[file:/Fanorama/internal/emblem_print.chain]</ProductionUrl>
+                    <SizeRange>L</SizeRange>
+                    <UploadGraphics>
+                        <AtgUploadedGraphic>
+                            <CUGnew>true</CUGnew>
+                            <CUGGoodresolution>false</CUGGoodresolution>
+                            <CUGGoodtransparancy>false</CUGGoodtransparancy>
+                            <CUGGoodvectorized>false</CUGGoodvectorized>
+                            <CUGGoodsize>false</CUGGoodsize>
+                        </AtgUploadedGraphic>
+                    </UploadGraphics>
+                    <ImageCorrectionFee>true</ImageCorrectionFee>
+                </AtgEmblem>
+            </Emblems>
+        </AtgRosterItem>
+    </RosterItems>
+    <RedirectURL />
+    <RedirectURLCancel />
+</AtgProduct>

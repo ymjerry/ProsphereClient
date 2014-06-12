@@ -1,0 +1,416 @@
+﻿ .aysPopup{
+                width:400px;    
+                border:1px solid #cccccc;
+                background-color: #ffffff;
+                padding:10px;
+                 position: absolute;
+                top:10%;
+                left:31%;
+                z-index:504;
+
+            }
+            .aysPopup .heading{
+                font-family: Arial;
+                font-weight: bold;
+                font-size: 18px;
+
+            }
+            .aysPopup p{
+                font-family: Arial;
+                font-weight: bold;
+                font-size: 12px;
+
+            }
+           .aysPopup ul {
+    margin-left: -25px;
+    margin-top: 0;
+}
+
+            .aysPopup ul li {
+                font-family: Arial;
+                font-weight: normal;
+                font-size: 11px;
+
+            }
+
+
+            .left{
+                width:59%;                    
+                float: left;                   
+            }
+            .right{
+                width:39%;
+                float: right;                                                  
+            }
+
+            .fl{
+                float:left;
+                
+            }
+            .fr{
+                float:right;
+                
+
+            }
+             .aysPopup .button{
+                width:40%;
+                padding:10px;
+                
+                margin:3px;
+                text-align: center;
+                font-family: arial;
+                color:#ffffff;
+                font-size: 15px;
+                font-weight: bold;
+                border-radius: 3px;
+                text-align: center;                              
+                display:block;                
+                background-color: #990033;
+                position:relative;
+    behavior: url(pie/PIE.htc);
+                
+            }
+                .aysPopup .button:hover{
+                        
+                background-color: #cccccc;
+            }
+            .buttonYes{
+                width:40%;
+                padding:10px;
+                
+                margin:3px;
+                text-align: center;
+                font-family: arial;
+                color:#ffffff;
+                font-size: 15px;
+                font-weight: bold;
+                border-radius: 3px;
+                text-align: center;                              
+                display:block;                
+                background-color: #cc7f99;
+               
+                    position:relative;
+    behavior: url(pie/PIE.htc);
+            }
+                    .buttonYes:hover{
+                        
+                background-color: #cccccc;
+            }
+
+.redText {
+    color:red;
+}
+
+            .prospherePlusPopup{
+                background-color: #000000;
+                border-radius: 3px;
+                padding:4px;
+                width:480px;
+                border:1px solid #ffffff;      
+                position: absolute;
+                top:0%;
+                left:30%;
+                z-index:503;
+            }
+                .prospherePlusPopup a {
+                    cursor:pointer;
+                }
+
+            .prospherePlusPopup .heading{
+                font-family: Arial;
+                font-weight: bold;
+                font-size: 20px;
+                color:#ffffff;  
+                vertical-align: top;                                    
+            }
+
+
+            .prospherePlusPopup .logo{
+                /*width:56px;*/                                   
+                height:31px;
+                
+            }
+            .prospherePlusPopup .container {
+                background-color: #FFFFFF;
+                border-radius: 3px;
+                font-family: Arial;
+                margin: 0 auto;
+                padding: 17px 17px 10px 17px ;
+            }
+
+            .prospherePlusPopup .container h3{
+                font-family: Arial;
+                font-weight: bold;                 
+                color:#333333;    
+                margin:-5px;
+                text-decoration:none;
+
+            }
+            .prospherePlusPopup .container label{
+                font-family: Arial;
+                font-weight: bold; 
+                font-size: 13px;
+                color:#333333;    
+                margin:0px;
+                width:120px;
+                /*width:95px\9;*/
+                text-align: right;
+                display:inline-block;
+                vertical-align: top;
+                margin-right: 4px;
+                margin-top: 5px;
+
+
+            }
+
+            .prospherePlusPopup .container input{
+                font-family: Arial;
+                font-weight: normal; 
+                font-size: 12px;
+                color:#000000;    
+                margin:0px;
+                width:305px;
+                height:22px;
+                /*width:253px\9;*/
+                display:inline-block;
+                vertical-align: middle;
+                border: 1px solid #CCCCCC;
+                float:right;
+                padding-left: 3px;
+            }
+            .prospherePlusPopup .container textarea{
+                font-family: Arial;
+                font-weight: normal; 
+                font-size: 12px;
+                color:#000000;    
+                margin-bottom:8px;
+                width:304px;
+                width:307px\9;
+                height:76px;
+                display:inline-block;
+                vertical-align: middle;
+                resize:none;
+                border: 1px solid #CCCCCC;
+                float:right;
+            }
+
+
+            @-moz-document url-prefix() { 
+                  .prospherePlusPopup .container textarea {
+                     width:308px;
+                  }
+                }
+
+
+            .prospherePlusPopup ul {
+                margin-left: -25px;
+                margin-top: 7px;
+            }
+            .prospherePlusPopup ul li{
+                color: #333333;
+                font-family: Arial;
+                font-size: 11px;
+                font-weight: normal;
+                margin: 2px 0;    
+            }
+
+            .prospherePlusPopup ul li a{
+                font-family: Arial;
+                font-weight: normal;
+                font-size: 11px;
+                color:#002fff;   
+                cursor:pointer; 
+            }
+
+
+
+            .popuplink{
+                font-family: Arial;
+                font-weight: normal;
+                font-size: 11px;
+                color:#002fff;   
+                cursor:pointer; 
+                text-decoration: none;
+                 
+            }
+
+                .popuplink:hover {
+                    font-family: Arial;
+                    font-weight: normal;
+                    font-size: 11px;
+                    color: #002fff;
+                    cursor: pointer;
+                    background-color: none;
+                    text-decoration:underline;
+                }
+            .fontSize12{
+                font-size: 12px;
+            }
+            .fontSize10{
+                font-size: 12px;
+            }
+            .errorLabel {
+                color: #FF6600!important;
+                }
+            .error {
+                border-color: #FF6600!important;
+                }
+            .errorMessage { position: absolute;
+                            left: 135px;
+                            left: 135px\9;
+                            top: -14px;
+                            color: #FF6600; 
+                            font-size: 11px; 
+                            font-family:Arial; 
+                            letter-spacing:normal; 
+                            font-weight:bold;}
+
+            
+             .form {
+                margin-top:-10px ;
+                 
+            }
+
+            .form p{
+                margin:0 0 21px 0;
+                 position:relative;
+            }
+            .height { height:1px\9;
+                    }
+            .sendMessageButton{
+                 background-color: #990033;
+                 border-radius: 4px;
+                 color: #FFFFFF;
+                display: block;
+                float: right;
+                font-size: 17px;
+                font-weight: bold;
+                letter-spacing: 1px;
+                margin-right: -1px;
+                padding: 10px;
+                position: relative;
+                text-align: center;
+                text-decoration: none;
+                width: 293px;
+                /*width: 242px\9;*/
+                
+                position:relative;
+                 behavior: url(pie/PIE.htc);
+                
+
+            }
+            .sendMessageButton:hover{
+                 
+                background-color: #cccccc;
+            }
+
+
+            .displayInline{
+                display:inline-block;              
+            }
+
+            .closeProspherePlus{
+                position:absolute;
+                right: 7px;
+                top: 7px;
+                height:15px;
+                width:15px;
+                cursor:pointer;
+                background: url('../images/psPlusClose.png') no-repeat;
+            }
+
+            .closeProspherePlus:hover{
+           
+                background: url('../images/psPlusCloseHover.png') no-repeat;
+            }
+
+
+            .messageConformation{
+                margin-top: 6px; 
+                text-align: center;
+                
+                font-size: 20px;
+                font-weight: bold;
+                
+                border-radius: 4px;
+                padding: 8px;
+            }
+
+.pin{
+    background: url("../images/pinterest_logo.png") no-repeat;
+    display: block;
+    height: 34px;
+    width: 32px;
+}
+.pin:hover{
+    background: url("../images/pinHover.png") no-repeat;
+  
+}
+                        
+            .buttonNormal, .buttonNormalBanner{
+                
+                border: 1px solid #000000;
+border-radius: 4px;
+font-family: Arial;
+font-size: 12px;
+font-weight: bold;
+padding: 10px;
+color: #ffffff;
+text-decoration: none;
+ background-color: #990033;
+/*background-color: #ffffff;*/
+position: absolute;
+bottom: 12px;
+right: 23px;
+cursor:pointer;
+ z-index: 4;
+    behavior: url(pie/PIE.htc);
+            }
+
+                             
+            .buttonNormal:hover, .buttonNormalBanner:hover{
+                
+              
+/*color: #ffffff;*/
+/*background-color: #000000;*/
+background-color: #cccccc;
+
+            }
+
+
+
+
+
+
+            /*   .buttonNormalBanner{
+                 border: 1px solid #000000;
+border-radius: 4px;
+font-family: Arial;
+font-size: 12px;
+font-weight: bold;
+padding: 10px;
+color: #000000;
+text-decoration: none;
+background-color: #ffffff;
+position: absolute;
+bottom: -232px;
+right: 98px;
+width:255px;    
+width:265px\9;    
+cursor:pointer;
+ behavior: url(pie/PIE.htc);
+
+            }*/
+         
+
+
+
+
+         
+
+
+.disableElement {
+pointer-events: none;
+opacity: 0.4;
+cursor: default;
+}

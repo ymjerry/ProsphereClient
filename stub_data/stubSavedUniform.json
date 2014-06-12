@@ -1,0 +1,215 @@
+{
+    "uniformConfig": {
+        "status": {
+            "@code": "200",
+            "#text": "OK"
+        },
+        "user": {
+            "@type": "dealer",
+            "price": "price",
+            "id": "67530014"
+        },
+        "savedUniform": [
+            {
+                "uniformId": "368426",
+                "retrieveCode": "1155419B",
+                "orderName": "RSIPLAYER",
+                "saveDate": "2013-09-20T01:32:08",
+                "sport": "Basketball",
+                "top": "true",
+                "bottom": "true",
+                "pant": "false"
+            },
+            {
+                "uniformId": "368425",
+                "retrieveCode": "1155419A",
+                "orderName": "RSIPLAYER",
+                "saveDate": "2013-09-20T01:30:25",
+                "sport": "Basketball",
+                "top": "true",
+                "bottom": "true",
+                "pant": "false"
+            },
+            {
+                "uniformId": "368424",
+                "retrieveCode": "11554199",
+                "orderName": "RSIPLAYER",
+                "saveDate": "2013-09-20T01:29:09",
+                "sport": "Basketball",
+                "top": "true",
+                "bottom": "true",
+                "pant": "false"
+            },
+            {
+                "uniformId": "368412",
+                "retrieveCode": "1155418D",
+                "orderName": "TEAM",
+                "saveDate": "2013-09-19T02:07:39",
+                "sport": "Baseball",
+                "top": "true",
+                "bottom": "false",
+                "pant": "false"
+            },
+            {
+                "uniformId": "368410",
+                "retrieveCode": "1155418B",
+                "orderName": "TEN7",
+                "saveDate": "2013-09-19T00:38:50",
+                "sport": "Baseball",
+                "top": "true",
+                "bottom": "false",
+                "pant": "false"
+            },
+            {
+                "uniformId": "368409",
+                "retrieveCode": "1155418A",
+                "orderName": "TEN6",
+                "saveDate": "2013-09-19T00:27:49",
+                "sport": "Baseball",
+                "top": "true",
+                "bottom": "false",
+                "pant": "false"
+            },
+            {
+                "uniformId": "368408",
+                "retrieveCode": "11554189",
+                "orderName": "Test6",
+                "saveDate": "2013-09-19T00:15:42",
+                "sport": "Baseball",
+                "top": "true",
+                "bottom": "false",
+                "pant": "false"
+            },
+            {
+                "uniformId": "368407",
+                "retrieveCode": "11554188",
+                "orderName": "qa",
+                "saveDate": "2013-09-18T23:53:13",
+                "sport": "Wrestling",
+                "top": "true",
+                "bottom": "false",
+                "pant": "false"
+            },
+            {
+                "uniformId": "368406",
+                "retrieveCode": "11554187",
+                "orderName": "My Order",
+                "saveDate": "2013-09-18T23:34:36",
+                "sport": "Basketball",
+                "top": "true",
+                "bottom": "true",
+                "pant": "false"
+            },
+            {
+                "uniformId": "368405",
+                "retrieveCode": "11554186",
+                "orderName": "TEN5",
+                "saveDate": "2013-09-18T03:35:19",
+                "sport": "Basketball",
+                "top": "true",
+                "bottom": "true",
+                "pant": "false"
+            },
+            {
+                "uniformId": "368404",
+                "retrieveCode": "11554185",
+                "orderName": "TEN2",
+                "saveDate": "2013-09-18T03:29:47",
+                "sport": "Basketball",
+                "top": "true",
+                "bottom": "true",
+                "pant": "false"
+            },
+            {
+                "uniformId": "368403",
+                "retrieveCode": "11554184",
+                "orderName": "ten1",
+                "saveDate": "2013-09-18T03:25:25",
+                "sport": "Basketball",
+                "top": "true",
+                "bottom": "true",
+                "pant": "false"
+            },
+            {
+                "uniformId": "368402",
+                "retrieveCode": "11554183",
+                "orderName": "TEN",
+                "saveDate": "2013-09-18T03:17:10",
+                "sport": "Basketball",
+                "top": "true",
+                "bottom": "true",
+                "pant": "false"
+            },
+            {
+                "uniformId": "368358",
+                "retrieveCode": "1153BB1B",
+                "orderName": "Dragons 78",
+                "saveDate": "2013-09-17T06:15:55",
+                "sport": "Baseball",
+                "top": "true",
+                "bottom": "false",
+                "pant": "false"
+            },
+            {
+                "uniformId": "368357",
+                "retrieveCode": "1153BB1A",
+                "orderName": "Test5",
+                "saveDate": "2013-09-17T05:49:35",
+                "sport": "Volleyball",
+                "top": "true",
+                "bottom": "true",
+                "pant": "false"
+            },
+            {
+                "uniformId": "368355",
+                "retrieveCode": "1153BB18",
+                "orderName": "Test4",
+                "saveDate": "2013-09-17T05:32:30",
+                "sport": "Wrestling",
+                "top": "true",
+                "bottom": "false",
+                "pant": "false"
+            },
+            {
+                "uniformId": "368353",
+                "retrieveCode": "1153BB16",
+                "orderName": "Dragons 78",
+                "saveDate": "2013-09-17T04:54:31",
+                "sport": "Baseball",
+                "top": "true",
+                "bottom": "false",
+                "pant": "false"
+            },
+            {
+                "uniformId": "368352",
+                "retrieveCode": "1153BB15",
+                "orderName": "we",
+                "saveDate": "2013-09-17T04:43:12",
+                "sport": "Sideline",
+                "top": "true",
+                "bottom": "false",
+                "pant": "false"
+            },
+            {
+                "uniformId": "368351",
+                "retrieveCode": "1153BB14",
+                "orderName": "Test3",
+                "saveDate": "2013-09-17T04:06:55",
+                "sport": "Soccer",
+                "top": "false",
+                "bottom": "true",
+                "pant": "false"
+            },
+            {
+                "uniformId": "368350",
+                "retrieveCode": "1153BB13",
+                "orderName": "Dragons",
+                "saveDate": "2013-09-17T03:33:45",
+                "sport": "Baseball",
+                "top": "true",
+                "bottom": "false",
+                "pant": "false"
+            }
+        ]
+    }
+}

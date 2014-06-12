@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <div class="controlBar" id="dvIdCustomSubHeader" >
+            <div id="customizeSelectionShow">
+               <ul>
+                  <li id="tbColor" class="divider" style="background:none;">
+                     <div class="controlBarBgEffect"> *COLORS</div>
+                  </li>
+                  <li id="tbFabric" class="divider">
+                     <div class="controlBarBgEffect">*FABRICS</div>
+                  </li>
+                  <li id="tbEmblemGraphic" class="divider">
+                     <div class="controlBarBgEffect">GRAPHICS</div>
+                  </li>
+                  <li  id="tbNumberText" >
+                     <div class="controlBarBgEffect">NUMBERS & TEXT</div>
+                  </li>
+               </ul>
+            </div>
+         </div>
+    ]]>
+    </content>
+</page>
+  

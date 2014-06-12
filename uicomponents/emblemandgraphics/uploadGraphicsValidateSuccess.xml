@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+  <content>
+    <![CDATA[
+       <div class="imageCriteriaMain">
+           <div class="imageCriteriaContainer">
+              <div class="imageCriteriaHeaderPart">
+                 <div class="deleteBtn" id="dvIdValidateSuccessCloseBtn"> <a href="#"><img src="images/cross.png" alt="" /></a></div>
+                 <div class="logo"> <img src="images/imageCriteria_logo.png" alt="" /></div>
+                 <div class="graphiclinkArea">
+                    <ul>
+                       <li ><a id="aHelpGuideSuccess" style="cursor:pointer;">  Help Guidelines </a></li>
+                    </ul>
+                 </div>
+              </div>
+              
+			  
+			  
+			  <div class="imageCriteriaUploadedImageBox" >
+                 <div class="UploadedImageBox">
+                    <div class="UploadedImageBoxLabel">Your Uploaded Image</div>
+                    <div class="UploadedImageView"> <img id="idValidateUploadSuccPopuImg"  alt="" src="" style="max-width:100%;max-height:100%;"/></div>
+                    <!--<div class="UploadedImageRemove"> <input id="idRemoveBackgroundValidateSuccessPopup" type="checkbox" > Remove Background Color</div>-->
+                 </div>
+                 
+                 
+                 <div class="UploadedImageContentBox" style="display:true;">
+                    <div class="UploadedImageContentLabel">Image Transparency </div>
+                    <div class="UploadedImageContent"> 
+                       For the best printing experience we have removed the background from your image.
+                    </div>
+                    <div class="UploadedImageContent"> 
+                       You can choose to print this image with the background color by checking the box below.
+                    </div>
+                    <div class="UploadedContentCheck"> <input type="checkbox" id="chkDontRmvBackColor" value="Bike" name="vehicle"> Don't remove my image background color</div>
+                 </div>
+                 
+                
+                 
+    <div id="dvIdImageFailScreenHelpGuideSuccess" style="display:none;">
+                 <div class="UploadedImageBoxLabel">Upload Guidelines</div>
+                    <div class="Guidesmessage" id="dvListErrorMessage"><ul>
+                    <li>Image resolution minimum: 150dpi</li>
+                    <li>Image size: 700px by 700px</li>
+                    <li>Image background transparent</li>
+                    </ul></div>
+                    <div style="font-weight:bold;">Accepted File Formats</div>
+                    <div>TIF, TIFF, PNG, AI, PSD, JPG, BMP and PDF</div>
+                    </div> 
+                                     
+                 
+                 
+              </div>
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			  
+			    <!--  <div id="dvIdImageFailScreenHelpGuide" style="display:none;">
+                 <div class="UploadedImageBoxLabel">Upload Guidelines</div>
+                    <div class="Guidesmessage" id="dvListErrorMessage"><ul>
+                    <li>Image resolution minimum: 150dpi</li>
+                    <li>Image size: 700px by 700px</li>
+                    <li>Image background transparent</li>
+                    </ul></div>
+                    <div style="font-weight:bold;">Accepted File Formats</div>
+                    <div>TIF,TIFF,PNG,AI,PSD,JPG and PDF</div>
+                    </div>
+			  -->
+			  
+			  
+			  
+			  
+              <div class="imageCriteriaFooterPart">
+                 <div class="footerBtnBox">
+                    <div class="uploadedAnotherBtn"><input type="button" id="idUploadAnotherBtn" value="Upload Another Image" style="padding:2px 8px 2px 8px; font-weight:bold;"></div>
+                    <div class="doneBtn"><input type="button" value="Apply" id="btnUploadDone" style="padding:2px 8px 2px 8px;"></div>
+                    <div class="graphicBackBtn"><input type="button" value="Back" id="idBtnBackSuccess" style="padding:2px 8px 2px 8px;"></div>
+                 </div>
+              </div>
+           </div>
+        </div>
+
+
+    ]]>
+  </content>
+</page>
+
+
+
+
+
+

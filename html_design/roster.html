@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+	<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link type="text/css" href="../css/style.css" rel="stylesheet">
+
+		<!--[if lt IE 9]> <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"> </script> <![endif]-->
+
+	</head>
+	<body>
+		<!--[if lt IE 7]>
+		<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
+
+		<!-------------header------------->
+		<header id="header">
+			<div class="logo">
+				<img src="../images/logo.gif"/>
+			</div>
+			<!---------
+
+			<nav class="top_nav_box">
+
+			<ul>
+			<li>
+			<a href="#" alt=""> Dealer Login</a>
+			</li>
+			<li>
+			<a href="#" alt=""> Contact</a>
+			</li>
+			<li>
+			<a href="#" alt=""> Help</a>
+			</li>
+
+			<li>
+			<a href="#" alt=""> Dealer Locator</a>
+			</li>
+			<li style="border-right: none; font-weight: bold;">
+			<a href="#" alt="">Live Chat</a>
+			</li>
+			</ul>
+			<div class="searchbar_bg"></div>
+			</nav>
+			------->
+
+		</header>
+
+		<!-----------------End Header----------->
+
+		<!-------------------container-------------->
+
+		<div id="dvRosterPanel">
+
+			<section id="leftBoxRoster">
+
+				<div id="rosterBox">
+
+					<div class="rosterBtn">
+
+						<div class="left">
+							<img src="images/button.png" alt="" >
+						</div>
+
+						<div class="Right" id='dvModifyUnifrom'>
+							<img src="images/mdify.jpg"/>
+						</div>
+						<div class="Right">
+							<div class="howToButton"></div>
+						</div>
+
+					</div>
+
+					<div class="rosterSearchBox">
+
+						<div class="enterOrderName">
+							<label>Enter Order Name:</label>
+							<INPUT type="text" id="firstname" class="rosterInputField">
+						</div>
+
+						<div class="enterOrderTeam">
+							<label>Enter Order Name:</label>
+							<INPUT type="text" id="firstname" class="rosterInputField">
+						</div>
+
+					</div>
+
+					<div class="rosterTableBox">
+
+						<div class="rosterTableHeader">
+
+							<div class="rosterTableLabelBox">
+
+								<div class="rosterTableLabel">
+									Information
+								</div>
+								<div class="rosterTableLabel">
+									Top
+								</div>
+
+								<div class="rosterTableLabel">
+									bottom
+								</div>
+
+								<div class="rosterTableLabelBtm">
+									actions
+								</div>
+							</div>
+
+							<!-----	<div class="rosterHeaderBtnBox">	<img src="images/preview.jpg" alt="" > </div> --->
+
+						</div>
+
+						<div class="rosterInputBox" style="">
+                                                        <form id='frmRosterPlayerBox' name='frmRosterPlayerBox'>
+							<table id='tblRosterPlayerBox' cellpadding="3" cellspacing="0" border="0" width="100%" >
+								<tr>
+									<td>Player name </td>
+									<td>#</td>
+									<td>Category*</td>
+									<td>Qty*</td>
+									<td>Size*</td>
+									<td></td>
+									<td>Qty*</td>
+									<td>Size</td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>								
+							</table>
+
+							
+
+						</div>
+                                                <table cellpadding="3" cellspacing="0" border="0" width="100%" >
+								<tr class="rosterGreyRow">
+									<td></td>
+									<td></td>
+									<td>Subtotals:</td>
+									<td>0</td>
+									<td></td>
+									<td>$0.00</td>
+									<td>0</td>
+									<td></td>
+									<td>$0.00</td>
+									<td></td>
+									<td></td>
+									<td></td>
+								</tr>
+							</table>
+						<table cellpadding="3" cellspacing="0" border="0" width="100%" class="rosterGreyRow">
+								<tr>
+
+									<td> <a href="#">  <img src="images/clear_roster.png" alt="" >  </a></td>
+									<td class="btmDescription">Youth Short Available in 7&quot; inch Inseam Only</td>
+									<td>*Large size up-charges do apply.</td>
+
+								</tr>
+
+							</table>
+
+						<div class="rosterFooterBox">
+
+							<div class="footerLeftBox">
+								<div class="addPlayerBox">
+									
+
+									<p>
+										add players:
+									</p>
+									<p>
+										Quantity
+									</p>
+									<p>
+										<INPUT type="text" value="1" name="txtNumberOfRosterPlayer" id="txtNumberOfRosterPlayer" class="numberInputField">
+									</p>
+									<div class="addButton" id='dvAddRosterPlayer'>
+										
+									</div>
+
+									<div  class="uploadrosterButton">
+									</div>
+
+								</div>
+
+								<div class="middcontainer">
+
+									<div class="footerLeftBox">
+										<img src="images/image.png" alt="" >
+									</div>
+									<div class="footerRightBox">
+										Selected Fabric:
+										<br />
+										Premium Performance Tech
+										<br />
+										<a href="#">Change Fabric </a>
+
+									</div>
+
+									<div class="footerRightBox">
+										Roster format in excel or cvs
+										<br />
+										format only
+										<a href=""><img src="images/note.png" alt="" ></a>
+									</div>
+
+								</div>
+							</div>
+
+							<div class="footerRightBox">
+								<div class="customUniform">
+									Custom Uniform Total: <span class="priceTxt"> $0.00 </span>
+								</div>
+								<div class="iconBox">
+
+									<div class="emailPrintSaveIcon emailOrder">
+										<div class="icon"><img src="images/mail.png" alt="" >
+										</div>Email
+									</div>
+									<div class="emailPrintSaveIcon printOrder">
+										<div class="icon"><img src="images/print.png" alt="" >
+										</div>										
+											Print
+										
+
+									</div>
+									<div class="emailPrintSaveIcon saveOrder">
+										<div class="icon"><img src="images/save.png" alt="" >
+										</div>Save
+									</div>
+
+									<a href="" class="proofbtn">
+									
+									</a>
+
+								</div>
+
+							</div>
+
+						</div>
+
+					</div>
+				</div>
+
+			</section>
+
+			<!--------------------------------------------------------------------------------------------
+			End Left section
+			------------------------------------------------------------------------------------------->
+
+			<!-------------------------------------------------------------------------------------------
+			End center section
+			------------------------------------------------------------------------------------------->
+
+			<aside id="rightBoxContainer">
+				<nav class="rightBoxHeader">
+					<ul>
+						<li style="border-left: none;">
+							<div class="liveChat"></div>
+
+						</li>
+						<li style="border-left: none;">
+							<a href="" class="link" alt="" >Help</a>
+						</li>
+						<li >
+							<a href="" class="link" alt="" >Start Over</a>
+						</li>
+					</ul>
+				</nav>
+
+				<div id="rightBoxRoster">
+
+					<div class="bigImage">
+						<img src="images/img.jpg"/>
+					</div>
+
+					<div class="bigImageAngelBox">
+
+						<p>
+							<a href="#"> <img src="images/small_image.jpg"/> </a>
+						</p>
+						<p>
+							<a href="#"> <img src="images/small_image.jpg"/> </a>
+						</p>
+						<p>
+							<a href="#"> <img src="images/small_image.jpg"/> </a>
+						</p>
+						<p>
+							<a href="#"> <img src="images/small_image.jpg"/> </a>
+						</p>
+
+					</div>
+
+				</div>
+
+			</aside>
+
+			<ul>
+
+			</ul>    
+
+			<!-------------------------------------------------------------------------------------------
+			End right section
+			------------------------------------------------------------------------------------------->
+
+		</div>
+		<div class="clear"></div>
+
+		<footer class="account_footer ">
+			<a href="#" type="">About Us</a>
+			|
+			<a href="#" type="">Terms & Conditions</a>
+			|
+			<a href="#" type="">Privacy Statement</a>
+			|
+			<a href="#" type="">Site Map</a>
+			|
+			<a class="linffks" href="#">Feedback</a>
+			©2007-2012 Teamwork. All Rights Reserved. Patent Pending
+
+		</footer>
+
+	</body>
+</html>

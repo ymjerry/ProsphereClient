@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[<!-- ------------------------ DEFINE AND CUSTOMIZE HEADER ---------------->
+        <div class="leftSideTabBox leftSideDefineImg leftSideTabTxt active" id="dvTabDefine">
+            DEFINE
+        </div>
+        <div class="leftSideTabBox leftSideCustomizeImg leftSideTabTxt" id="dvTabCustomize">
+            CUSTOMIZE
+        </div>
+    ]]>
+    </content>
+</page>
+  

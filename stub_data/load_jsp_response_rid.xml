@@ -1,0 +1,44 @@
+<uniformConfig>
+    <status code="200">OK</status>
+    <savedUniform>
+        <uniformId>368427</uniformId>
+        <retrieveCode>1155419C</retrieveCode>
+        <orderName>tt</orderName>
+        <saveDate>2013-09-20T01:40:02</saveDate>
+        <sport>Sideline</sport>
+        <top>true</top>
+        <bottom>false</bottom>
+        <pant>false</pant>
+    </savedUniform>
+    
+        <savedUniform>
+        <uniformId>368427</uniformId>
+        <retrieveCode>1155419C</retrieveCode>
+        <orderName>tt</orderName>
+        <saveDate>2013-09-20T01:40:02</saveDate>
+        <sport>Sideline</sport>
+        <top>true</top>
+        <bottom>false</bottom>
+        <pant>false</pant>
+    </savedUniform>
+        <savedUniform>
+        <uniformId>368427</uniformId>
+        <retrieveCode>1155419C</retrieveCode>
+        <orderName>tt</orderName>
+        <saveDate>2013-09-20T01:40:02</saveDate>
+        <sport>Sideline</sport>
+        <top>true</top>
+        <bottom>false</bottom>
+        <pant>false</pant>
+    </savedUniform>
+        <savedUniform>
+        <uniformId>368427</uniformId>
+        <retrieveCode>1155419C</retrieveCode>
+        <orderName>tt</orderName>
+        <saveDate>2013-09-20T01:40:02</saveDate>
+        <sport>Sideline</sport>
+        <top>true</top>
+        <bottom>false</bottom>
+        <pant>false</pant>
+    </savedUniform>
+</uniformConfig>

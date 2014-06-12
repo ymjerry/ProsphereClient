@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <!--	email Save Dialog box  -->
+        <!-- TODO keep into xml file -->
+        <section class='emailSavedialogbox'>
+           <div id="dvIdEmailUniformDialogForm" class='emailPrintSaveDialogForm' >
+              <div id="dvIdEmailUniformDialog" class='emailPrintSaveDialogContent'>
+                 <!--<p class="validateTips">All form fields are required.</p>-->
+                 <br/>
+                 <div id="dvIdEmailErrorBox" class="rosterErrorArrow_box" style="display:none;margin-left:17px;position:absolute;width:250px;"></div>
+                 <form>
+                   <div id="dvIdEmailOrderName" class="emailSaveOrderPopupForm">
+                       <label class="labelEemailSaveOrderPopup" >Order Name :</label>
+                       <input type="text" name="emailOrderName" id="emailOrderName"  />
+                    </div>
+                    <div id="dvIdEmailError" class="emailSaveOrderPopupForm">
+                       <label class="labelEemailSaveOrderPopup" >My Email :   </label>                 
+                       <input type="text" name="emailMyEmail" id="emailMyEmail" value=""  />
+                    </div>
+                    <div id="dvIdSendToEmail" class="emailSaveOrderPopupForm">
+                       <label class="labelEemailSaveOrderPopup" >To Email :</label>
+                       <input type="text" name="sendToEmail" id="sendToEmail" value=""  />
+                    </div>
+                    <div class="fr" style=" margin:8px 25px 0 0; "><span class="cancelButton close" id="imgCancelEmailOrder"   ></span><span class="emailButton" id="imgEmailOrder" ></span></div>
+                    <div class="clear"></div>
+                 </form>
+                 <br/>
+              </div>
+           </div>
+           <div id="dvIdSaveUniformDialogForm" class='emailPrintSaveDialogForm' >
+              <div id="dvIdEmailUniformDialog" class='emailPrintSaveDialogContent'>
+                 <!--<p class="validateTips">All form fields are required.</p>-->
+                 <br/>
+                 <div id="dvIdSaveErrorBox" class="rosterErrorArrow_box" style="display:none;margin-left:17px;position:absolute;width:250px;"></div>
+                 <form>
+                 <div id="dvIdOrderName" class="emailSaveOrderPopupForm">
+                       <label class="labelEemailSaveOrderPopup" >Order Name :</label>
+                       <input type="text" name="orderName" id="orderName"  />
+                    </div>
+                    <div id="dvIdMyEmail" class="emailSaveOrderPopupForm">
+                       <label class="labelEemailSaveOrderPopup">My Email :</label>
+                       <input type="text" name="myEmail" id="myEmail" value=""  />
+                    </div>
+                    <div class="fr" style=" margin:8px 25px 0 0; "><span class="cancelButton close" id="imgCancelOrder" ></span><span class="saveButton" id="idImgSaveOrder"  ></span></div>
+                    <div class="clear"></div>
+                 </form>
+                 <br/>
+              </div>
+           </div>
+        </section>
+        <!--	email Save Dialog box  -->
+
+
+    ]]>
+    </content>
+</page>
+  

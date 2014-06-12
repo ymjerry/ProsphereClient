@@ -1,0 +1,331 @@
+<UniformConfiguration>
+    <uniformConfig>
+        <User>
+            <email>test@test.com</email>
+            <fromEmail>test@test.com</fromEmail>
+            <sendToEmail>test@test.com</sendToEmail>
+        </User>
+        <OrderName>order name</OrderName>
+        <RetrieveCode>RCB951492FE5</RetrieveCode>
+        <StyleNumber>00024r0</StyleNumber>
+        <DesignNumber>riddelljersey01</DesignNumber>
+        <Colors>
+            <PrimaryColorId>1</PrimaryColorId>
+            <SecondaryColorId>1011</SecondaryColorId>
+            <TertiaryColorId>1</TertiaryColorId>
+        </Colors>
+        <FabricId>13</FabricId>
+        <FabricDisplayName>BASE Poly-Tuff Mesh w/Poly Lycra Pnt</FabricDisplayName>
+        <Gender>Male</Gender>
+        <PreviewFrontUrl />
+        <PreviewLeftUrl />
+        <PreviewBackUrl />
+        <PreviewRightUrl />
+        <uniformConfigVersion />
+        <CallType />
+        <TopSelected />
+        <BottomSelected />
+        <PlayerNumber>
+            <font>
+                <displayname>Collegiate</displayname>
+            </font>
+            <fontColor>
+                <ColorId>4</ColorId>
+                <Name>Black</Name>
+                <Red>10</Red>
+                <Green>10</Green>
+                <Blue>10</Blue>
+                <RgbHexadecimal>#0A0A0A</RgbHexadecimal>
+                <Cyan>70</Cyan>
+                <Magenta>55</Magenta>
+                <Yellow>55</Yellow>
+                <Black>100</Black>
+                <CmykHexadecimal>#B28C8CFE00</CmykHexadecimal>
+                <Pantone />
+                <MatchingThreadColorId>4</MatchingThreadColorId>
+                <MatchingButtonColorId>4</MatchingButtonColorId>
+                <MatchingZipperColorId>4</MatchingZipperColorId>
+                <CmykCmyk>true</CmykCmyk>
+                <CmykCmykFluor>false</CmykCmykFluor>
+                <CustomerId>0</CustomerId>
+                <DisplayOrder>1</DisplayOrder>
+            </fontColor>
+            <text>23</text>
+            <fontOutline1Color>
+                <ColorId>3</ColorId>
+                <Name>Kelly Green</Name>
+                <Red>0</Red>
+                <Green>126</Green>
+                <Blue>75</Blue>
+                <RgbHexadecimal>#007E4B</RgbHexadecimal>
+                <Cyan>82</Cyan>
+                <Magenta>0</Magenta>
+                <Yellow>95</Yellow>
+                <Black>30</Black>
+                <CmykHexadecimal>#005F1E</CmykHexadecimal>
+                <Pantone />
+                <MatchingThreadColorId>3</MatchingThreadColorId>
+                <MatchingButtonColorId>3</MatchingButtonColorId>
+                <MatchingZipperColorId>3</MatchingZipperColorId>
+                <CmykCmyk>true</CmykCmyk>
+                <CmykCmykFluor>false</CmykCmykFluor>
+                <CustomerId>0</CustomerId>
+                <DisplayOrder>18</DisplayOrder>
+            </fontOutline1Color>
+            <fontOutline2Color>
+                <ColorId>1011</ColorId>
+                <Name>Electric Blue</Name>
+                <Red>0</Red>
+                <Green>116</Green>
+                <Blue>168</Blue>
+                <RgbHexadecimal>#0074A8</RgbHexadecimal>
+                <Cyan>90</Cyan>
+                <Magenta>0</Magenta>
+                <Yellow>40</Yellow>
+                <Black>0</Black>
+                <CmykHexadecimal>#002800</CmykHexadecimal>
+                <Pantone />
+                <MatchingThreadColorId>1011</MatchingThreadColorId>
+                <MatchingButtonColorId>1011</MatchingButtonColorId>
+                <MatchingZipperColorId>1011</MatchingZipperColorId>
+                <CmykCmyk>true</CmykCmyk>
+                <CmykCmykFluor>false</CmykCmykFluor>
+                <CustomerId>0</CustomerId>
+                <DisplayOrder>22</DisplayOrder>
+            </fontOutline2Color>
+        </PlayerNumber>
+        <PlayerName>
+            <font>
+                <displayname>Collegiate</displayname>
+            </font>
+            <fontColor>
+                <ColorId>4</ColorId>
+                <Name>Black</Name>
+                <Red>10</Red>
+                <Green>10</Green>
+                <Blue>10</Blue>
+                <RgbHexadecimal>#0A0A0A</RgbHexadecimal>
+                <Cyan>70</Cyan>
+                <Magenta>55</Magenta>
+                <Yellow>55</Yellow>
+                <Black>100</Black>
+                <CmykHexadecimal>#B28C8CFE00</CmykHexadecimal>
+                <Pantone />
+                <MatchingThreadColorId>4</MatchingThreadColorId>
+                <MatchingButtonColorId>4</MatchingButtonColorId>
+                <MatchingZipperColorId>4</MatchingZipperColorId>
+                <CmykCmyk>true</CmykCmyk>
+                <CmykCmykFluor>false</CmykCmykFluor>
+                <CustomerId>0</CustomerId>
+                <DisplayOrder>1</DisplayOrder>
+            </fontColor>
+            <text>player name</text>
+        </PlayerName>
+        <TeamName>
+            <fontColor>
+                <ColorId>3</ColorId>
+                <Name>Kelly Green</Name>
+                <Red>0</Red>
+                <Green>126</Green>
+                <Blue>75</Blue>
+                <RgbHexadecimal>#007E4B</RgbHexadecimal>
+                <Cyan>82</Cyan>
+                <Magenta>0</Magenta>
+                <Yellow>95</Yellow>
+                <Black>30</Black>
+                <CmykHexadecimal>#005F1E</CmykHexadecimal>
+                <Pantone />
+                <MatchingThreadColorId>3</MatchingThreadColorId>
+                <MatchingButtonColorId>3</MatchingButtonColorId>
+                <MatchingZipperColorId>3</MatchingZipperColorId>
+                <CmykCmyk>true</CmykCmyk>
+                <CmykCmykFluor>false</CmykCmykFluor>
+                <CustomerId>0</CustomerId>
+                <DisplayOrder>18</DisplayOrder>
+            </fontColor>
+            <font>
+                <displayname>Collegiate</displayname>
+            </font>
+            <text>team name</text>
+        </TeamName>
+        <OtherText>
+            <font>
+                <displayname>Collegiate</displayname>
+            </font>
+            <fontColor>
+                <ColorId>4</ColorId>
+                <Name>Black</Name>
+                <Red>10</Red>
+                <Green>10</Green>
+                <Blue>10</Blue>
+                <RgbHexadecimal>#0A0A0A</RgbHexadecimal>
+                <Cyan>70</Cyan>
+                <Magenta>55</Magenta>
+                <Yellow>55</Yellow>
+                <Black>100</Black>
+                <CmykHexadecimal>#B28C8CFE00</CmykHexadecimal>
+                <Pantone />
+                <MatchingThreadColorId>4</MatchingThreadColorId>
+                <MatchingButtonColorId>4</MatchingButtonColorId>
+                <MatchingZipperColorId>4</MatchingZipperColorId>
+                <CmykCmyk>true</CmykCmyk>
+                <CmykCmykFluor>false</CmykCmykFluor>
+                <CustomerId>0</CustomerId>
+                <DisplayOrder>1</DisplayOrder>
+            </fontColor>
+            <text>other text</text>
+        </OtherText>
+        <Graphic />
+        <RosterItems>
+            <Player>
+                <seq>1</seq>
+                <name>player name</name>
+                <number>01</number>
+                <ageCategory>Man</ageCategory>
+                <advUniformType />
+                <top>
+                    <size>2XL</size>
+                    <quantity>1</quantity>
+                    <price>51.95000076293945</price>
+                    <skuId>riddelljersey01-00024r0-2XL</skuId>
+                    <thumbnailUrl />
+                    <productionUrl />
+                </top>
+                <bottom>
+                    <size>2XL</size>
+                    <quantity>1</quantity>
+                    <price>47.95000076293945</price>
+                    <skuId>riddelljersey01-00024r0-2XL</skuId>
+                    <thumbnailUrl />
+                    <productionUrl />
+                </bottom>
+                <playerEmailField />
+                <productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%230A0A9B],colorThree[%230074A8],colorTwo[%230A0A9B]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;set=AP1angle[0],APX[1940],APY[8600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1940],APY[9600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[other text],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[2460],APY[8400],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[player name],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1660],APY[11000],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[team name],FontColorOne[%23007E4B],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+            </Player>
+            <Player>
+                <seq>2</seq>
+                <name>player name 2</name>
+                <number>02</number>
+                <ageCategory>Man</ageCategory>
+                <advUniformType />
+                <top>
+                    <size>2XL</size>
+                    <quantity>1</quantity>
+                    <price>51.95000076293945</price>
+                    <skuId>riddelljersey01-00024r0-2XL</skuId>
+                    <thumbnailUrl />
+                    <productionUrl />
+                </top>
+                <bottom>
+                    <size>2XL</size>
+                    <quantity>1</quantity>
+                    <price>47.95000076293945</price>
+                    <skuId>riddelljersey01-00024r0-2XL</skuId>
+                    <thumbnailUrl />
+                    <productionUrl />
+                </bottom>
+                <playerEmailField />
+                <productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%230A0A9B],colorThree[%230074A8],colorTwo[%230A0A9B]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;set=AP1angle[0],APX[1940],APY[8600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1940],APY[9600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[other text],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[2460],APY[8400],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[player name],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1660],APY[11000],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[team name],FontColorOne[%23007E4B],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+            </Player>
+            <Player>
+                <seq>3</seq>
+                <name />
+                <number />
+                <ageCategory />
+                <advUniformType />
+                <top />
+                <bottom />
+                <playerEmailField />
+                <productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%230A0A9B],colorThree[%230074A8],colorTwo[%230A0A9B]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;set=AP1angle[0],APX[1940],APY[8600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1940],APY[9600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[other text],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[2460],APY[8400],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[player name],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1660],APY[11000],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[team name],FontColorOne[%23007E4B],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+            </Player>
+            <Player>
+                <seq>4</seq>
+                <name />
+                <number />
+                <ageCategory />
+                <advUniformType />
+                <top />
+                <bottom />
+                <playerEmailField />
+                <productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%230A0A9B],colorThree[%230074A8],colorTwo[%230A0A9B]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;set=AP1angle[0],APX[1940],APY[8600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1940],APY[9600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[other text],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[2460],APY[8400],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[player name],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1660],APY[11000],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[team name],FontColorOne[%23007E4B],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+            </Player>
+            <Player>
+                <seq>5</seq>
+                <name />
+                <number />
+                <ageCategory />
+                <advUniformType />
+                <top />
+                <bottom />
+                <playerEmailField />
+                <productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%230A0A9B],colorThree[%230074A8],colorTwo[%230A0A9B]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;set=AP1angle[0],APX[1940],APY[8600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1940],APY[9600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[other text],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[2460],APY[8400],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[player name],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1660],APY[11000],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[team name],FontColorOne[%23007E4B],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+            </Player>
+            <Player>
+                <seq>6</seq>
+                <name />
+                <number />
+                <ageCategory />
+                <advUniformType />
+                <top />
+                <bottom />
+                <playerEmailField />
+                <productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%230A0A9B],colorThree[%230074A8],colorTwo[%230A0A9B]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;set=AP1angle[0],APX[1940],APY[8600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1940],APY[9600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[other text],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[2460],APY[8400],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[player name],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1660],APY[11000],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[team name],FontColorOne[%23007E4B],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+            </Player>
+            <Player>
+                <seq>7</seq>
+                <name />
+                <number />
+                <ageCategory />
+                <advUniformType />
+                <top />
+                <bottom />
+                <playerEmailField />
+                <productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%230A0A9B],colorThree[%230074A8],colorTwo[%230A0A9B]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;set=AP1angle[0],APX[1940],APY[8600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1940],APY[9600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[other text],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[2460],APY[8400],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[player name],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1660],APY[11000],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[team name],FontColorOne[%23007E4B],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+            </Player>
+            <Player>
+                <seq>8</seq>
+                <name />
+                <number />
+                <ageCategory />
+                <advUniformType />
+                <top />
+                <bottom />
+                <playerEmailField />
+                <productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%230A0A9B],colorThree[%230074A8],colorTwo[%230A0A9B]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;set=AP1angle[0],APX[1940],APY[8600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1940],APY[9600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[other text],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[2460],APY[8400],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[player name],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1660],APY[11000],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[team name],FontColorOne[%23007E4B],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+            </Player>
+            <Player>
+                <seq>9</seq>
+                <name />
+                <number />
+                <ageCategory />
+                <advUniformType />
+                <top />
+                <bottom />
+                <playerEmailField />
+                <productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%230A0A9B],colorThree[%230074A8],colorTwo[%230A0A9B]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;set=AP1angle[0],APX[1940],APY[8600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1940],APY[9600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[other text],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[2460],APY[8400],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[player name],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1660],APY[11000],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[team name],FontColorOne[%23007E4B],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+            </Player>
+            <Player>
+                <seq>10</seq>
+                <name />
+                <number />
+                <ageCategory />
+                <advUniformType />
+                <top />
+                <bottom />
+                <playerEmailField />
+                <productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%230A0A9B],colorThree[%230074A8],colorTwo[%230A0A9B]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;set=AP1angle[0],APX[1940],APY[8600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1940],APY[9600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[other text],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[2460],APY[8400],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[player name],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1660],APY[11000],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[team name],FontColorOne[%23007E4B],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+            </Player>
+            <Player>
+                <seq>11</seq>
+                <name />
+                <number />
+                <ageCategory />
+                <advUniformType />
+                <top />
+                <bottom />
+                <playerEmailField />
+                <productionUrl>http://teamwork.liquifire.com/teamwork?set=colorNone[none],colorOne[%230A0A9B],colorThree[%230074A8],colorTwo[%230A0A9B]&amp;set=scale[0.047],sizeSuffix[300px],styleHeight[13500],styleWidth[6300]&amp;blank=color[global.colorNone],height[%28ceil%28%28global.styleHeight%29*%28global.scale%29%29%29],name[styleDesign],width[%28ceil%28%28global.styleWidth%29*%28global.scale%29%29%29]&amp;set=designName[avenger],sizeNumber[m],styleNum[00024r1]&amp;set=designSizeFilePrefix[file:/dragon/speedPOC/global.styleNum/global.designName/%28%27global.designName%27.%27_%27.%27global.styleNum%27.%27_%27.%27global.sizeNumber%27.%27_%27%29]&amp;call=url[file:/dragonChain/speedPOC/3colorDesign_sandeep.chain]&amp;set=AP1angle[0],APX[1940],APY[8600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[23],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1940],APY[9600],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[other text],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[2460],APY[8400],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[player name],FontColorOne[%230A0A0A],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;set=AP1angle[0],APX[1660],APY[11000],boxHeight[600],boxWidth[700],firstStrokeWidth[5],fontName[undefined],fontSize[150],secondStrokeWidth[15],textGravity[center],textString[team name],FontColorOne[%23007E4B],FontColorTwo[%23007E4B],FontColorThree[%230074A8]&amp;call=url[file:/rsystems/AnchorPoint.chain]&amp;source=name[baseImage],url[file:/dragon/speedPOC/00024r1/00024r1_front_baseImage_300px.png]&amp;set=opacity[200]&amp;call=url[file:/rsystems/ModelPreviewComposition.chain]&amp;scale=width[300],height[562]&amp;sink=format[png]&amp;key=key[1381487708550],nocache[true]</productionUrl>
+            </Player>
+        </RosterItems>
+    </uniformConfig>
+		

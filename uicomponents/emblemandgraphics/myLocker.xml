@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <div id="dvIdConfiguratorPanel">
+           <!------------------------ My Locker--------------------------->
+           <div id="dvIdGraphicConfigurator">
+              <div id="dvIdConfiguratorHeadingBg" >
+                 <div class="myLockerLabelBox" id="headerId">
+                    MY LOCKER
+                 </div>
+              </div>
+              <div id="dvIdConfiguratorHeadingBg" >
+                 <div class="back_button" id="btnBackMyLocker"></div>
+                 <div class="myLockerSubHeading">
+                    MY LOCKER
+                 </div>
+              </div>
+              <div class="myLockerSection">
+                 <div class="myLockerText">
+                    Choose a graphic below to place on your uniform
+                 </div>
+                 <div class="howToButton">
+                 </div>
+                 <div class="clear">
+                 </div>
+                 <div class="horDevider">
+                 </div>
+                 <div id="chooseGraphic">
+                    <ul id="ulMyLockerId">									
+                    </ul>
+                 </div>
+                 <div class="customizeSelectionBtnBox ">
+                    <a class="applyOnUniform_button" id="aSelectMyLockerGraphics"></a>
+                 </div>
+              </div>
+              <div id="dvSaveMyLockerEmailDialogForm" class='emailPrintSaveDialogForm' >
+                 <div id="dvIdEmailMyLockerDialog" class='emailPrintSaveDialogContent'>
+                    <!--<p class="validateTips">All form fields are required.</p>-->
+                    <br/>
+                    <form>
+                       <div id="dvMyLockerEmail" class="emailSaveOrderPopupForm">
+                          <label class="labelEemailSaveOrderPopup">My Email :</label>
+                          <input type="text" name="myEmail" id="myLockerEmail" value=""  />
+                       </div>
+                       <div class="fr" style=" margin:8px 25px 0 0; "><span class="cancelButton close" id="dvIdImgCancelMyLocker" ></span><span class="saveButton" id="dvIdImgSaveMyLocker"  ></span></div>
+                       <div class="clear"></div>
+                    </form>
+                    <br/>
+                 </div>
+              </div>
+           </div>
+        </div>
+
+
+    ]]>
+    </content>
+</page>
+  

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<content>
+   <![CDATA[
+   
+   
+   
+   
+   
+   
+        <div class="aysPopup" id = "dvConfirmationpopup">
+
+            <div class="heading">Are You Sure You Want to Leave?</div>
+            <p> The following new features will not be accessible:</p>
+            <div style="min-height:100px;">
+            <div class="left" id="dvLeftSideData">
+   
+            </div>
+            <div class="right" id="dvRightSideData">
+            
+            </div>
+            </div>
+            <div style="clear:both;"></div>
+
+            <a class="fr button" style="cursor:pointer;" id = "dvNoProPlus">No</a>
+            <a id="aYesProPlus"  target="_parent" class="fl buttonYes" style="cursor:pointer">
+              Yes
+            </a>  
+                                            
+        </div>
+   ]]>
+</content>  

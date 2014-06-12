@@ -1,0 +1,198 @@
+{
+    "ResponseType": 1,
+    "ResponseData": [
+        {
+            "GraphicCategoryId": 1,
+            "Name": "Animal",
+            "PricingId": 1,
+            "PricingName": "N/A",
+            "GraphicTypes": [
+                {
+                    "GraphicTypeId": 1,
+                    "Name": "Lion",
+                    "PricingId": 1,
+                    "PricingName": "N/A",
+                    "Graphics": [
+                        {
+                            "GraphicId": 1,
+                            "Name": "Whhite-Lion",
+                            "PricingId": 1,
+                            "PricingName": "N/A",
+                            "GraphicsLayer": [
+                                {
+                                    "GraphicLayerId": 2,
+                                    "FileLocation": "test",
+                                    "X": 1,
+                                    "Y": 1,
+                                    "Width": 1,
+                                    "Height": 1,
+                                    "ColorId": 1
+                                }
+                            ]
+                        },
+                        {
+                            "GraphicId": 2,
+                            "Name": "Red Lion",
+                            "PricingId": 2,
+                            "PricingName": "N/A",
+                            "GraphicsLayer": [
+                                {
+                                    "GraphicLayerId": 2,
+                                    "FileLocation": "test",
+                                    "X": 1,
+                                    "Y": 1,
+                                    "Width": 1,
+                                    "Height": 1,
+                                    "ColorId": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "GraphicTypeId": 2,
+                    "Name": "Tiger",
+                    "PricingId": 1,
+                    "PricingName": "N/A",
+                    "Graphics": [
+                        {
+                            "GraphicId": 6,
+                            "Name": "Whhite-Tiger",
+                            "PricingId": 1,
+                            "PricingName": "N/A",
+                            "GraphicsLayer": [
+                                {
+                                    "GraphicLayerId": 2,
+                                    "FileLocation": "test",
+                                    "X": 1,
+                                    "Y": 1,
+                                    "Width": 1,
+                                    "Height": 1,
+                                    "ColorId": 1
+                                }
+                            ]
+                        },
+                        {
+                            "GraphicId": 7,
+                            "Name": "Red-Tiger",
+                            "PricingId": 2,
+                            "PricingName": "N/A",
+                            "GraphicsLayer": [
+                                {
+                                    "GraphicLayerId": 2,
+                                    "FileLocation": "test",
+                                    "X": 1,
+                                    "Y": 1,
+                                    "Width": 1,
+                                    "Height": 1,
+                                    "ColorId": 1
+                                }
+                            ]
+                        },
+                        {
+                            "GraphicId": 9,
+                            "Name": "Blue-Tiger",
+                            "PricingId": 2,
+                            "PricingName": "N/A",
+                            "GraphicsLayer": [
+                                {
+                                    "GraphicLayerId": 2,
+                                    "FileLocation": "test",
+                                    "X": 1,
+                                    "Y": 1,
+                                    "Width": 1,
+                                    "Height": 1,
+                                    "ColorId": 1
+                                }
+                            ]
+                        },
+                        {
+                            "GraphicId": 10,
+                            "Name": "Yellow-Tiger",
+                            "PricingId": 2,
+                            "PricingName": "N/A",
+                            "GraphicsLayer": [
+                                {
+                                    "GraphicLayerId": 2,
+                                    "FileLocation": "test",
+                                    "X": 1,
+                                    "Y": 1,
+                                    "Width": 1,
+                                    "Height": 1,
+                                    "ColorId": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "GraphicCategoryId": 2,
+            "Name": "Birds",
+            "PricingId": 1,
+            "PricingName": "N/A",
+            "GraphicTypes": [
+                {
+                    "GraphicTypeId": 8,
+                    "Name": "Bats",
+                    "PricingId": 1,
+                    "PricingName": "N/A",
+                    "Graphics": [
+                        {
+                            "GraphicId": 3,
+                            "Name": "Bats-1",
+                            "PricingId": 1,
+                            "PricingName": "N/A",
+                            "GraphicsLayer": [
+                                {
+                                    "GraphicLayerId": 2,
+                                    "FileLocation": "test",
+                                    "X": 1,
+                                    "Y": 1,
+                                    "Width": 1,
+                                    "Height": 1,
+                                    "ColorId": 1
+                                }
+                            ]
+                        },
+                        {
+                            "GraphicId": 4,
+                            "Name": "Bats-2",
+                            "PricingId": 2,
+                            "PricingName": "N/A",
+                            "GraphicsLayer": [
+                                {
+                                    "GraphicLayerId": 2,
+                                    "FileLocation": "test",
+                                    "X": 1,
+                                    "Y": 1,
+                                    "Width": 1,
+                                    "Height": 1,
+                                    "ColorId": 1
+                                }
+                            ]
+                        },
+                        {
+                            "GraphicId": 5,
+                            "Name": "Bats-3",
+                            "PricingId": 2,
+                            "PricingName": "N/A",
+                            "GraphicsLayer": [
+                                {
+                                    "GraphicLayerId": 2,
+                                    "FileLocation": "test",
+                                    "X": 1,
+                                    "Y": 1,
+                                    "Width": 1,
+                                    "Height": 1,
+                                    "ColorId": 1
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

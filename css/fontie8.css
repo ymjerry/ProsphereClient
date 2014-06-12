@@ -1,0 +1,93 @@
+/*-------font face-------------*/
+@font-face {
+    font-family: 'myHelveticaNormal';
+    src: url('../css/fonts/helveyicaNormal/helvetica.eot');
+    src: url('../css/fonts/helveyicaNormal/helvetica.eot?#iefix') format('embedded-opentype'),
+        url('../css/fonts/helveyicaNormal/helvetica.woff') format('woff'),
+        url('../css/fonts/helveyicaNormal/helvetica.ttf') format('truetype'),
+        url('../css/fonts/helveyicaNormal/helvetica.svg#gooddogregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myHelveticaBold';
+    src: url('../css/fonts/helveticaLTBold/helveticaltcom-bold.eot');
+    src: url('../css/fonts/helveticaLTBold/helveticaltcom-bold.eot') format('embedded-opentype'),
+        url('../css/fonts/helveticaLTBold/helveticaltcom-bold.woff') format('woff'),
+        url('../css/fonts/helveticaLTBold/helveticaltcom-bold.ttf') format('truetype'),
+        url('../css/fonts/helveticaLTBold/helveticaltcom-bold.svg#HelveticaLTComBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TradeGothicBoldTwo';
+    /*src: url("../css/fonts/TradeGothicBoldTwo.ttf");*/
+    src: url('../css/fonts/TradeGothicBoldTwo/tradegothicltcom-bd2.eot');
+    src: url('../css/fonts/TradeGothicBoldTwo/tradegothicltcom-bd2.eot') format('embedded-opentype'),
+        url('../css/fonts/TradeGothicBoldTwo/tradegothicltcom-bd2.woff') format('woff'),
+        url('../css/fonts/TradeGothicBoldTwo/tradegothicltcom-bd2.ttf') format('truetype'),
+        url('../css/fonts/TradeGothicBoldTwo/tradegothicltcom-bd2.svg#TradeGothicLTComBoldNo.2') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'italicFont';
+    src: url('../css/fonts/liberationsansBolditalicMacroman/LiberationSans-BoldItalic-webfont.eot');
+    src: url('../css/fonts/liberationsansBolditalicMacroman/LiberationSans-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+        /*url('../css/fonts/liberationsansBolditalicMacroman/LiberationSans-BoldItalic-webfont.woff') format('woff'),*/
+        url('../css/fonts/liberationsansBolditalicMacroman/LiberationSans-BoldItalic-webfont.ttf') format('truetype'),
+        url('../css/fonts/liberationsansBolditalicMacroman/LiberationSans-BoldItalic-webfont.svg#liberation_sansbold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'liberationBold';
+    src: url('../css/fonts/liberationsansBoldiMacroman/LiberationSans-Bold-webfont.eot');
+    src: url('../css/fonts/liberationsansBoldiMacroman/LiberationSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+       /* url('../css/fonts/liberationsansBoldiMacroman/LiberationSans-Bold-webfont.woff') format('woff'),*/
+        url('../css/fonts/liberationsansBoldiMacroman/LiberationSans-Bold-webfont.ttf') format('truetype'),
+        url('../css/fonts/liberationsansBoldiMacroman/LiberationSans-Bold-webfont.svg#liberation_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'liberationNormal';
+    src: url('../css/fonts/liberationsansRegularMacroman/LiberationSans-Regular-webfont.eot');
+    src: url('../css/fonts/liberationsansRegularMacroman/LiberationSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+       /* url('../css/fonts/liberationsansRegularMacroman/LiberationSans-Regular-webfont.woff') format('woff'),*/
+        url('../css/fonts/liberationsansRegularMacroman/LiberationSans-Regular-webfont.ttf') format('truetype'),
+        url('../css/fonts/liberationsansRegularMacroman/LiberationSans-Regular-webfont.svg#liberation_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'myArial';
+    src: url('../css/fonts/arial/Arial.eot');
+    src: url('../css/fonts/arial/Arial.eot?#iefix') format('embedded-opentype'),
+        url('../css/fonts/arial/Arial.woff') format('woff'),
+        url('../css/fonts/arial/Arial.ttf') format('truetype'),
+        url('../css/fonts/arial/Arial.svg#gooddogregular') format('svg');
+    font-weight: bold;
+    font-size: "80%/150%";
+
+
+}
+
+@font-face {
+    src: url("../css/fonts/TradeGothicBoldCondTwenty.ttf");
+    font-family: myTradeGothicBoldCondTwenty;
+    font-weight: normal;
+}
+/*------------------------*/

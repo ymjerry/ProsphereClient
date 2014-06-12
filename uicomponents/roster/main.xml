@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <section id="leftBoxRoster">
+           <div id="rosterBox">
+              <div class="rosterBtn">
+                 <div class="left">
+                    <img src="images/button.png" alt="" >
+                 </div>
+                 <div class="Right">
+                    <div class="howToButtonRoster" tabindex="2"></div>
+                 </div>
+                 <div class="Right" id='dvModifyUnifrom'>
+                    <div class="mdifyButtonRoster" tabindex="1"></div>
+                 </div>
+              </div>
+              <div class="rosterSearchBox">
+                 <div class="enterOrderName">
+                    <label style="cursor:default;">*ENTER ORDER NAME:</label>
+                    <INPUT type="text" id="txtRosterOrderName" class="rosterInputField" maxlength="16">
+                 </div>
+                 <div class="enterOrderTeam">
+                    <label style="cursor:default;">*ENTER TEAM NAME:</label>
+                    <INPUT type="text" id="txtRosterTeamName" class="rosterInputField" maxlength="128">
+                 </div>
+              </div>
+              <div class="rosterTableBox">
+                 <div class="rosterTableHeader">
+                    <div class="rosterTableLabelBox">
+                       <div class="rosterTableLabel" style="width:30%; cursor:default; margin-top: 1px;">
+                          Information
+                       </div>
+                       <div class="rosterTableLabel topSize" style="width:26%; cursor:default;margin-top: 1px;">
+                          Top
+                       </div>
+                       <div class="rosterTableLabel bottomSize" style="width:27%; cursor:default; margin-top: 1px;">
+                          bottom
+                       </div>
+                       <div class="rosterTableLabelBtm" style="cursor:default;">
+                          actions
+                       </div>
+                    </div>
+                    <!-----	<div class="rosterHeaderBtnBox">	<img src="images/preview.jpg" alt="" > </div> --->
+                 </div>
+                 <div class="rosterInputBox" style="">
+                    <form id='frmRosterPlayerBox' name='frmRosterPlayerBox'>
+                       <table  cellpadding="1" cellspacing="2" border="0" width="100%"  >
+                          <thead class="fontHeading">
+                             <tr >
+                                <th width="100" align="left" >Player name* </th>
+                                <th width="40" align="left">#</th>
+                                <th width="63" align="left">Category*</th>
+                                <th width="40" class="topSize" align="left">Qty*</th>
+                                <th width="93" class="topSize" align="left">Size*</th>
+                                <th width="45" class="topSize"align="left"></th>
+                                <th width="42" class='bottomSize' align="left">Qty</th>
+                                <th width="60" class='bottomSize' align="left">Size</th>
+                                <th width="10" align="left"></th>
+                                <th width="10" align="left"></th>
+                                <th></th>
+                             </tr>
+                          </thead>
+                       </table>
+                       <div id='tblRosterPlayerBox' style="overflow:auto; height: 285px; ">
+                          <table  cellpadding="2" cellspacing="1" border="0" width="100%">
+                          </table>
+                       </div>
+                    </form>
+                 </div>
+                 <table cellpadding="0" cellspacing="0" border="0" width="100%" >
+                    <tr class="rosterGreyRow">
+                       <td style="width:11%; padding:0 0 0 5px; cursor:default;"></td>
+                       <td style="width:11%;"> </td>
+                       <td style="width:10.7%;"> Subtotals:</td>
+                       <td id="totalTopQuantity" class="topSize" style="width:11%; cursor:default;">0</td>
+                       <td class="topSize" style="width:7.7%;"></td>
+                       <td id="totalTopPrice" class="topSize" style="width:60px; cursor:default;" > $0.00</td>
+                       <td id="totalBottomQuantity" class='bottomSize' style="width:65px; cursor:default;">0</td>
+                       <td class='bottomSize'style="width:68px;"></td>
+                       <td id="totalBottomPrice" class='bottomSize' style="cursor:default;">$0.00</td>
+                       <td></td>
+                       <td></td>
+                       <td></td>
+                    </tr>
+                 </table>
+                 <table cellpadding="3" cellspacing="0" border="0" width="100%" class="rosterGreyRow">
+                    <tr>
+                       <td width="68"> <a href="" id='linkClearRoster' alt="Clear Roster" title="Clear Roster" class="clearRosterBtn">  
+                          </a>
+                       </td>
+                       <td width="232" id="tdRosterConditionalNotification"></td>
+                       <td width="165" class="disqableText" style="cursor:default;">*Large size up-charges do apply.</td>
+                       <td align="right" width="54" id="btnDeletePlayer"></td>
+                    </tr>
+                 </table>
+                 <div class="rosterFooterBox">
+                    <!---Upload roster pupup---->            
+                    <div class="rosterPupupBox" id="dvUploadRoster" style="display:none">
+                       <div class="rosterPupupBoxHeadingBox">
+                          <div class="label">Uploaded New Roster  </div>
+                          <div class="rosterdeleteBtn" onclick='javascript:$("#dvUploadRoster").toggle();$("#blanket").hide();'>  </div>
+                       </div>
+                       <div class="rosterPupupBoxHeadingBox">
+                          <div class="browsBtn">
+                             <div class='uploadedNewRosteBrowsBtn'>
+                                <input type='file' id='fileupload' accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel" alt="Please select the file" alt="Please select the file">
+                             </div>
+                          </div>
+                          <div class="labelContent"><a href="RosterTemplate.xlsx" onclick="javscript:window.onbeforeunload=null;window.location.href=CONFIG.get('BASE_URL');"  style="color:#fff;">Download Roster<br/> Template</a></div>
+                       </div>
+                    </div>
+                    <!---Upload roster pupup---->
+                    <div class="footerLeftBox">
+                       <div class="addPlayerBox">
+                          <div id="dvAddPlayerQuintityErrorBox" class="arrow_box" style="display:none;">The input contains invalid characters.</div>
+                          <p style="cursor:default;">
+                             add players:
+                          </p>
+                          <p style="cursor:default;">
+                             Quantity
+                          </p>
+                          <p>
+                             <INPUT type="text" name="txtNumberOfRosterPlayer" id="txtNumberOfRosterPlayer" class="numberInputField" maxlength="2" size="2">
+                          </p>
+                          <a tabindex="0" class="addButton" id='dvAddRosterPlayer' alt="ADD PLAYER LINES" title="ADD PLAYER LINES">
+                          </a>
+                          <a tabindex="0" class="uploadRosterButton" id="btnUploadRoster">                                                                        
+                          </a>
+                       </div>
+                       <div class="clear"></div>
+                       <div style="margin-top:8px; font-size:10px;">
+                          <div class="leftBox1 " id="dvViewRosterFabImg">
+                             <img src="" alt="" />
+                          </div>
+                          <div class="rightBox1 fontBold">
+                             <div style="cursor:default;">
+                                Selected Fabric:
+                                <br />
+                                <div id="spanFabricTitle" style="width:168px;">Premium Performance Tech</div>
+                             </div>
+                             <div id='spanChangeFabric' style="width:80px;cursor:pointer;"> <a> Change Fabric &raquo;</a></div>
+                          </div>
+                          <div class="fl" style="cursor:default;">
+                             roster format in excel or cvs
+                             <br />
+                             format only
+                          </div>
+                          <div class="fl"><span  title="roster format in excel or cvs format only" alt="roster format in excel or cvs format only"></span></div>
+                       </div>
+                       <div style="clear:left; color:red;font-weight:bold; padding-top:3px;" id="dvIdNumberOfPlayerAdd"></div>
+                    </div>
+                    
+                    <div class="fl" style="width: 275px;">
+                        <div id="dvQuoteButtonBox" style="border:1px solid #ccc; width: 68px; float:left; margin-top: 25px; height: 41px; border-radius:3px;padding-top:23px;display:none">
+                            <div class="quoteImg" id="idQuoteBtn">
+                                <a class="quote" alt="">Quote</a>
+                            </div>
+                        </div>
+                                
+                                
+                    <div class="footerRightBox">
+                       <div class="customUniform" style="cursor:default;">
+                          Custom Uniform Total: <span class="priceTxt" style="cursor:default;" id='spanCustomUniformTotal'> $0.00 </span>
+                       </div>
+                       <div class="iconBox">
+                          <div style="width:80px; margin-left: -4px; ">
+                             <div class="emailImg ">
+                                <a class="email"  alt="">Email</a>
+                             </div>
+                             <div class="printImg " id="printRoaster">
+                                <a class="print" alt="">Print</a>
+                             </div>
+                             <div class="saveImg ">
+                                <a class="save"  alt="">Save</a>
+                             </div>
+                             <!--<div class="emailPrintSaveIcon emailOrder">
+                                <div class="icon"><img src="images/mail.png" alt="" >
+                                </div>Email
+                                </div>
+                                <div class="emailPrintSaveIcon printOrder" id="printRoaster">
+                                <div class="icon"><img src="images/print.png" alt="" >
+                                </div>										
+                                        Print
+
+
+                                </div>
+                                <div class="emailPrintSaveIcon saveOrder">
+                                <div class="icon"><img src="images/save.png" alt="" >
+                                </div>Save
+                                </div>-->
+                             <div class="proofSection">
+                                <div class="proofbtn"  tabindex="0" id="dvProofRosterPlayer" style="display:none;">
+                                </div>
+                                <div  style="width:100px; margin: 4px 0 0 24px;">
+                                   <span class="linkProof" tabindex="0" id="spnLinkProof" style="display:none;">(what's this?)</span>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           </div>
+        </section>
+        <!--------------------------------------------------------------------------------------------
+           End Left section
+           ------------------------------------------------------------------------------------------->
+        <!-------------------------------------------------------------------------------------------
+           End center section
+           ------------------------------------------------------------------------------------------->
+        <aside id="rightBoxContainer">
+           <nav class="rightBoxHeader">
+              <ul>
+                 <li style="border-left: none;">
+                    <div tabindex="3" class="liveChat" onclick="javascript:window.open('http://server.iad.liveperson.net/hc/32520865/?cmd=file&file=visitorWantsToChat&site=32520865&imageUrl=http://server.iad.liveperson.net/hcp/Gallery/ChatButton-Gallery/English/Consulting/3a&referrer=' + escape(document.location), 'chat32520865', 'width=475,height=400,resizable=yes');return false;"></div>
+                 </li>
+                 <li style="border-left: none;">
+                    <span tabindex="4" class="link helpLink" alt="Help" >Help</span>
+                 </li>
+                 <li >
+                    <span tabindex="5" class="link startover" >Start Over</span>
+                 </li>
+              </ul>
+           </nav>
+           <div id="rightBoxRoster">
+              <div class="bigImage" id='dvRosterModelPreview'>
+                 <!--<img id='imgRosterModelPreview' src="" alt=""/>-->
+              </div>
+              <section id="secRosterBirdEyeViewPanel" class="content" url="uicomponents/roster/birdeyeview.xml"> </section>
+           </div>
+        </aside>
+        <ul>
+        </ul>
+
+
+    ]]>
+    </content>
+</page>
+  

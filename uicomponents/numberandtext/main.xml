@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[      
+        <div id="dvIdConfiguratorPanel">       
+            <section id="secNumberAndTextHome" class="content" > 
+
+                    <div id="numAndTextConfigurator">
+                    <div id="dvIdConfiguratorHeadingBg" >
+                            <div class="numAndTxtLabelBox">
+                                    NUMBERS AND TEXT
+                            </div>
+                    </div>         
+                  <div class="numAndTextTileBox"  id="dvIdPlayerNumberOption">
+                    <div class="ContentBox">
+                        <a>
+                        <div class="marginTop25">
+                        <span class="numAndTxtLabel">
+                            PLAYER NUMBERS
+                        </span>    
+                        </div>                                                                
+                        </a>
+                        <div class="numAndTxtDescription">
+                                Design and place a representative player number.
+                                Actual numbers will come from your Roster.
+                        </div>
+                        </div>
+                        <div class="numAndTxtRightArrowBox">
+                                <div class="numAndTxtRightArrow"></div>
+                        </div>
+                    </div>
+
+                    <div class="numAndTextTileBox"  id="dvIdTeamNameOption">
+                        <div class="ContentBox">
+                        <a  id="linkTeamName">
+                        <div class="marginTop25">
+                        <span class="numAndTxtLabel">
+                        TEAM NAME
+                        </span>
+                        </div>
+                        </a>
+                        <div class="numAndTxtDescription">
+                                Design and place your team name.
+                        </div>
+                        </div>
+                        <div class="numAndTxtRightArrowBox">
+                                <div class="numAndTxtRightArrow"></div>
+                        </div>
+                    </div>
+
+                    <div class="numAndTextTileBox"  id="dvIdPlayerNameOption">
+                        <div class="ContentBox">
+                        <a  id="linkPlayerNames">
+                        <div class="marginTop25">
+                        <span class="numAndTxtLabel">
+                        PLAYER NAMES
+                        </span>
+                        </div>
+                        </a>                                                                        
+                        <div class="numAndTxtDescription">
+                                Design and place a representative player name.<br>Actual names will come from your Roster.
+                        </div>
+                        </div>
+                        <div class="numAndTxtRightArrowBox">
+                              <div class="numAndTxtRightArrow"></div>
+                        </div>
+                    </div>
+
+                    <div class="numAndTextTileBox"  id="dvIdOtherTextOption">
+                        <div class="ContentBox">
+                        <a  id="idLinkOtherText">
+                        <div class="marginTop25">
+                        <span class="numAndTxtLabel">
+                        OTHER TEXT
+                        </span>
+                        </div>
+                        </a>                                                                          
+                        <div class="numAndTxtDescription">
+                                        Design and place any other text. "Go Team!"
+                        </div>
+                        </div>
+                        <div class="numAndTxtRightArrowBox">
+                                <div class="numAndTxtRightArrow"></div>
+                            </div>
+                    </div>
+                </div>
+
+
+
+
+            </section>                     
+
+            <!-------------------BEGIN container-------------->        
+            <!-- Begin Player Name Section -->
+            <section id="secPlayerName" url="uicomponents/numberandtext/playername.xml">
+            </section>
+            <!-- End Player Name Section -->
+
+            <!-- Begin Player Number Section -->
+            <section id="secPlayerNumber" url="uicomponents/numberandtext/playernumber.xml">
+            </section>
+            <!-- End Player Number Section -->        
+
+
+            <!-- Begin Team Name Section -->
+            <section id= "secTeamName" url="uicomponents/numberandtext/teamname.xml" >
+
+            </section>
+            <!-- End Team Name Section -->    
+
+            <!-- Begin Other Text Section -->
+            <section id= "secOtherText" url="uicomponents/numberandtext/othertext.xml">
+
+            </section>
+            <!-- End Other Text Section   -->
+
+        </div>  
+
+
+            <!------------------- END container-------------->
+    ]]>
+    </content>	
+</page>
+  

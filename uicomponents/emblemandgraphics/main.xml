@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <div id="dvIdConfiguratorPanel">
+           <section id="secConfiguratorGraphicsHome" class="content" >
+              <div id="dvIdGraphicConfigurator">
+                 <div id="dvIdConfiguratorHeadingBg" >
+                    <div class="emblemAndGraphicLabelBox" id="heade0rId">
+                        GRAPHICS
+                    </div>
+                 </div>
+                 <div class="emblemAndGraphicsHeader">
+                    <div style="height:20px;margin-top:18px;">
+                       Choose a graphic below to place on your uniform.
+                    </div>
+                    <div class="horDevider"> </div>
+                 </div>
+                 <div style="margin-top:20px;">
+                    <div class="emblemAndGraphicsTileBox" id="dvSelectGraphics">
+                       <div class="ContentBox">
+                          <a href="#">
+                             <div class="marginTop25">
+                                <span class="numAndTxtLabel">SELECT A GRAPHIC</span>
+                             </div>
+                          </a>
+                          <div class="numAndTxtDescription">
+                             Browse our artwork library.
+                          </div>
+                       </div>
+                       <div class="numAndTxtRightArrowBox">
+                          <div class="numAndTxtRightArrow"></div>
+                       </div>
+                    </div>
+                    <div class="emblemAndGraphicsTileBox" id="dvUploadGraphic">
+                       <div class="ContentBox">
+                          <a href="#">
+                             <div class="marginTop25">
+                                <span class="numAndTxtLabel">UPLOAD YOUR GRAPHIC</span>
+                             </div>
+                          </a>
+                          <div class="numAndTxtDescription">
+                             Use your team's custom logo, mascot, or design.
+                          </div>
+                       </div>
+                       <div class="numAndTxtRightArrowBox">
+                          <div class="numAndTxtRightArrow"></div>
+                       </div>
+                    </div>
+                    <div class="emblemAndGraphicsTileBox" id="dvMyLocker">
+                       <div class="ContentBox">
+                          <a href="#">
+                             <div class="marginTop25">
+                                <span class="numAndTxtLabel">CHOOSE FROM MY LOCKER</span>
+                             </div>
+                          </a>
+                          <div class="numAndTxtDescription">
+                             Find graphics you've used in previous orders.
+                          </div>
+                       </div>
+                       <div class="numAndTxtRightArrowBox">
+                          <div class="numAndTxtRightArrow"></div>
+                       </div>
+                    </div>
+                 </div>
+              </div>
+           </section>
+           <section id="secConfiguratorSelectGraphics" class="content" url="uicomponents/emblemandgraphics/selectgraphics.xml" style="display:none;"></section>
+           <section id="secConfiguratorUploadGraphics" class="content" url="uicomponents/emblemandgraphics/uploadGraphics.xml" style="display:none;"></section>
+           <section id="secConfiguratorMyLocker" class="content" url="uicomponents/emblemandgraphics/myLocker.xml" style="display:none;"></section>
+           <section id="secCustomizeGraphics" class="content" url="uicomponents/emblemandgraphics/customizegraphics.xml" style="display:none;"></section>
+        </div>
+
+
+    ]]>     
+    </content>
+</page>
+  

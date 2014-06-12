@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <div id="dvIdConfiguratorPanel">
+           <!------------------------ Selact A Graphic--------------------------->
+           <div id="dvIdGraphicConfigurator">
+              <div id="dvIdConfiguratorHeadingBg" >
+                 <div class="selectGraphicLabelBox" id="headerId">
+                    GRAPHICS
+                 </div>
+              </div>
+              <div id="dvIdConfiguratorHeadingBg" >
+                 <div class="back_button"  id="btnBackSelectgraphics"></div>
+                 <div class="selectaGraphicSubHeading">
+                    SELECT A GRAPHIC
+                 </div>
+              </div>
+              <div style="float:left; margin: 10px 0 0 5px;" >
+                 <div id="dvIdCatagory" class="graphicCategories customScroll">
+                 </div>
+              </div>
+              <div id="dvIdGraphics" class="graphicsSearchList customScroll"></div>
+              <div class="clear"></div>
+              <div class="bottom_nav">
+                 <div class="customizeSelectionBtnBox ">
+                    <a class="customizeGraphic" id="aCustomizeGraphics"></a>
+                 </div>
+              </div>
+           </div>
+        </div>
+
+
+    ]]>
+    </content>
+</page>
+  

@@ -1,0 +1,45 @@
+{
+    "ResponseType": 1,
+    "ResponseData": {
+        "Table": [
+            {
+                "ApplicationId": 2,
+                "DesignId": 1,
+                "CategoryId": 1,
+                "GenderTypeId": 1,
+                "StyleId": 2,
+                "FabricId": 1,
+                "MatchingBottomStyleId": 1,
+                "StyleName": "Full Button Jersey",
+                "FabricPrice": 100,
+                "FabricName": "PREMIUM Stretch Spandex",
+                "FabricItemId": "F102-5",
+                "FabricDescription": "For the ultimate in fit and comfort, nothing beats spandex. This fabric will keep you cooler, dryer and looking great. The shorts are in our stretch spandex for the ultimate in fit and comfort.",
+                "DesignName": "Camouflage",
+                "SelectedImage":"http://s7d4.scene7.com/is/image/TeamworkAthletic/F200-5?&wid=65&fmt=png-alpha&qlt=90&op_colorize=ffff00",
+                "PRIVEWIMAGE":"http://s7d4.scene7.com/is/image/TeamworkAthletic/F200-5?&wid=200&fmt=png-alpha&qlt=90&op_colorize=ffff00",
+                "DesignNumber": "camouflage"
+            },
+            {
+                 "ApplicationId": 3,
+                "DesignId": 2,
+                "CategoryId": 2,
+                "GenderTypeId": 1,
+                "StyleId": 3,
+                "FabricId": 2,
+                "MatchingBottomStyleId": 1,
+                "StyleName": "Full Button Jersey",
+                "FabricPrice": 100,
+                "FabricName": "PREMIUM Stadium-Core Mesh",
+                "FabricItemId": "F103-5",
+                "FabricDescription": "Engineered polyester microfiber is woven into a unique closed hole mesh featuring an anti-microbial finifhs, moisture management qualities and superior strength and comfort",
+                "DesignName": "Camouflage",
+                "SelectedImage":"http://s7d4.scene7.com/is/image/TeamworkAthletic/F200-5?&wid=65&fmt=png-alpha&qlt=90&op_colorize=ffff00",
+                "PRIVEWIMAGE":"http://s7d4.scene7.com/is/image/TeamworkAthletic/F200-5?&wid=200&fmt=png-alpha&qlt=90&op_colorize=ffff00",
+                "DesignNumber": "camouflage"
+            }
+            
+        ]
+    }
+}
+ 

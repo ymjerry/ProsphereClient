@@ -1,0 +1,87 @@
+body{
+    margin: 0 auto;
+    margin-left: 40px;
+
+}
+
+.proofDescription,.flatCutUniLabelTabel{
+    font-family: "liberationNormal", Georgia, "Times New Roman", Times, serif ;
+    line-height: 1.3;
+    font-size: 15px;
+
+}
+
+.listLabel{
+    font-family: "liberationNormal", Georgia, "Times New Roman", Times, serif ;
+    line-height: 1.3;
+    font-size: 15px;
+    float:right;
+}
+
+.listDescription, .rosterTableWhiteRow{
+    font-family: "liberationNormal";
+    line-height: 1.3;
+    font-size: 15px;
+
+}
+.listLabelwidth {
+    width:200px;
+}
+.textAlignCenter {
+    text-align:center;
+}
+
+
+.descriptionBox p, .descriptionBox span, .approvalOptionDesription p{
+
+    font-family: "liberationNormal";
+    line-height: 1.3;
+    font-size: 15px;
+}
+
+.colorIdentification .colorLabel, .listLabel, .rosterTableWhiteRow, .rosterTableHeader, .teamroster{
+    color:#000000;
+}
+.textAreaStyle{
+    border:1px solid #000000;
+}
+
+.flatCutUniformBox {
+   
+    width: 70%;
+    //border:1px solid #cccccc;
+}
+
+
+
+.flatCut, .flatCutSizeBox, .flatCutUniLabelTabel, .uniformEmblishment{
+    height: auto;
+}
+.flatCutUniLabelTabel, .tableWidth  {
+    width: 800px!important;
+   height:auto;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    color: #ED1515;
+}
+
+#dvPrintUniformEmbleshilemt, .tableWidth {
+    width:635px!important;
+    /*border:2px solid #CCCCCC;*/
+}
+
+
+
+
+
+.tableWidth {
+    width:648px;
+    color:#000000;
+    margin-left:1px;
+    border:1px solid #CCCCCC
+}
+.uniformEmblishment{
+    border:1px solid #ffffff;
+     height: auto;
+}

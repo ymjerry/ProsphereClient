@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <div id="dvIdConfiguratorPanel">
+           <!------------------------ Upload Graphic--------------------------->
+           <div id="dvIdGraphicConfigurator">
+              <div id="dvIdConfiguratorHeadingBg" >
+                 <div class="uploadGraphicLabelBox">
+                    Upload Your Own Graphic
+                 </div>
+                 <div id="dvIdConfiguratorHeadingBg">
+                    <div id="dvIdBackUploadGraphics" class="back_button"></div>
+                    <div class="uploadYourOwnSubHeading">Upload Your Own Graphic</div>
+                 </div>
+              </div>
+              <div class="uploadYourGraphicSection">
+                 <div class="uploadYourGraphicText">
+                    Select your graphics in any of the formats below. The closest Teamwork
+                    colors will be used unless you specify otherwise during proofing.
+                 </div>
+                 <div class="clear">
+                 </div>
+                 <div class="horDevider">
+                 </div>
+                 <section>
+                    <div class="uploadYourGraphicFormat">
+                       <h4> Vector Illustrations </h4>
+                       <p>
+                          Preferred for sharper lines. For best results, save these as editable illustrator files.
+                       </p>
+                    </div>
+                    <div id="dvIdGraphicFormatNav">
+                       <ul>
+                          <li>
+                             AI
+                          </li>
+                          <li >
+                             PDF
+                          </li>
+                       </ul>
+                    </div>
+                 </section>
+                 <section>
+                    <div class="uploadYourGraphicFormat">
+                       <h4> Other Formats </h4>
+                       <p>
+                          Must be at least 150dpi to avoid blurring.
+                       </p>
+                    </div>
+                    <div id="dvIdGraphicFormatNav">
+                       <ul>
+                          <li>
+                             BMP
+                          </li>
+                          <li >
+                             JPG
+                          </li>
+                          <li >
+                             PNG
+                          </li>
+                          <li >
+                             PSD
+                          </li>
+                          <li >
+                             TIF
+                          </li>
+                       </ul>
+                    </div>
+                 </section>
+                 <section class="marginTop20">
+                    <div>
+                       <INPUT type="text" id="idUploadgraphicsFilename" value="" readonly="true" class="input_field fl" placeholder="" >                                                               
+                       <div id="file_browse_wrapper" class="browseButon">
+                          <INPUT type="file" id="uploadgraphic" >
+                       </div>
+                    </div>
+                    <div class="clear">
+                    </div>
+                    <div >
+                       <INPUT type="text" id="uploadgraphicname" value="" class="input_field" placeholder="Name Your Image">
+                       <span >The image will be saved in your Locker. </span>
+                    </div>
+                 </section>
+              </div>
+              <div class="customizeSelectionBtnBox ">
+                 <a id="aUploadGraphics" class="uploadImageBtn"></a>
+              </div>
+              <div class="haveYouImageBefore">
+                 Have you uploaded the image before?
+                 <a href="#" id="aGoToMyLocker">Go to My Locker &gt;</a>
+              </div>
+              <div id="dvSaveUploadGraphicEmailDialogForm" class='emailPrintSaveDialogForm' >
+                 <div id="EmailUploadGraphicDialog" class='emailPrintSaveDialogContent'>
+                    <!--<p class="validateTips">All form fields are required.</p>-->
+                    <br/>
+                    <form>
+                       <div id="dvMyUploadGraphicsEmail" class="emailSaveOrderPopupForm">
+                          <label class="labelEemailSaveOrderPopup">My Email :</label>
+                          <input type="text" name="myEmail" id="uploadGraphicEmail" value=""  />
+                       </div>
+                       <div class="fr" style=" margin:8px 25px 0 0; "><span class="cancelButton close" id="imgCancelUploadGraphic" ></span><span class="saveButton" id="imgSaveUploadGraphic"  ></span></div>
+                       <div class="clear"></div>
+                    </form>
+                    <br/>
+                 </div>
+              </div>
+           </div>
+        </div>
+
+
+    ]]>
+    </content>
+</page>
+  

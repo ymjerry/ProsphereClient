@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <nav class="rightSideLinkArea">
+           <ul>
+              <li style="border-left: none;">
+                 <div id="dvLiveChat" class="liveChatBtn" ></div>
+              </li>
+              <li style="border-left: none;">
+                 <span class="link" id="idHelpLink" alt="" style="cursor:pointer;">Help</span>
+              </li>
+              <li>
+                 <!--<a href="#" class="link startover" alt="" onclick="javascript:window.location.href=CONFIG.get('HOME_URL');" >Start Over</a>-->
+                 <span class="link startover">Start Over</span>
+              </li>
+           </ul>
+        </nav>
+        <div class="cartPanelLabel" >
+           YOUR <span id="dvIdSportsNameDisplay">FOOTBALL</span>
+           <br>
+           UNIFORM ITEMS
+        </div>
+        <div class="cartBox">
+           <div class="cartCheckbox">
+              <input id="chkTopCart" class="checkbox" type="checkbox" checked/>
+              <label for="chkTopCart" name="demo_lbl_3" class="css-label"></label>
+           </div>
+           <div class="cartTopItem" id="dvIdAdultClothTop">
+              <img src="images/Adult_top.png" alt=""/>
+           </div>
+           <div class="cartTopItemLabel" id="adultClothText">
+              Adult Top
+           </div>
+           <div class="cartTopBottomPrice" id="topPriceVal">
+              $100
+           </div>
+        </div>
+        <div class="clear"></div>
+        <div class="cartBox">
+           <div class="cartCheckbox">
+              <input id="idChkBottomCart" class="checkbox" type="checkbox" checked/> <!--unchecked-->
+              <label id="bottomChkRemove"  for="idChkBottomCart" name="demo_lbl_3" class="css-label"></label>
+           </div>
+           <div class="cartBottomItem" id="idAdultClothBottom" style="display:none;">
+              <img src="images/Adult_bottom.png"  alt=""/>
+           </div>
+           <div class="cartBottomItemLabel" id="idAdultClothTextBottom">
+              Adult Bottom
+           </div>
+           <div class="cartTopBottomPrice" id="idBottomPriceVal">
+              $100
+           </div>
+        </div>
+        <div class="clear"></div>
+        <div class="cartBoxSelectedFabric" id="dvIdFabricSelectedCartbox">
+           <div class="cartSelectedFabricItem">
+              <div style="display:none;" class="cartSelectedFabric" id="dvIdFabricSelected"></div>
+           </div>
+           <div class="cartSelectedFabricLabel" style="display:none;">
+              <div class="fontFamily">Fabric:</div>
+              <br>
+              <div class="dottedLength fontFamily"  id="dvIdFabricDescriptionForProof">PREMIUM Steelmesh w/Poly...</div>
+           </div>
+        </div>
+        <div class="clear"></div>
+        <div class="cartTotal">
+           <span id="spShoppingCartTotal">Total MSRP:</span> <span class="cartTotalPrice" > &nbsp;&nbsp;&nbsp;<span id="totalPrice">$200</span></span>
+        </div>
+        <div class="seperator"></div>
+        <div style="height:80px;">
+        </div>
+        <div class="clear"></div>
+        <div class="seperator"></div>
+        <div id="goto_roster" class="rosterBox">
+           <div class="emailPrintSave">
+              <div class="emailImg">
+                 <a class="email" id="aIdEmailOrder" alt="">Email</a>
+              </div>
+              <div class="printImg" id="dvIdPrintOrder">
+                 <a class="print" alt="">Print</a>
+              </div>
+              <div class="saveImg">
+                 <span  class="save" id="dvIdSaveOrder" alt="">Save</span>
+              </div>
+           </div>
+           <div class="goToRosterBtn" id='dvGoToRosterBtn'>
+           </div>
+        </div>
+
+         
+    ]]>
+    </content>
+</page>
+  

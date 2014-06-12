@@ -1,0 +1,223 @@
+#dvBackgroundPopup { 
+    z-index:10;
+    position: fixed;
+    display:none;
+    height:100%;
+    width:100%;
+    background:#000000;	
+    top:0px;  
+    left:0px;
+}
+
+#dvIdLargerViewPopup {       
+    background-image: url("../images/transbg.png");
+    width: 600px;
+    /*height: 680px;*/
+
+    border-radius: 5px 5px 0px 0px;   
+    color: #333333;
+    display: none;
+    font-size: 14px;
+    left: -235px;
+    /*margin-left: -302px;*/
+    position: absolute;
+    top: 10px;
+    z-index: 501;
+}
+
+#blanket{
+    background-color:#aaaaaa;
+    opacity: 0.6;  
+    position:absolute;
+    z-index: 500;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 100%;
+}
+
+div.loader {
+/*    background: url("../images/loading.gif") no-repeat scroll 0 0 transparent;*/
+    height: 32px;
+    width: 32px;
+    display: none;
+    z-index: 9999;
+    top: 40%;
+    left: 50%;
+    position: absolute;
+    margin-left: -10px;
+}
+
+div.close {
+    background: url("../images/closebox.png") no-repeat ;
+    top: 9px;
+    cursor: pointer;
+    float: right;
+    height: 20px;
+    left: 5px;
+    position: relative;
+    width: 30px;
+}
+
+div.close:hover {
+    background: url("../images/closeboxhover.png") no-repeat ;
+
+}
+
+span.ecs_tooltip {
+    background: none repeat scroll 0 0 #000000;
+    border-radius: 2px 2px 2px 2px;
+    color: #FFFFFF;
+    display: none;
+    font-size: 11px;
+    height: 16px;
+    opacity: 0.7;
+    padding: 4px 3px 2px 5px;
+    position: absolute;
+    right: -62px;
+    text-align: center;
+    top: -51px;
+    width: 93px;
+}
+
+span.arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 7px solid #000000;
+    display: block;
+    height: 1px;
+    left: 40px;
+    position: relative;
+    top: 3px;
+    width: 1px;
+}
+
+div#dvIdPopupContent {    
+    background: #FFFFFF;    
+    box-shadow: 0px 2px 2px 0px #000;
+    color: #333333; 
+    font-size: 14px;
+    left: 50%;
+
+    margin: 20px 10px 10px 10px;   
+
+    top: 80%;
+    width: 97%;    
+    z-index: 5;    
+}
+
+.popupTxt
+{
+    margin-left: 5px;
+    padding: 10px;
+    height:555px;
+    /*border:1px solid red;*/
+   overflow-y: auto;
+overflow-x: hidden;
+}
+
+.closeWindow{
+    background: url("../images/closeWindowNormal.png") no-repeat ;
+    cursor: pointer;
+    height: 24px;
+    width: 103px;
+    margin:3px;
+    float:left;
+}
+.closeWindow:hover{
+    background: url("../images/closeWindowHover.png") no-repeat ;
+}
+.printImage{
+    background: url("../images/printImageNormal.png") no-repeat ;
+    cursor: pointer;
+    height: 24px;
+    width: 103px;
+    margin:3px; 
+    float:left;
+}
+
+.printImage:hover{
+    background: url("../images/printImageHover.png") no-repeat ;
+}
+
+.emailPrintSaveDialogForm {       
+    background-image: url("../images/transbg.png");
+    width: 275px;
+    /*height: 150px;*/
+    border-radius: 5px 5px 0px 0px;   
+    color: #333333;
+    display: none;
+    font-size: 14px;
+
+    /*margin-left: -402px;*/
+    position: fixed;
+    left: 360px;
+    top: 203px;    
+    padding:17px 10px 10px 10px;
+    /*border:1px solid red;*/
+    z-index: 9002;
+}
+.emailPrintSaveDialogContent {    
+    background: #FFFFFF;    
+    box-shadow: 0px 2px 2px 0px #000;
+    color: #333333; 
+    font-size: 14px;
+    left: 50%;
+    top: 80%;
+
+    z-index: 5;    
+}
+
+.error{
+    border-color: red;
+}
+
+.labelEemailSaveOrderPopup{
+    width:80px;
+    float: left;
+    text-align: right;
+    font-family: "liberationNormal";
+
+    font-size: 11px;
+    font-weight: normal;
+    margin-right: 18px;
+    margin-top: 6px;
+}
+.emailSaveOrderPopupForm
+{
+    margin:0 4px 3px 4px;
+}
+
+.emailButton{
+    background: url(../images/email.png) no-repeat;
+    width:70px;
+    height:24px;
+    float:right;
+}
+.emailButton:hover{
+    background: url(../images/emailHover.png) no-repeat;
+}
+
+.cancelButton{
+    background: url(../images/cancel.png) no-repeat;
+    width:70px;
+    height:24px;
+    float:right;
+    margin-left: 4px;
+
+}
+.cancelButton:hover{
+    background: url(../images/cancelHover.png) no-repeat;
+}
+
+.saveButton{
+    background: url(../images/saveIcon.png) no-repeat;
+    width:70px;
+    height:24px;
+    float:right;
+    margin-left: 4px;
+
+}
+.saveButton:hover{
+    background: url(../images/saveHover.png) no-repeat;
+}

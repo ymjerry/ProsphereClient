@@ -1,0 +1,123 @@
+{
+    "ResponseType": 1,
+    "ResponseData": [
+        {
+            "GraphicCategoryId": 1,
+            "Name": "Animals",
+            "PricingId": 1,
+            "PricingName": "N/A",
+            "GraphicTypes": [
+                {
+                    "GraphicTypeId": 1,
+                    "Name": "Alligators",
+                    "PricingId": 1,
+                    "PricingName": "N/A"
+                },
+                {
+                    "GraphicTypeId": 2,
+                    "Name": "Armadilo",
+                    "PricingId": 1,
+                    "PricingName": "N/A"
+                },
+                {
+                    "GraphicTypeId": 3,
+                    "Name": "Bats",
+                    "PricingId": 1,
+                    "PricingName": "N/A"
+                },
+                {
+                    "GraphicTypeId": 4,
+                    "Name": "Birds",
+                    "PricingId": 1,
+                    "PricingName": "N/A"
+                },
+                {
+                    "GraphicTypeId": 5,
+                    "Name": "Angels",
+                    "PricingId": 1,
+                    "PricingName": "N/A"
+                },
+                {
+                    "GraphicTypeId": 6,
+                    "Name": "Bison",
+                    "PricingId": 1,
+                    "PricingName": "N/A"
+                }
+            ]
+        },
+        {
+            "GraphicCategoryId": 2,
+            "Name": "Athletic Tails",
+            "PricingId": 1,
+            "PricingName": "N/A",
+            "GraphicTypes": [
+                 {
+                    "GraphicTypeId": 7,
+                    "Name": "Admirals",
+                    "PricingId": 1,
+                    "PricingName": "N/A"
+                },
+                {
+                    "GraphicTypeId": 8,
+                    "Name": "Angels",
+                    "PricingId": 1,
+                    "PricingName": "N/A"
+                }
+            ]
+        },
+        {
+            "GraphicCategoryId": 3,
+            "Name": "Mascots",
+            "PricingId": 1,
+            "PricingName": "N/A",
+            "GraphicTypes": [
+                {
+                    "GraphicTypeId": 9,
+                    "Name": "Angels",
+                    "PricingId": 1,
+                    "PricingName": "N/A"
+                },
+                {
+                    "GraphicTypeId": 10,
+                    "Name": "Devils",
+                    "PricingId": 1,
+                    "PricingName": "N/A"
+                },
+                {
+                    "GraphicTypeId": 11,
+                    "Name": "Skulls",
+                    "PricingId": 1,
+                    "PricingName": "N/A"
+                }
+            ]
+        },
+        {
+            "GraphicCategoryId": 4,
+            "Name": "Misc",
+            "PricingId": 1,
+            "PricingName": "N/A",
+            "GraphicTypes": [
+                {
+                    "GraphicTypeId": 12,
+                    "Name": "Anchors",
+                    "PricingId": 1,
+                    "PricingName": "N/A"
+                }
+            ]
+        },
+        {
+            "GraphicCategoryId": 5,
+            "Name": "People",
+            "PricingId": 1,
+            "PricingName": "N/A",
+            "GraphicTypes": [
+                {
+                    "GraphicTypeId": 13,
+                    "Name": "Cowboys",
+                    "PricingId": 1,
+                    "PricingName": "N/A"
+                }
+            ]
+        }
+    ]
+}

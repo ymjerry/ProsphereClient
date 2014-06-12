@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <div id="dvIdConfiguratorPanel">
+           <!-- ------------------Other Text--------------------------->
+           <div id="dvIdConfiguratorHeadingBg" >
+              <div class="anchorPointGraphicLabelBox" id="dvIdAnchorPointScreenLabel">
+                 GRAPHICS
+              </div>
+           </div>
+           <div id="dvIdConfiguratorHeadingBg" >
+              <div class="back_button" id="dvIdAnchorPointbackButton"></div>
+              <div class="anchorPointLabel" style="margin-left:135px; line-height:1.8;" id="dvIdAnchorPointSubHeading">
+                 Place Your Graphic
+              </div>
+           </div>
+           <!-------------combo box-------------->
+           <!--<div class="width160">
+              <a href="" alt="">
+              <div class="comboBox">
+
+              <div class="comboBoxSelectedText"></div>
+
+              </div></a>
+
+              <div class="comboDropdownList">
+              <div class="comboDropdownListText"></div>
+              <div class="comboDropdownListText"></div>
+              <div class="comboDropdownListText"></div>
+
+              </div>
+
+              </div>-->
+           <!-------------End combo box-------------->
+           <div id="dvAchorPointConfigureBox">
+              <section >
+                 <div class="fl">
+                    <div class="anchorPointDetailinglabel" id="dvAnchorPointColorDetails">
+                       <label class="anchorPointLabelText marginTop15" >Colors</label>
+                       <div class="anchorPointColorBox">
+                          <!--  BEGIN -->        
+                          <div id="dvIdShowColorAnchorPoint" class="fl">
+                             <div class="colorPickerLabel">
+                                Primary
+                             </div>
+                             <div>
+                                <a>
+                                   <div class="anchorPointSelectionListBox" id="dvIdFillColorAnchorPoint">
+                                      <div class="color_box_selected" id="dvIdSelectedFillColorAnchorPoint"></div>
+                                   </div>
+                                </a>
+                             </div>
+                          </div>
+                          <div id="dvIdColorBoxAnchorPoint" class="color_box">
+                             <div class="popupColorPickerTitle" parentId="dvIdColorBoxAnchorPoint">SELECT YOUR PRIMARY COLOR</div>
+                             <div class="numberandTextColorBoxScrolling" parentId="dvIdColorBoxAnchorPoint">
+                                <ul id= "ulColorComboBoxlistAnchorPointFillColor"></ul>
+                             </div>
+                             <div parentId="dvIdColorBoxAnchorPoint">
+                                <div class="divCustomColors" parentId="dvIdColorBoxAnchorPoint"> CUSTOM COLORS <sup class="supWhatIsThis" id="whatThisLink">(what's this?)</sup>
+                                <div class="colorCustomListBox" id="dvIdAnchorPointPrimaryCustomColor" style="height: 63px;"><ul id="ulIdAnchorPointPrimaryCustomColor" style="width:90px; margin-top:0px;"></ul></div>
+                                </div>
+                                <div class="divUniformColors" parentId="dvIdColorBoxAnchorPoint">
+                                   <div>UNIFORM COLORS</div>
+                                   <div parentId="dvIdColorBoxAnchorPoint">
+                                      <div class="uniformColorBoxPrimary"></div>
+                                      <div class="uniformColorName">Primary</div>
+                                      <div class="clear"> </div>
+                                      <div class="uniformColorBoxSecondary"></div>
+                                      <div class="uniformColorName">Secondary</div>
+                                      <div class="clear"> </div>
+                                      <div class="uniformColorBoxTertiary"></div>
+                                      <div class="uniformColorName">Tertiary</div>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                          <div id="dvIdShowColorAnchorPointOutlineFirst" class="fl">
+                             <div class="colorPickerLabel" >
+                                Secondary 
+                             </div>
+                             <div>
+                                <a>
+                                   <div class="anchorPointSelectionListBox" id="dvIdAnchorPointOutlineFirst" >
+                                      <div class="color_box_selected slashImage" id="dvIdSelectedFillColorAnchorPointOutlineFirst"></div>
+                                   </div>
+                                </a>
+                             </div>
+                          </div>
+                          <div id="dvIdColorBoxAnchorPointOutlineFirst" class="color_box" style="margin-left:66px;">
+                             <div class="popupColorPickerTitle" parentId="dvIdColorBoxAnchorPointOutlineFirst">SELECT YOUR SECONDARY COLOR</div>
+                             <div class="numberandTextColorBoxScrolling" parentId="dvIdColorBoxAnchorPointOutlineFirst">
+                                <ul id= "ulColorComboBoxlistAnchorPointOutlineFirst"></ul>
+                             </div>
+                             <div  parentId="dvIdColorBoxAnchorPointOutlineFirst">
+                                <div class="divCustomColors" parentId="dvIdColorBoxAnchorPointOutlineFirst"> CUSTOM COLORS <sup class="supWhatIsThis" id="whatThisLink">(what's this?)</sup>
+                                <div class="colorCustomListBox" id="dvIdAnchorPointOutlineFirstCustomColor" style="height: 63px;"><ul id="ulIdAnchorPointOutlineFirstCustomColor" style="width:90px; margin-top:0px;"></ul></div>
+                                </div>
+                                <div class="divUniformColors" parentId="dvIdColorBoxAnchorPointOutlineFirst">
+                                   <div>UNIFORM COLORS</div>
+                                   <div parentId="dvIdColorBoxAnchorPointOutlineFirst">
+                                      <div class="uniformColorBoxPrimary"></div>
+                                      <div class="uniformColorName">Primary</div>
+                                      <div class="clear"> </div>
+                                      <div class="uniformColorBoxSecondary"></div>
+                                      <div class="uniformColorName">Secondary</div>
+                                      <div class="clear"> </div>
+                                      <div class="uniformColorBoxTertiary"></div>
+                                      <div class="uniformColorName">Tertiary</div>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                          <div id="dvIdShowColorAnchorPointOutlineSecond" class="fl">
+                             <div class="colorPickerLabel">
+                                Accent
+                             </div>
+                             <div>
+                                <a>
+                                   <div class="anchorPointSelectionListBox" id="dvIdAnchorPointOutlineSecond">
+                                      <div class="color_box_selected slashImage" id="dvIdSelectedFillColorAnchorPointOutlineSecond"></div>
+                                   </div>
+                                </a>
+                             </div>
+                          </div>
+                          <div id="dvIdColorBoxAnchorPointOutlineSecond" class="color_box" style="margin-left:132px;">
+                             <div class="popupColorPickerTitle" parentId="dvIdColorBoxAnchorPointOutlineSecond">SELECT YOUR ACCENT COLOR</div>
+                             <div class="numberandTextColorBoxScrolling" parentId="dvIdColorBoxAnchorPointOutlineSecond">
+                                <ul id= "ulColorComboBoxlistAnchorPointOutlineSecond"></ul>
+                             </div>
+                             <div  parentId="dvIdColorBoxAnchorPointOutlineSecond">
+                                <div class="divCustomColors" parentId="dvIdColorBoxAnchorPointOutlineSecond"> CUSTOM COLORS <sup class="supWhatIsThis" id="whatThisLink">(what's this?)</sup>
+                                <div class="colorCustomListBox" id="dvIdAnchorPointOutlineSecondCustomColor" style="height: 63px;"><ul id="ulIdAnchorPointOutlineSecondCustomColor" style="width:90px; margin-top:0px;"></ul></div>
+                                </div>
+                                <div class="divUniformColors" parentId="dvIdColorBoxAnchorPointOutlineSecond">
+                                   <div>UNIFORM COLORS</div>
+                                   <div parentId="dvIdColorBoxAnchorPointOutlineSecond">
+                                      <div class="uniformColorBoxPrimary"></div>
+                                      <div class="uniformColorName">Primary</div>
+                                      <div class="clear"> </div>
+                                      <div class="uniformColorBoxSecondary"></div>
+                                      <div class="uniformColorName">Secondary</div>
+                                      <div class="clear"> </div>
+                                      <div class="uniformColorBoxTertiary"></div>
+                                      <div class="uniformColorName">Tertiary</div>
+                                   </div>
+                                </div>
+                             </div>
+                          </div>
+                          <!--  Pravin END-->  
+                       </div>
+                       <div class="clear"></div>
+                    </div>
+                    <label class="anchorPointLabelText" id = "labelAnchorpointSize" >Size</label>
+                    <div class="anchorPointColorBox"  id = "dvAnchorpointSizeBox">
+                       <div class="anchorPointSizeBox">
+                          <div  class="width93 fl">
+                             <div class="anchorBoxcomboSize" id="dvIdAnchorComboBox">
+                                <!--<a href="" alt="" id="aShowFontType">-->
+                                <div class="anchorPointSizeSelectionBox" id="anchorSizeBox">
+                                   <div class="anchorPointSelectedSize" id = "dvIdAnchorPointSelectedSize">
+                                    
+                                   </div>
+                                </div>
+                                <!--</a>-->
+                                <br>
+                                <div id="dvIdAnchorSizeComboDropdown" class="anchorBoxcomboDropdownList" style="display: block;max-height: 70px;">
+                                 
+<div class="anchorPointDropdownListText" id="dvIdAnchorPointDropdownListText"></div>
+
+                                </div>
+                             </div>
+                          </div>
+                          <div class="fl">
+                             <input type="checkbox" name="" id="chkBxIdSameDimension" value="">
+                          </div>
+                          <div class="anchorPointSizeDiscription">
+                             Same dimensions on all size uniforms.
+                          </div>
+                          <div ></div>
+                       </div>
+                    </div>
+                 </div>
+              </section>
+           </div>
+           <div class="anchorPointGraphicImg">
+              <div class="anchorPointdiSelectedImage">
+                 <img src="" id="imgIdPreviewTextIdAnchorPoint" style="max-height: 100%; max-width: 100%;" alt=""/>
+              </div>
+              <div id="dvIdAnchorButtons">
+                 <a id="aIdAnchorPointFlip" class="flipButton"></a>
+                 <a id="aIdAnchorPointUndo" class="undoButton"></a>
+                 <a id="aIdAnchorPointRemove" class="removeButton"></a>
+              </div>
+           </div>
+           <div class="clear"></div>
+           <div class="anchorPointSelectionLabel">SELECT ANCHOR POINT BELOW TO EDIT</div>
+           <div class="anchorApplyBox" id="dvAnchorApplyBox">
+           </div>
+           <div class="clear">
+              <div class="bottom_nav">
+                 <ul>
+                    <li id="btnNavChooseLocationOne" class="width96"><a  > Select Graphic</a></li>
+                    <li id="btnNavChooseLocationTwo" class="width96"><a  >Upload Graphic   </a></li>
+                    <li id="btnNavChooseLocationThree" class="width96" style="border: none;"><a>My Locker</a></li>
+                 </ul>
+              </div>
+              <!--  <div class="bottom_nav">
+                 <ul>
+                 <li id="btnPlayerNumber" class="width96"><a  > Player Number</a></li>
+                 <li id="btnPlayerName" class="width96"><a  >Player Name</a></li>
+                 <li id="btnOtherText" style="border: none;" class="width96"><a  >Other Text</a></li>
+                 </ul>
+                 </div>-->
+           </div>
+        </div>
+    ]]>
+    </content>
+</page>
+  

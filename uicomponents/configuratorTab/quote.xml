@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <div class="printDocumentBox" id="dvIdQuotepopup" style="display:none; z-index:501; background-image: url(images/proof_bgrnd.png);">
+           <div class="printContentBox" >
+              <div class="close" id="dvIdQuoteClose"></div>
+              <section class="header">
+                 <div class="headerBtnBox">
+                    <div id="dvSendToPrinterTopQuote" printElementId="quoteInnerContentBox" alt="Print Image" title="Print Image" class="printQuote"></div>
+                 </div>
+              </section>
+              <div style="overflow-y:scroll; overflow-x:hidden; height:450px; " id="dvIdQoutePage">
+                 <div style="color:#fff; font-family: liberationBold  ; ">
+                    <br>
+                    <form style="height:40px; border-top:1px solid #fff; border-bottom:1px solid #fff; line-height: 3;" >
+                        <input type="checkbox" checked id="checkBoxMSRP1" name="" value="">SHOW MSRP PRICING IN ROSTER BELOW
+                     </form>             
+                     <br>       
+                            <div>
+                            Use the ProSphere Online Quoting Tool to instantly creat a quote for your customer.
+                            <ul>
+                            <li>To display MSRP in your quote, the "SHOW MSRP PRICING" Checkbox must be checked</li>
+                            <li>To view MSRP Pricing, scroll to the end of the quote</li>
+                            <li>To print quote, click the "PRINT QUOTE" Button</li>
+                            </ul>
+                            </div>                                        
+                    </div> 
+              
+                 <div id="quoteInnerContentBox">
+                    <!--<div class="proofLabel"> Print </div>-->
+                                                   
+                    <div class="headerBanner"></div>       
+                     <div style="color:#fff; font-family: liberationBold  ;  ">                                            
+                        <table cellpadding="2" cellspacing="2" border="0" width="650px" >
+                            <tr>
+                                <td colspan="2" align="center" height="20" ><b>CUSTOM UNIFORM QUOTE</b></td>                                                                
+                            </tr>
+                            <tr>
+                                <td>Contact Information:</td>
+                                <td><input type="text" name="" value=""  class="quoteTxtInputField" id="dvquoteTxtInputField"/><br><textarea type="text" name="" value=""  class="quoteTxtInputField" id="dvquoteTxtInputFieldForPrint" style="display:none"/></td>                            
+                                
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>                            
+                            </tr>
+                            <tr>
+                               <td colspan="2">Message/Instruction (up to 500 characters):</td>                            
+                            </tr>
+                             <tr>
+                               <td colspan="2">
+                                <textarea rows="8" cols="78" maxlength="500" value="" id="dvQuoteTextArea" onchange="Utility.handleLengthLimit(500, this);" onkeyup="Utility.handleLengthLimit(500, this);" onpaste="Utility.handleLengthLimit(500, this)" placeholder="Enter a message to your customer including any instructions, discounts and/or additional contact information desired." ></textarea>
+<br>
+<textarea rows="8" cols="78" maxlength="500" value="" id="dvQuoteTextAreaForPrint" style="display:none" onchange="Utility.handleLengthLimit(500, this);" onkeyup="Utility.handleLengthLimit(500, this);" onpaste="Utility.handleLengthLimit(500, this)" placeholder="Enter a message to your customer including any instructions, discounts and/or additional contact information desired." ></textarea>                     
+          </td>                                                           
+                            </tr>                                                        
+                        </table>                                                                     
+                     </div>                     
+                    <br>
+                    
+                    
+                    <img src="images/printSectionHeading.png" alt="" />
+                    
+                   
+                    <section class="secProof">
+                       <div class="secBox" id="idsecBoxQuote">
+                          <div class="modelImgBox" id="idModelImgBox">
+                             <div class="proofModelLeftImg" id="dvIdFrontModelPreviewForQuote">  </div>
+                             <div class="proofModelRightImg"> </div>
+                          </div>
+                          <div class="modelImgBox">
+                             <div class="proofModelLeftImg"> </div>
+                             <div class="proofModelRightImg">  </div>
+                          </div>
+                       </div>
+                    </section>
+                    <div id="PrintBanner"></div>
+                    <section class="secUniformDescription">
+                       <!--<div class="proofLabel"> uniform description </div>-->
+                       <img src="images/udSectionHeading.png" alt="" />
+                       <div class="uniformDescriptionSecBox">
+                          <div class="descriptionBox1" style="height:238px;">
+                             <div class="uniformDescriptionList">
+                                <div class="DescriptionListLeft">
+                                   <div class="container">
+                                      <table width="620" border="0" cellspacing="0" cellpadding="0" >
+                                         <tr>
+                                            <td  class="listLabel listLabelwidth" align="right"> Selected Cut(s):</td>
+                                            <td width="200" class="listDescription" id="idCutNameQuote">TOP-JERSEY W/NO FLY PANT
+                                               BOTTOM-MEN'S NO FLY PANT 
+                                            </td>
+                                            <td width="160" rowspan="5" class="listLabel">Selected Fabric:</td>
+                                            <td width="250" rowspan="5" >
+                                               <div class="textAlignCenter" id="dvIdSelectedFabricForQuote">
+                                                  <div class="selectedSampleFabricshow"> abc</div>
+                                               </div>
+                                               <div class="premiumLabel" id="fabricDescriptionQuote"> 
+                                                  ULTRA Steel Stretch
+                                               </div>
+                                            </td>
+                                         </tr>
+                                         <tr>
+                                            <td class="listLabel" align="right"> Design Name:</td>
+                                            <td  class="listDescription" id="selectedDesignNameForQuote"> Battletest</td>
+                                            
+                                         </tr>
+                                         <tr>
+                                            <td  class="listLabel" align="right"> Primary Color:</td>
+                                            <td  class="listDescription" id="primaryColorForQuote"> Yellow</td>
+                                            
+                                         </tr>
+                                         <tr>
+                                            <td  class="listLabel" align="right"> Secondary Color:</td>
+                                            <td  class="listDescription" id="secondaryColorForQuote"> Scarlet</td>
+                                            
+                                         </tr>
+                                         <tr>
+                                            <td  class="listLabel" align="right"> Accent Color: </td>
+                                            <td  class="listDescription" id="tirtiaryColorForQuote"> Columbia Blue</td>
+                                            
+                                         </tr>
+                                         <tr>
+                                      <td class="listLabel" style="width:122px;" align="right">Color Identification:</td>
+                                      <td id="tdIdTirtiaryColorForQoute" class="listDescription">
+                                         <table border="0" style="background-color:" width="180" cellpadding="0" cellspacing="0">
+                                            <tbody><tr>
+                                               <td align="left">
+                                                  <div class="circlePrimary"></div>
+                                               </td>
+                                               <td align="left">
+                                                  <div id="dvIdPrimaryColorForQouteIdentification"></div>
+                                               </td>
+                                            </tr>
+                                            <tr>
+                                               <td align="left">
+                                                  <div class="circleSecondary"></div>
+                                               </td>
+                                               <td align="left">
+                                                  <div id="dvIdSecondryColorForQouteIdentification"></div>
+                                               </td>
+                                            </tr>
+                                            <tr>
+                                               <td align="left">
+                                                  <div class="circleTirtiary"></div>
+                                               </td>
+                                               <td align="left">
+                                                  <div id="dvIdTirtiaryColorForQouteIdentification"></div>
+                                               </td>
+                                            </tr>
+                                         </tbody></table>
+                                      </td>
+                                      <td> </td>
+                                      <td> </td>
+                                   </tr>
+                                      </table>
+                                      <!--
+                                         <div class="textColor">Selected Cut(s):</div> 
+                                           <div class="Result"> TOP-JERSEY W/NO FLY PANT <br/>
+                                         BOTTOM-MEN'S NO FLY PANT</div> 
+
+                                         </div> 
+
+
+                                         <div class="container">
+
+                                         <div class="textColor">Design Name:</div> 
+                                           <div class="Result" id="selectedDesignNameForQuote"> Battletest</div> 
+
+                                         </div>       
+
+
+                                         <div class="container">
+
+                                         <div class="textColor">Primary Color:</div> 
+                                           <div class="Result" id="primaryColorForQuote"> Yellow</div> 
+
+                                         </div> 
+
+
+                                         <div class="container">
+
+                                         <div class="textColor"> Secondary Color: </div> 
+                                           <div class="Result" id="secondaryColorForQuote"> Scarlet</div> 
+
+                                         </div> 
+
+                                         <div class="container">
+
+                                         <div class="textColor"> Accent Color:  </div> 
+                                           <div class="Result" id="tirtiaryColorForQuote"> Columbia Blue</div> 
+
+                                         </div> 
+
+                                         -->
+                                      <div class="container">
+                                      </div>
+                                   </div>
+                                   <!-- <div class="listSelectedFabricPrint">
+                                      <div class="listLabelPrint" >Selected Fabric:</div>
+                                      <div class="" id="dvIdSelectedFabricForQuote"> 
+                                               <div class="selectedSampleFabricshow"> abc</div>
+                                           </div>
+                                               <div class="premiumLabel" id="fabricDescriptionQuote"> 
+                                           ULTRA Steel Stretch
+                                           </div>
+                                           -->
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                    </section>
+                    <br />
+                    <section class="teamRoster">
+                       <!--<div class="proofLabel"> UNIFORM EMBLISHMENTS </div>-->
+                       <img src="images/uniformembSectionHeading.png" alt="" />
+                       <div class="teamRosterTableBox">
+                          <div style="/*border: 2px solid #B8B4B4;*/ margin: 0 10px;" class="teamRosterTable" id="dvQuoteUniformEmbleshilemt">
+                             <table class="tableWidth" cellspacing="0" border="0" width="100%">
+                                <tr class="thRow">
+                                   <th width="%" class="thBorder">Type</th>
+                                   <th width="100" class="thBorder">Location</th>
+                                   <th width="70" class="thBorder">Size</th>
+                                   <th width="70" class="thBorder">Font</th>
+                                   <th width="70" class="thBorder">Text</th>
+                                   <th width="70" class="thBorder">Color 1</th>
+                                   <th width="70" class="thBorder">Color 2</th>
+                                   <th width="70" class="thBorder">Color 3</th>
+                                </tr>
+                             </table>
+                             <div id="dvIdQouteEmblishMentInfo"></div>
+                          </div>
+                          <div class="colorIdentificationBox"></div>
+                       </div>
+                    </section>
+                    <br />
+                    <section class="teamRoster">
+                       <!--<div class="proofLabel"> COLOR IDENTIFICATION </div>-->
+                       <img src="images/ciSectionHeading.png" alt="" />
+                       <div class="teamRostercolorIdentificationBox">
+                          <div class="colorIdentificationBox" id="dvIdQuoteColorsIdenfication">
+                             <div class="colorIdentification">
+                             </div>
+                          </div>
+                          <div style="clear:both;"></div>
+                       </div>
+                    </section>
+                    <br />
+                    <section class="teamRoster">
+                       <!--<div class="proofLabel"> team Roster </div>-->
+                       <img src="images/trSectionHeading.png" alt="" />
+                       <div class="teamRosterTableBox">
+                          <div class="teamRosterTable" style="padding:0 10px; " id="dvTeamRosterInfoOnQuote">
+                             
+                          </div>
+                          <div class="quoteTotal">Custom Uniform Total:&nbsp;&nbsp;<span id="spanQuoteTotal" style="color:#FF0000;">$251.70</span> </div>
+                       </div>
+                       <br>
+                       <div class="printCopyright">&copy; Teamwork All rights Received.</div>
+                       
+                    </section>
+                    
+                 </div>
+                  <br>
+                         <form style="height:40px; border-top:1px solid #fff; border-bottom:1px solid #fff; line-height: 3; color:#fff;" class="hoverCheckBoxMSRP21">
+                        <input type="checkbox" checked id="checkBoxMSRP2" name="" value="">SHOW MSRP PRICING IN ROSTER ABOVE
+                     </form> 
+                     <br>
+                    <section class="header">
+                       <div class="headerBtnBox">
+                          <div id="dvSendToPrinterBottomQuote" printElementId="quoteInnerContentBox" alt="Print Image" title="Print Image" class="printQuote"></div>
+                          <br/>
+                       </div>
+                    </section>
+              </div>              
+           </div>
+        </div>
+
+
+    ]]>
+    </content>
+</page>

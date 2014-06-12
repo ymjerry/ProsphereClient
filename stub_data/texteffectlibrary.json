@@ -1,0 +1,60 @@
+{
+    "ResponseType": 1,
+    "ResponseData": [
+        {
+            "TextEffectId": 1,
+            "Name": "Arch Up",
+            "LpName":"archUp"
+        },
+        {
+            "TextEffectId": 2,
+            "Name": "Arch Down",
+            "LpName":"archDown"
+        },
+        {
+            "TextEffectId": 3,
+            "Name": "Bridge Down",
+            "LpName":"bridgeDown"
+        },
+        {
+            "TextEffectId": 4,
+            "Name": "Bridge Up",
+            "LpName":"bridgeUp"
+        },
+        {
+            "TextEffectId": 5,
+            "Name": "Curve Down",
+            "LpName":"curveDown"
+        },
+        {
+            "TextEffectId": 6,
+            "Name": "Curve Up",
+            "LpName":"curveUp"
+        },
+        {
+            "TextEffectId": 7,
+            "Name": "Inflate",
+            "LpName":"inflate"
+        },
+        {
+            "TextEffectId":8,
+            "Name": "Slant Down",
+            "LpName":"slantDown"
+        },
+        {
+            "TextEffectId": 9,
+            "Name": "Slant Up",
+            "LpName":"slantUp"
+        },
+        {
+            "TextEffectId": 10,
+            "Name": "Squeeze",
+            "LpName":"squeeze"
+        },
+        {
+            "TextEffectId": 11,
+            "Name": "wave",
+            "LpName":"wave"
+        }
+    ]
+}

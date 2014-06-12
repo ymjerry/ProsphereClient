@@ -1,0 +1,22 @@
+{
+    "ResponseType": 1,
+    "ResponseData": [
+        {
+            "TextDecalId": "1",
+            "FontId": "2",
+            "Width" : "500",
+            "Height" : "500",
+            "FontSize" : "50",
+            "CharacterLimit" : "5"
+        },
+        {
+            "TextDecalId": "2",
+            "FontId": "2",
+            "Width" : "500",
+            "Height" : "500",
+            "FontSize" : "50",
+            "CharacterLimit" : "5"
+        }
+        
+    ]
+}

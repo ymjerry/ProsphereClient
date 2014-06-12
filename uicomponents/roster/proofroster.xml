@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <div class="proofDocumentBox" id="dvIdProofDocument" style="display:none; z-index=502; background-image: url(images/proof_bgrnd.png);">
+           <div class="proofContentBox">
+              <section class="header">
+                 <div class="headerBtnBox">
+                    <div class="backBtn" id="dvProofBackBtn"></div>
+                    <div class="sizeProofBtn" id="dvButtonFlatCutScreen"></div>
+                    <div class="printBtn" id="dvPrintProofBtn" printElementId="printProof"></div>
+                    <div id="modifyUniformFromProof" class="modifyUniformBtn"></div>
+                 </div>
+              </section>
+              <!--<div class="headerBanner"></div>-->
+              <img src="images/prospherebanner.png" alt=""/>
+              <div style="overflow-y: scroll;  overflow-x:hidden; height:428px; width:679px;" class='dvTop' >
+                 <div id="printProof">
+                    <section class="secProof">
+                       <!--<div class="proofLabel"> Proof </div>-->
+                       <img src="images/proofSectionHeading.png" alt="" />
+                       <div class="secBox">
+                          <div class="proofDescription">
+                             <p>Use the ProSphere online proof to instantly approve your order. Simply select "APPROVE NOW" and proceed to <br>check out. 
+                                We'll immediately start working on your order without delay.
+                             </p>
+                          </div>
+                          <div class="secBox" id="idsecBox">
+                             <div class="modelImgBox">
+                                <div class="proofModelLeftImg" id="dvIdFrontModelPreviewForProof" ></div>
+                                <div class="proofModelRightImg" id="dvIdFrontModelPreviewForProof1"></div>
+                             </div>
+                          </div>
+                       </div>
+                    </section>
+                    <section class="secUniformDescription">
+                       <br/>
+                       <!--<div class="proofLabel"> uniform description </div>-->
+                       <img src="images/uniformdescriptionlabel.png" alt="" />
+                       <div class="uniformDescriptionSecBox">
+                          <div class="descriptionBox1">
+                             <div class="uniformDescriptionList">
+                                <table width="620" border="0" cellspacing="0" cellpadding="0" >
+                                   <tr>
+                                      <td align="right" class="listLabel listLabelwidth" align="right"> Selected Cut(s):</td>
+                                      <td width="%" class="listDescription" id="tdIdSelectedCutName">TOP-JERSEY W/NO FLY PANT
+                                         BOTTOM-MEN'S NO FLY PANT 
+                                      </td>
+                                      <td width="160" rowspan="5"class="listLabel">Selected Fabric:</td>
+                                      <td width="250" rowspan="5" align="center" class="listDescriptionImg" id="tdIdSelectedFabricForProof"> </td>
+                                   </tr>
+                                   <tr>
+                                      <td align="right" class="listLabel"> Design Name:</td>
+                                      <td class="listDescription" id="tdIdSelectedDesignName"> </td>
+                                      
+                                   </tr>
+                                   <tr>
+                                      <td  align="right" class="listLabel"> Primary Color:</td>
+                                      <td class="listDescription" id="tdIdPrimaryColorForProof"> </td>
+                                      
+                                   </tr>
+                                   <tr>
+                                      <td align="right" class="listLabel"> Secondary Color:</td>
+                                      <td class="listDescription" id="tdIdSecondryColorForProof" > </td>
+                                      
+                                   </tr>
+                                   <tr>
+                                      <td align="right"class="listLabel">Accent Color:</td>
+                                      <td  id="tdIdTirtiaryColorForProof" class="listDescription">Columbia Blue</td>
+                                     
+                                      <!--<td class="listDescription" id="fabricddDescriptionProof"> </td>-->
+                                   </tr>
+                                   <tr>
+                                      <td align="right" class="listLabel">Color Identification:</td>
+                                      <td id="tdIdTirtiaryColorForProof" class="listDescription">
+                                         <table border="0"  style="background-color:" width="180" cellpadding="0" cellspacing="0">
+                                            <tr>
+                                               <td align="left"  >
+                                                  <div class="circlePrimary"></div>
+                                               </td>
+                                               <td align="left">
+                                                  <div id="dvIdPrimaryColorForProofIdentification"></div>
+                                               </td>
+                                            </tr>
+                                            <tr>
+                                               <td align="left">
+                                                  <div class="circleSecondary"></div>
+                                               </td>
+                                               <td align="left">
+                                                  <div id="dvIdSecondryColorForProofIdentification"></div>
+                                               </td>
+                                            </tr>
+                                            <tr>
+                                               <td align="left">
+                                                  <div class="circleTirtiary"></div>
+                                               </td>
+                                               <td align="left">
+                                                  <div id="dvIdTirtiaryColorForProofIdentification"></div>
+                                               </td>
+                                            </tr>
+                                         </table>
+                                      </td>
+                                      <td > </td>
+                                      <td > </td>
+                                   </tr>
+                                </table>
+                                <!--<table cellpading="0" cellspacing="0" border="1">
+                                   <tr>
+                                       <td class="listLabel">Selected Cut(s):</td>
+                                       <td class="listDescription">TOP-JERSEY W/NO FLY PANT
+                                       BOTTOM-MEN'S NO FLY PANT</td>
+                                   </tr>
+                                   <tr>
+                                   <td class="listLabel">Design Name:</td>
+                                   <td class="listDescription" id="tdIdSelectedDesignName"></td>
+                                   </tr>
+                                   <tr>
+                                   <td class="listLabel">Primary Color:</td>
+                                   <td id="tdIdPrimaryColorForProof" class="listDescription"></td>
+                                   </tr>
+                                   <tr>
+                                   <td class="listLabel">Secondary Color:</td>
+                                   <td id="tdIdSecondryColorForProof" class="listDescription"></td>
+                                   </tr>
+                                   <tr>
+                                   <td class="listLabel">Accent Color:</td>
+                                   <td id="tdIdTirtiaryColorForProof" class="listDescription"></td>
+                                   </tr>
+                                   <tr>
+                                   <td class="listLabel">Color Identification:</td>
+                                   <td class="listDescription">
+
+
+                                       <table border="0"  style="background-color:" width="150" cellpadding="2" cellspacing="0">
+                                       <tr><td align="left"  ><div class="circlePrimary"></div></td><td align="left"><div id="dvIdPrimaryColorForProofIdentification">Red</div></td></tr>
+                                       <tr><td align="left"><div class="circleSecondary"></div></td><td align="left"><div id="dvIdSecondryColorForProofIdentification">White</div></td></tr>
+                                       <tr><td align="left"><div class="circleTirtiary"></div></td><td align="left"><div id="dvIdTirtiaryColorForProofIdentification">Grey</div></td></tr>
+                                   </table>-->
+                                </td>
+                                </tr>                           
+                                </table>
+                                <!--<table class="listSelectedFabric">
+                                   <tr>
+                                       <td class="listLabel">Selected Fabric:</td>
+                                       <td class="listDescriptionImg" id="tdIdSelectedFabricForProof">
+
+                                           <p class="listDescription" id="fabricDescriptionProof">PREMIUM Teardrop Mesh123</p></td>
+                                   </tr>
+                                   </table>-->
+                             </div>
+                          </div>
+                       </div>
+                    </section>
+                    <section class="teamRoster">
+                       <!--<div class="proofLabel"> UNIFORM EMBLISHMENTS </div>-->
+                       <img src="images/uniformembSectionHeading.png" alt="" />
+                       <div class="teamRosterTableBox">
+                          <div  style="border: 2px solid #B8B4B4; margin: 0 10px; " class="teamRosterTable" id="dvProofUniformEmbleshilemt">
+                            <table class="tableWidth" cellspacing="0" border="0" WIDTH="100%">
+                                <tr class="thRow">
+                                  <th width="%" class="thBorder">Type</th>
+                                   <th width="100" class="thBorder">Location</th>
+                                   <th width="70" class="thBorder">Size</th>
+                                   <th width="70" class="thBorder">Font</th>
+                                   <th width="70" class="thBorder">Text</th>
+                                   <th width="70" class="thBorder">Color 1</th>
+                                   <th width="70" class="thBorder">Color 2</th>
+                                   <th width="70" class="thBorder">Color 3</th>
+                            </table>
+                            <div id="dvIdProofEmblishMentInfo"></div>
+                          </div>
+                          <div class="colorIdentificationBox"></div>
+                       </div>
+                    </section>
+                    <br />
+                    <section class="teamRoster">
+                       <!--<div class="proofLabel"> COLOR IDENTIFICATION </div>-->
+                       <img src="images/ciSectionHeading.png" alt="" />
+                       <div class="teamRostercolorIdentificationBox">
+                          <div class="colorIdentificationBox" id="dvIdProofColorsIdenfication">
+                             <div class="colorIdentification">
+                             </div>
+                          </div>
+                          <div style="clear:both;"></div>
+                       </div>
+                    </section>
+                    <br />
+                    <section class="teamRoster">
+                       <br />
+                       <!--<div class="proofLabel"> team Roster </div>-->
+                       <img src="images/teamRosterSectionHeading.png" alt=""/>
+                       <!--<div class=""> <label>Name of This Order:</label> <label>123</label> </div>-->
+                       <div class="teamRosterTableBox">
+                          <div class="teamRosterTable" id="dvTeamRosterInfoOnProof">
+                             <!--<table cellspacing="0" cellpadding="5" class="rosterTable">
+                                <tr class="rosterTableLabel"> <td colspan="7"> Name of this Order: 321 Safed </td></tr>
+                                <tr class="rosterTableHeader">                                
+                                    <td  bgcolor="#323232" colspan="3" >
+                                       <table cellspacing="0" cellpadding="0" width="100%">
+                                         <tr><td>PLAYER INFORMATION</td>
+                                         <td></td
+                                        </tr>
+                                        <tr>
+                                       <td>Name</td>
+                                    <td>#</td>
+                                    <td >Category</td>
+
+                                       </tr>
+                                       </table>
+
+
+                                    </td>
+                                    <td colspan="2"  bgcolor="#323232">
+
+                                    <table cellspacing="0" cellpadding="0" width="100%">
+                                      <tr><td>TOP</td>
+                                         <td></td
+                                        </tr>
+                                       <tr>
+                                       <td>Qty</td>
+                                        <td>Size</td>
+
+                                       </tr>
+                                       </table>
+                                    </td>
+
+                                    <td colspan="2"  bgcolor="#323232">
+
+                                         <table cellspacing="0" cellpadding="0" width="100%">
+
+                                         <tr><td>BOTTOM</td>
+                                         <td></td
+                                        </tr>
+                                       <tr>
+                                       <td>Qty</td>
+                                        <td>Size</td>
+
+                                       </tr>
+                                       </table>
+                                    </td>
+                                    </td>
+                                </tr>
+                                <tr class="rosterTableHeader">
+
+                                    <td>Qty</td>
+                                    <td>Size</td>
+
+
+                                </tr>
+
+
+
+                                </table>-->
+                          </div>
+                       </div>
+                    </section>
+                    <section id="secApprovalOptions">
+                       <br />
+                       <!--<div class="proofLabel"> Approval Options</div>-->
+                       <img src="images/approvalOptionSectionHeading.png" alt=""/>
+                       <div class="approavalOptionDescriptionBox">
+                          <div class="approvalOptionDesription">
+                             <p>Select “APPROVE NOW” to provide ProSphere final approval for your order . </p> 
+                                <p>Select “APPROVE LATER” if you would like to save this design and return at a later time to approve & submit the order. Please note that this does not submit your order to ProSphere. </p> <p>Please select the “Size Proof” option at the top if the page to see the flat cut pieces for each item on this order. You will have the option to select 10, 5, or 3 business day manufacturing time for this order in your Shopping Cart after selecting “APPROVE NOW”.  </p> <p>Manufacturing begins only after “APPROVE NOW” is selected and the order is submitted to ProSphere. Please note that monitors do not always provide the best representation of colors. Please review the colors, outlines, and font of names & numbers carefully. </p> <p>Some numbers, text, and graphics may print smaller on a youth uniform compared to an adult uniform due to smaller print areas on youth uniforms. Please refer to the Size Proof to see exactly how this scaling will appear on all sizes. If you don’t want this resizing, please select “Modify Uniform” from the top of the page and return to the object you do not want resized. When applying this to an anchor point, you can select the “Same dimensions on all size uniforms” option to disable automatic scaling. </p> <p>If you have any questions about your proof, please call ProSphere at (866)657-3830</p> 
+<b><u>ADDITIONAL DETAILS (up to 250 characters):</u></b> 
+<p>Please enter any additional instructions regarding this order. If you would like to match to a previous order please provide the corresponding order number. </p>
+
+                             
+                             <div class="textAreaBox">
+                             <textarea class="textAreaStyle" maxlength="250" value="" onchange="Utility.handleLengthLimit(250, this);" onkeyup="Utility.handleLengthLimit(250, this);" onpaste="Utility.handleLengthLimit(250, this)" id="dvtextareaproof"></textarea>
+                             <textarea onpaste="Utility.handleLengthLimit(250, this)" onkeyup="Utility.handleLengthLimit(250, this);" onchange="Utility.handleLengthLimit(250, this);" value="" maxlength="250" class="textAreaStyle" style="display:none" id="dvtextareaproofPrint"></textarea>
+                                </div>
+                             <div class="chooseAnOptionTxtBox">
+                                <div class="chooseAnOptionLabel">
+                                   <h1>CHOOSE AN OPTION</h1>
+                                </div>
+                                <div style="width:140px; margin: 19px 0 0 192px;">
+                                    <span id="spanWhatsThisLinkProofPage" class="linkProof" tabindex="0">(what's this?)</span>
+                                </div>    
+                             </div>
+                             <div class="chooseAnOptionBox">
+                                <div class="chooseOption"><label class="approveNow"><input type="radio" id="approvenow" name="rdApprove" value="5" checked=""/> APPROVE <b>NOW</b></label></div>
+                                <div class="chooseOption"><label class="approveNow approveLater"><input type="radio" id="approvelater" name="rdApprove" value="8"/> APPROVE <b>LATER</b></label></div>
+                                <div><p style=" width: 530px;margin-left: 42px;font-size: smaller;">Please note that this does not complete your order. Your order will be reserved until you confirm via the link sent to 
+                                        your e-mail. All Proofing will need to be done online, no proofs will be sent via email. 
+                                        </br></br>
+                                        When you are ready to proceed with your order:  </br>
+                                         1.Return to  the Roster Page</br>
+                                         2.Click the Proof Button</br>
+                                         3.Select Approve Now and click the View Cart and Check Out button
+                                         
+                                                                        
+                                        
+                                </p></div>
+                                <div id="dvViewShoppingCart" class="viewShoppingCartBtn">
+                                  <!-- <img class="viewShoppingCartBtn" src="" alt=""/>-->
+                                </div>
+                                <div class="pupUpContainer" id="dvIdShowEmailProofProp">
+                                <div class="close" id="dvCloseApproveLater" style="top:-4px; left:35px"></div>
+                                   <div></div><br><div class="left"></div>
+                                   <div class="right"></div>
+<!--                                   <div class="fontBold"> <input type="checkbox" name="call" value="Bike" id="chkCallMe"> CALL ME</div>
+                                   <div> <input type="text" name="FirstName" value="" class="pupUpInput" id="dvIdCallMe" disabled placeholder="Phone number" > </div>-->
+                                   <div class="fontBold"> <!-- <input type="checkbox" name="vehicle" value="Bike" id="chkMailMe"> --><p id="chkMailMe" style="text-transform:none;"> E-mail Me my Retrieval Code </p></div>
+                                   <div> <input type="text" name="txtEmailProof" value="" class="pupUpInput" id="txtEmailProof" placeholder="Email address"> </div>
+                                   <div class="saveForNow" id="btnSaveForNow"></div>
+                                </div>
+                             </div>
+                          </div>
+                       </div>
+                       <!--------------   View cart banner ----->
+                       <!---------------------------------------->
+                    </section>
+                 </div>
+              </div>
+           </div>
+        </div>
+
+
+    ]]>
+    </content>
+</page>
+  

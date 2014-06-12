@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+            <select name="websites2" id="selFontComboBoxlistOtherText" style="width:160px;">
+            </select>	
+        <script>
+        setHtmlAndBindFontComboBoxOtherText = function(controlId,onClickElementId,containerId,pageName) { 
+
+            oColor1 = {
+                "id": "4",
+                "name": "Black",
+                "rgbValue": "10,10,10",
+                "cmykValue": "70,55,55,100",
+                "matchButtonColorID": "4",
+                "matchThreadColorID": "4",
+                "matchZipperColorID": "4"
+            };
+            oColor2 = {
+                "id": "4",
+                "name": "Black",
+                "rgbValue": "10,10,10",
+                "cmykValue": "70,55,55,100",
+                "matchButtonColorID": "4",
+                "matchThreadColorID": "4",
+                "matchZipperColorID": "4"
+            };
+
+            oColor3 = {
+                "id": "4",
+                "name": "Black",
+                "rgbValue": "10,10,10",
+                "cmykValue": "70,55,55,100",
+                "matchButtonColorID": "4",
+                "matchThreadColorID": "4",
+                "matchZipperColorID": "4"
+            };   
+
+            var tempFontHtml ='';
+            GlobalInstance.fontInstance = GlobalInstance.getFontInstance();
+            fontList = GlobalInstance.fontInstance.getFontList();
+
+            $.each(fontList, function(i, font) { 
+
+                fontURL = LiquidPixels.generateFontPreviewURLOtherText(25, 															
+                                                                        font.displayName, 
+                                                                        font.IPSID, 
+                                                                        oColor1, 
+                                                                        oColor2, 
+                                                                        oColor3, 
+                                                                        false, 
+                                                                        false, 
+                                                                        true, 
+                                                                        false);
+
+                //tempFontHtml +='<option value="'+font.IPSID+'" title="'+url+'">'+font.displayName+'</option>';			
+                tempFontHtml +='<option name="one" value="'+font.IPSID+'"  style="background-image:url('+fontURL+');">'+font.displayName+'</option>';                         
+            });  
+            $('#' + controlId).html(tempFontHtml);   
+
+            $('#' + containerId +' select').on("change",function(){        
+
+                previewOtherText();
+
+            });
+
+        };
+
+        </script>                                        		
+    ]]>
+    </content>
+	
+</page>
+  

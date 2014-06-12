@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+       <div class="approvalPopUp">
+    <div id="dvWhatsThisCloseBtn" class="close_zoom_anchor_screen" style=" width:25px;"> </div>
+    <br/>
+    <br/>
+    <div>View your ProSphere Uniform proof now and get your order started.</div>
+     <br/>
+    <p >
+        <div  class="approvelOptions">
+            
+            <img src="images/approveBullets.png" />  APPROVE <b>NOW    </b>
+       
+        </div>
+                
+        <div class="approvalDescription">
+            Select "APPROVE NOW" - Give ProSphere your approval to start manufacturing. No additional changes can be made. 
+            
+        </div>
+        
+        <div class="clear"></div>
+    </p>
+       
+    <p>
+        <div class="approvelOptions">
+            <img src="images/approveBullets.png" /> 
+        APPROVE LATER BY EMAIL 
+        </div>                
+        <div class="approvalDescription">
+            Select "APPROVE LATER BY EMAIL" - ProSphere will email your final proof within 24 - 48 hours. Manufacturing beigns once your final approval is emailed back to us. A valid email address is required to receive your proof.
+            
+        </div>                
+    </p>    
+    <div id="dvWhatsThisPopupOkBtn" class="approveOk"></div>
+    
+    
+    
+    
+</div>
+    ]]>
+    </content>
+</page>
+  

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniformConfig>
+    <user type="dealer">
+        <id>43350779</id>
+    </user>
+    <retrieveCode/>
+    <callType>SAVE</callType>
+    <referralCode/>
+    <orderName>za</orderName>
+    <orderState/>
+    <rosterTeamName/>
+    <thumbnailUrl/>
+    <style>00013r0b</style>
+    <sport>Basketball</sport>
+    <designNumber>Fast Break</designNumber>
+    <colors>
+        <id>2</id>
+        <id>9</id>
+        <id>23</id>
+    </colors>
+    <fabricId>F140</fabricId>
+    <fabricDisplayName>PREMIUM Performance Tech</fabricDisplayName>
+    <matchButtonColorID>2</matchButtonColorID>
+    <matchThreadColorID>2</matchThreadColorID>
+    <matchZipperColorID>2</matchZipperColorID>
+    <topSelected>true</topSelected>
+    <bottomSelected>true</bottomSelected>
+    <gender>female</gender>
+    <playerNumber/>
+    <playerName/>
+    <teamName/>
+    <uniformConfigVersion>2</uniformConfigVersion>
+    <selectedAnchorsMetadata/>
+    <proofDataNode>
+        <previewImageURLLeft/>
+        <previewImageURLFront/>
+        <previewImageURLBack/>
+        <styleNameForProof/>
+        <fabricTileURLForProof/>
+        <proofApprovedOnline/>
+        <proofApproveLaterEmail/>
+    </proofDataNode>
+</uniformConfig>
+

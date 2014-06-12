@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <div id="dvStyleandDesignLeftBox" >
+           <!-- Cut & Design  -->
+           <div class="selectAndDesignLabel">
+              SELECT A CUT*
+              <div class="howToButton"></div>
+           </div>
+           <div class="clear"></div>
+           <div >
+              <div id="dvSelectStyle"  class="content" url="uicomponents/configuratorTab/style.xml"></div>
+              <div class="horDevider" style="width:370px;margin:0 10px 0 10px;"></div>
+              <div class="selectAndDesignLabel" >
+                 SELECT A DESIGN*
+              </div>
+              <div id="dvSelectDesign"  class="content  "  url="uicomponents/configuratorTab/design.xml"></div>
+           </div>
+           <!--End Cut & Design  -->
+           <div class="bottom_nav">
+              <div class="customizeSelectionBtnBox">
+                 <a href="#" class="customizeSelectionBtn" id="aCustomizeSelectionBtn"></a>
+              </div>
+           </div>
+        </div>
+
+
+    ]]>
+    </content>
+</page>
+  

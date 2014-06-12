@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uniformConfig>
+    <status code="200">OK</status>
+    <user type="consumer">
+        <email>vickiapalmer@aol.com</email>
+    </user>
+    <retrieveCode>1155418E</retrieveCode>
+    <referralCode />
+    <orderName>TEAM VENOM</orderName>
+    <orderState />
+    <thumbnailUrl />
+    <style>00007b</style>
+    <sport>Softball</sport>
+    <designNumber>Camouflage</designNumber>
+    <colors>
+        <id>30</id>
+        <id>5</id>
+        <id>4</id>
+    </colors>
+</uniformConfig>

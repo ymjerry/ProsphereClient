@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+        <div class="colorPickerLabel">
+           1<sup>st</sup> Outline 
+        </div>
+        <div>
+           <a href="#" >
+              <div class="color_box_selected_bg" id="dvIdOutline1ColorComboBoxOtherTextClick">
+                 <div class='color_box_selected'></div>
+              </div>
+           </a>
+        </div>
+        <div class="labelOutlineOptional">
+           <i>Optional</i>
+        </div>
+        <div class="color_box">
+        <div class="popupColorPickerTitle">SELECT YOUR FONT COLOR</div>
+        <a class="close_div" href="#"></a>
+        <ul id= "ulColorComboBoxlistOtherText"></ul>
+        <div  >
+           <div class="divCustomColors"> CUSTOM COLORS <sup class="supWhatIsThis">(what's this?)</sup></div>
+           <div class="divUniformColors">
+              <div>UNIFORM COLORS</div>
+              <div >
+                 <div class="uniformColorBox"></div>
+                 <div class="uniformColorName">Primary</div>
+                 <div class="clear"> </div>
+                 <div class="uniformColorBox"></div>
+                 <div class="uniformColorName">Secondary</div>
+                 <div class="clear"> </div>
+                 <div class="uniformColorBox"></div>
+                 <div class="uniformColorName">Tertiary</div>
+              </div>
+           </div>
+        </div>
+        <!--<div id="showcolor" class="fl">
+           <div class="colorPickerLabel">
+                  1<sup>st</sup> Outline
+            </div>
+            <div>
+
+           <a href="#" >
+               <div class="color_box_selected_bg"  id="dvIdOutline1ColorComboBoxOtherTextClick">
+                   <div class="color_box_selected" >
+                   </div>
+               </div> 
+           </a>
+           </div>
+           <div class="labelOutlineOptional">
+           <i>Optional</i>
+           </div>
+           </div>
+           <div id="color_box">
+           <div class="popupColorPickerTitle">SELECT YOUR FONT COLOR</div>
+           <a class="close_div" href="#"></a>
+           <ul id= "ulOutline1ColorComboBoxlistOtherText"></ul>
+                <div  >
+                  <div class="divCustomColors"> CUSTOM COLORS <sup class="supWhatIsThis">(what's this?)</sup></div>
+                  <div class="divUniformColors"> 
+                  <div>UNIFORM COLORS</div>
+                  <div >
+                  <div class="uniformColorBox"></div>
+                  <div class="uniformColorName">Primary</div>
+                  <div class="clear"> </div>
+
+                  <div class="uniformColorBox"></div>
+                  <div class="uniformColorName">Secondary</div>
+                  <div class="clear"> </div>
+                  <div class="uniformColorBox"></div>
+                  <div class="uniformColorName">Tertiary</div>
+
+                   </div>
+
+                   </div>
+
+               </div>
+           </div>-->
+		
+	<script>
+            setHtmlAndBindOutline1ColorComboBoxOtherText = function(controlId,onClickElementId,containerId,pageName) {
+	        tempColorsListHtml  ='';                                
+		GlobalInstance.colorInstance = GlobalInstance.getColorInstance(null,null,null);
+                colorsList = GlobalInstance.colorInstance.getColorList();
+                
+                 $.each(colorsList, function(i, color){  
+                    tempColorsListHtml +='<li><a id='+color.ColorId+' \n\
+                                            data-name="'+color.name+'" \n\
+                                            data-matchButtonColorID="'+color.MatchingButtonColorId+'" \n\
+                                            data-cmykValue="'+color.Cyan+','+color.Magenta+','+color.Yellow+','+color.Black+'" \n\
+                                            data-rgbValue="'+color.Red+','+color.Green+','+color.Blue+'" \n\
+                                            data-OnClickElementId="'+onClickElementId+'" \n\
+                                            rgbHexadecimal="'+color.RgbHexadecimal+'" \n\
+                                            alt="'+color.Name+'" \n\
+                                            class="colorItems" \n\
+                                            style="background-color:'+color.RgbHexadecimal+'"></a></li>';              
+                 });        
+                 $("#"+controlId).html(tempColorsListHtml); 
+                 
+                 //$("#color_box").hide(); 
+                 // binding functions
+                 
+                 $("#"+onClickElementId).click(function(){    
+                    $("#"+containerId + " div#color_box").show();      
+                 });   
+
+                 $("#"+containerId+" .close_div").click(function(){                        
+                     $("#"+containerId + " div#color_box").hide(); 
+                 });
+                 
+                 $("#"+containerId+" div#color_box a").on('click',function(){  
+                                          
+                     $("#"+onClickElementId+" .color_box_selected").attr('style',"background-color:"+$(this).attr('rgbHexadecimal'));                     
+                     $("#"+onClickElementId+" .color_box_selected").attr('alt',$(this).attr('id'));                                            
+                     $("#"+onClickElementId+" .color_box_selected").attr('data-cmykValue',$(this).attr('data-cmykValue'));
+                     $("#"+onClickElementId+" .color_box_selected").attr('data-rgbValue',$(this).attr('data-rgbValue'));
+                     $("#"+containerId + " div#color_box").hide();                      
+                     previewOtherText();    
+                 });
+		}           
+        </script>
+     ]]>
+    </content>
+</page>
+  

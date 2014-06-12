@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+            <div id="dvIdConfiguratorHeadingBg" >
+                        <div class="playerNumberLabelBox" id="headerId">
+                                PLAYER NUMBERS
+                        </div>
+                    </div>
+                    <div id="dvIdConfiguratorHeadingBg" >
+                            <div class="back_button"  id="btnBackPlayerNumber"></div>
+                            <div class="playerNumberSubHeading">
+                                    CUSTOMIZE YOUR PLAYER NUMBERS
+                            </div>
+                    </div>
+            <div id="dvIdPlayerTexconfiguratorBox">
+                    <label class="labelText">Example Number</label>
+                        <div class="inputfieldContainer">
+                                <input id="inputExamplePlayerNumber" class="inputFieldPlayerNumber" type="text" maxlength="2"/>
+                        </div>
+                        <label class="labelText">Font</label>
+                        <div class="inputfieldContainer">
+                                        <div class="comboSize">
+                                                        <div  alt="" id="aShowFontType">
+                                                            <div class="comboFont">
+                                                                <div class="comboSelectedText" id="dvIdComboFontPlayerNumber"></div>
+                                                            </div>
+                                                        </div>
+                                        <div id="dvIdComboDropdownPlayerNumber" class="comboDropdownList">
+                                        </div>
+                                        </div>
+                                <div >&nbsp; </div>
+                        </div>
+
+                <label class="labelText marginTop15" >Colors</label>
+                        <div class="inputfieldContainer">
+                            <div id="dvIdShowColorPlayerNumber" class="fl">
+                                        <div class="colorPickerLabel">
+                                                Fill Color<sup></sup>
+                                        </div>
+                                        <div>
+                                            <a  >
+                                                    <div class="color_box_selected_bg" id="dvIdFillColorPlayerNumber">
+                                                            <div class="color_box_selected" id="dvIdSelectedFillColorPlayerNumber"></div>
+                                                    </div></a>
+                                            </div>
+                                            <div class="colorPickerLabel" id="dvIdColorNamePlayerNumberFont">
+                                                Choose Color
+                                            </div>
+                                        </div>
+                                        <div id="dvIdColorBoxPlayerNumber" class="color_box">
+                                            <div class="popupColorPickerTitle" parentId="dvIdColorBoxPlayerNumber">SELECT YOUR FONT COLOR</div>
+                                               <div class="numberandTextColorBoxScrolling" parentId="dvIdColorBoxPlayerNumber"><ul id= "ulColorComboBoxlistPlayerNumberFillColor" ></ul></div>
+                                                <div colorBoxId="dvIdColorBoxPlayerNumber" parentId="dvIdColorBoxPlayerNumber">
+                                                      <div class="divCustomColors" parentId="dvIdColorBoxPlayerNumber"> CUSTOM COLORS <sup id="whatThisLink" class="supWhatIsThis">(what's this?)</sup>
+                                                      <div class="colorCustomListBox" id="dvIdPlayerNumberPrimaryCustomColor" style="height: 63px;"><ul id="ulIdPlayerNumberPrimaryCustomColor" style="width:90px; margin-top:0px;"></ul></div>
+                                                      </div>
+                                                      <div class="divUniformColors" parentId="dvIdColorBoxPlayerNumber"> 
+                                                      <div>UNIFORM COLORS</div>
+                                                      <div parentId="dvIdColorBoxPlayerNumber">
+                                                      <div class="uniformColorBoxPrimary" id="dvIdPrimaryColorFillPlayerNumber"></div>
+                                                      <div class="uniformColorName">Primary</div>
+                                                      <div class="clear"> </div>
+
+                                                      <div class="uniformColorBoxSecondary" id="dvIdSecondaryColorFillPlayerNumber"></div>
+                                                      <div class="uniformColorName">Secondary</div>
+                                                      <div class="clear"> </div>
+                                                      <div class="uniformColorBoxTertiary" id="dvIdTertiaryColorFillPlayerNumber"></div>
+                                                      <div class="uniformColorName">Tertiary</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                           </div>
+                                        <div id="dvIdShowColorplayerNumOutlineFirst" class="fl">
+                                            <div class="colorPickerLabel" >
+                                                        1<sup>st</sup> Outline
+                                            </div>
+                                            <div>
+                                                <a  >
+                                                <div class="color_box_selected_bg" id="dvIdPlayerNumberOutlineFirst">
+                                                                <div class="color_box_selected slashImage" id="dvIdSelectedFillColorPlayerNumberOutlineFirst"></div>
+                                                </div></a>
+                                                </div>
+                                                <div class="labelOutlineOptional" >
+                                                                <i id="dvIdColorNamePlayerNumberOutlineFirst" >Optional</i>
+                                                </div>
+                                        </div>
+                                        <div id="dvIdColorBoxPlayerNumberOutlineFirst" class="color_box" style="margin-left:85px">
+                                            <div class="popupColorPickerTitle" parentId="dvIdColorBoxPlayerNumberOutlineFirst">SELECT YOUR 1<sup>st</sup>&nbsp;OUTLINE COLOR</div>
+                                             <div class="numberandTextColorBoxScrolling" parentId="dvIdColorBoxPlayerNumberOutlineFirst">   <ul id= "ulColorComboBoxlistPlayerNumberOutlineFirst"></ul></div>
+                                                <div>
+                                                      <div class="divCustomColors" parentId="dvIdColorBoxPlayerNumberOutlineFirst"> CUSTOM COLORS <sup id="whatThisLink" class="supWhatIsThis">(what's this?)</sup>
+                                                      <div class="colorCustomListBox" id="dvIdPlayerNumberOutlineFirstCustomColor" style="height: 63px;"><ul id="ulIdPlayerNumberOutlineFirstCustomColor" style="width:90px; margin-top:0px;"></ul></div>
+                                                      </div>
+                                                      <div class="divUniformColors" parentId="dvIdColorBoxPlayerNumberOutlineFirst"> 
+                                                      <div>UNIFORM COLORS</div>
+                                                      <div parentId="dvIdColorBoxPlayerNumberOutlineFirst">
+                                                      <div class="uniformColorBoxPrimary"></div>
+                                                      <div class="uniformColorName">Primary</div>
+                                                      <div class="clear"> </div>
+
+                                                      <div class="uniformColorBoxSecondary"></div>
+                                                      <div class="uniformColorName">Secondary</div>
+                                                      <div class="clear"> </div>
+                                                      <div class="uniformColorBoxTertiary"></div>
+                                                      <div class="uniformColorName">Tertiary</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                           </div>
+                                        <div id="dvIdShowColorPlayerNumOutlineSecond" class="fl">
+                                            <div class="colorPickerLabel">
+                                                            2<sup>nd</sup> Outline
+                                            </div>
+                                        <div>
+                                            <a  >
+                                                    <div class="color_box_selected_bg marginRightNone" id="dvIdPlayerNumberOutlineSecond">
+                                                         <div class="color_box_selected slashImage" id="dvIdSelectedFillColorPlayerNumberOutlineSecond"></div>
+                                                    </div></a>
+                                                </div>
+                                                <div class="labelOutlineOptional">
+                                                                <i id="dvIdColorNamePlayerNumberOutlineSecond">Optional</i>
+                                                </div>
+                                        </div>
+                                        <div id="dvIdColorBoxPlayerNumberOutlineSecond" class="color_box" style="margin-left:175px">
+                                            <div class="popupColorPickerTitle" parentId="dvIdColorBoxPlayerNumberOutlineSecond">SELECT YOUR 2<sup>nd</sup>&nbsp;OUTLINE COLOR</div>
+                                             <div class="numberandTextColorBoxScrolling" parentId="dvIdColorBoxPlayerNumberOutlineSecond">  <ul id= "ulColorComboBoxlistPlayerNumberOutlineSecond"></ul></div>
+                                                <div  >
+                                                      <div class="divCustomColors" parentId="dvIdColorBoxPlayerNumberOutlineSecond"> CUSTOM COLORS <sup id="whatThisLink" class="supWhatIsThis">(what's this?)</sup>
+                                                      <div class="colorCustomListBox" id="dvIdPlayerNumberOutlineSecondCustomColor" style="height: 63px;"><ul id="ulIdPlayerNumberOutlineSecondCustomColor" style="width:90px; margin-top:0px;"></ul></div>
+                                                      </div>
+                                                      <div class="divUniformColors" parentId="dvIdColorBoxPlayerNumberOutlineSecond"> 
+                                                      <div>UNIFORM COLORS</div>
+                                                      <div parentId="dvIdColorBoxPlayerNumberOutlineSecond">
+                                                      <div class="uniformColorBoxPrimary"></div>
+                                                      <div class="uniformColorName">Primary</div>
+                                                      <div class="clear"> </div>
+
+                                                      <div class="uniformColorBoxSecondary"></div>
+                                                      <div class="uniformColorName">Secondary</div>
+                                                      <div class="clear"> </div>
+                                                      <div class="uniformColorBoxTertiary"></div>
+                                                      <div class="uniformColorName">Tertiary</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                            </div>
+
+                        <!----- Fill Color Picker---------------->
+                        <div class="color_box">
+                                 <a  class="close_div"></a>
+                                    <ul>                                           
+                                    </ul>
+                        </div>
+                        <!------------------------>
+                        <div class="clear"></div>
+
+
+                        <div id="textPreview" style="padding-top:0;"><img id="imgPreviewTextIdPlayerNumber" style="visibility:hidden;" alt="" ></div>
+
+                        <div class="bottom_nav">
+                         <div class="customizeSelectionBtnBox ">
+                            <a class="specifyLocationSize_button" id="aPlayerNumberSpecifySizeBtn"></a>
+                        </div>
+                            <ul>                        
+                                <li id="btnPlayerNamePlayerNumber" class="width96"><a  >Player Names </a></li>
+                                <li id="btnTeamNamePlayerNumber" class="width96"><a  >Team Name</a></li>
+                                <li id="btnOtherTextPlayerNumber" style="border: none;" class="width96"><a  > Other Text</a></li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+        </div>
+]]>
+    </content>
+	
+</page>
+  

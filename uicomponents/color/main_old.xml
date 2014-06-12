@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<page>
+    <content>
+    <![CDATA[
+           <div id="container">
+
+			<section id="left_box">
+
+				<div class="leftBoxTab tab_define tab_font">
+					DEFINE
+				</div>
+				<div class="leftBoxTab tab_customize tab_font">
+					CUSTOMIZE
+				</div>
+
+				<Div class="controlBar">
+					<ul>
+						<li>
+							*COLORS
+						</li>
+						<li>
+							*FABRICS
+						</li>
+						<li>
+							EMBLEMS & GRAPHICS
+						</li>
+						<li style="border-right: none;">
+							NUMBER & TEXT
+						</li>
+					</ul>
+
+				</Div>
+
+				
+
+				<div id="Configurator_panel">
+					<!------------------------	Customize Color------------------->
+					
+					
+					<div class="height30">
+
+						<div class="howToButton" onClick="howTo();">
+
+						</div>
+					</div>
+
+					<div class="Label_sub_heading">
+						Select your Primary color
+					</div>
+					<div id="colorConfigurator_box_bg">
+
+						<div id="primaryColorPanel">
+                                                
+						</div>
+
+						<div class="colorConfigurator_box ">
+							<div class="custom_color_box">
+								<div class="custom_color_text">
+									Custom color
+								</div>
+								<div >
+									<a href="" alt="" class="morebutton">add >> </a>
+								</div>
+
+							</div>
+
+						</div>
+						<div class="clear"></div>
+
+					</div>
+
+					<div class="Label_sub_heading">
+						Select your Secondary color
+					</div>
+					<div id="colorConfigurator_box_bg">
+
+						<div id="secondaryColorPanel">
+
+						</div>
+
+						<div class="colorConfigurator_box ">
+							<div class="custom_color_box">
+								<div class="custom_color_text">
+									Custom color
+								</div>
+								<div >
+									<a href="" alt="" class="morebutton">add >> </a>
+								</div>
+
+							</div>
+
+						</div>
+						<div class="clear"></div>
+
+					</div>
+
+					<div class="Label_sub_heading">
+						Select your Accent color
+					</div>
+					<div id="colorConfigurator_box_bg">
+
+						<div id="tertiaryColorPanel">
+
+						</div>
+
+						<div class="colorConfigurator_box ">
+							<div class="custom_color_box">
+								<div class="custom_color_text">
+									Custom color
+								</div>
+								<div >
+									<a href="" alt="" class="morebutton">add >> </a>
+								</div>
+
+							</div>
+
+						</div>
+						<div class="clear"></div>
+
+					</div>
+
+					<div class="Label_sub_heading_white">
+						Can I Design Jerseys & Pants To Be In Different Colors? >>
+					</div>
+
+				</div>
+
+				<!--	End Customize Color-->
+
+			</section>
+
+			<!--------------------------------------------------------------------------------------------
+			End Left section
+			------------------------------------------------------------------------------------------->
+
+			<section id="center_box">
+
+				<div class="bird_eye">
+					<a href=""  ><div class="bird_eye_image"></div></a>
+					<a href=""  ><div class="bird_eye_image_front"></div></a>
+					<a href=""  ><div class="bird_eye_image_side"></div></a>
+					<a href=""  ><div class="bird_eye_image_back"></div></a>
+				</div>
+
+				<div class="large_view_button"></div>
+
+				<div class="full_img">
+					<!--<img src="img/man.png" />-->
+
+				</div>
+
+			</section>
+			<!-------------------------------------------------------------------------------------------
+			End center section
+			------------------------------------------------------------------------------------------->
+
+			<aside id="right_box">
+				<nav class="right_box_header">
+					<ul>
+						<li style="border-left: none;">
+							<div class="live_chat"></div>
+
+						</li>
+						<li style="border-left: none;">
+							<a href="" class="link" alt="" >Help</a>
+						</li>
+						<li >
+							<a href="" class="link" alt="" >Start Over</a>
+						</li>
+					</ul>
+				</nav>
+
+				<div class="your_uniform_items center" >
+					YOUR FOOTBALL
+					<br>
+					UNIFORM ITEMS
+				</div>
+
+				<div class="adult_cloth">
+					<div class="adult_cloth_checkbox">
+						<input id="demo_box_3" class="checkbox" type="checkbox" />
+						<label for="demo_box_3" name="demo_lbl_3" class="css-label"></label>
+					</div>
+
+					<div class="adult_cloth_top">
+						<img src="img/Adult_top.png"  title=""/>
+					</div>
+					<div class="adult_cloth_text">
+						Adult Top
+					</div>
+					<div class="item width45">
+						$109.90
+					</div>
+
+				</div>
+				<div class="clear"></div>
+
+				<div class="adult_cloth">
+					<div class="adult_cloth_checkbox">
+						<input id="demo_box_4" class="checkbox" type="checkbox" />
+						<label for="demo_box_4" name="demo_lbl_3" class="css-label"></label>
+					</div>
+
+					<div class="adult_cloth_bottom">
+						<img src="img/Adult_bottom.png" title="" />
+					</div>
+					<div class="adult_cloth_text">
+						Adult Bottom
+					</div>
+					<div class="item width45">
+						$109.90
+					</div>
+
+				</div>
+
+				<div class="clear"></div>
+
+				<div class="adult_cloth">
+					<div class="item">
+						<div class="fabric_selected"></div>
+					</div>
+					<div class="item_description">
+						<span>Fabric:</span>
+						<br>
+						PREMIUM Steelmesh w/Poly...
+					</div>
+
+				</div>
+				<div class="clear"></div>
+				<div class="adult_cloth_mrp center">
+
+					Total MSRP: <span class="marginleft15" > $203.80</span>
+
+				</div>
+
+				<div class="adult_cloth ">
+					<div class="alternate_view">
+						Click below to select an alternate view.
+					</div>
+					<div class="side_view_box">
+
+						<div class="side_view_img"></div>
+						<div class="side_view_img"></div>
+						<div class="side_view_img"></div>
+
+					</div>
+
+				</div>
+				<div class="clear"></div>
+				<div class="seperator"></div>
+
+				<div id="goto_roster">
+					<div class="email_print_save">
+
+						<div class="email_img">
+							<a href="#" class="email" alt="">Email</a>
+						</div>
+						<div class="print_img">
+							<a href="#" class="print" alt="">Print</a>
+						</div>
+						<div class="save_img">
+							<a href="#" class="save" alt="">save</a>
+						</div>
+
+					</div>
+					<div class="goto_roster_button">
+
+					</div>
+
+				</div>
+
+			</aside>
+
+			<ul>
+
+			</ul>
+
+			<!-------------------------------------------------------------------------------------------
+			End right section
+			------------------------------------------------------------------------------------------->
+
+		</div>
+			
+    ]]>
+    </content>
+	
+</page>
+  
